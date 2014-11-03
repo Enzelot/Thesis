@@ -1,0 +1,17 @@
+﻿Aufkommende Fragen
+
+* Fragebogen Section für jeden Versuch extra (V1: ausführlich) (V2: nicht ausführlich)
+* sonst irgendwie splitten?
+	Versuchsdesign:
+		*Versuch 1 
+		*Versuch 2
+	
+	Problem: Überleitung und zu sehr "vermischt".
+
+	aktuell:
+	Versuchsdesign: (Versuch 1 --> ausführlich)
+	Versuchsdesign: (Versuch 2 --> nicht ausführlich)
+	
+	
+
+* ODP-S3 noch rein, obwohl nicht damit gearbeitet wurden?
