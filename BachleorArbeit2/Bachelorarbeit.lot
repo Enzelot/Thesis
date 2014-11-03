@@ -1,40 +1,40 @@
 \select@language {ngerman}
-\contentsline {table}{\numberline {1}{Interaktionsbeispiel \texttt {Aggregierte Auswahl ohne Pause}}}{7}{table.1}
-\contentsline {table}{\numberline {2}{Interaktionsbeispiel \texttt {Aggregierte Auswahl mit Pause (Zahl)}}}{8}{table.2}
-\contentsline {table}{\numberline {3}{Interaktionsbeispiel \texttt {Aggregierte Auswahl mit Pause (Barge-In)}}}{8}{table.3}
-\contentsline {table}{\numberline {4}{Interaktionsbeispiel \texttt {Sequentielle Auswahl}}}{9}{table.4}
-\contentsline {table}{\numberline {5}{Slotabfragen}}{12}{table.5}
-\contentsline {table}{\numberline {6}{Slotabfrage pro Person}}{12}{table.6}
-\contentsline {table}{\numberline {7}{\IeC {\"U}bersicht Versuchsablauf}}{13}{table.7}
-\contentsline {table}{\numberline {8}{Strecken- und Strategieverteilung}}{14}{table.8}
-\contentsline {table}{\numberline {9}{Anruf per Strecke}}{15}{table.9}
-\contentsline {table}{\numberline {10}{Durschnittszeiten Strategie pro Strecke}}{16}{table.10}
-\contentsline {table}{\numberline {11}{Durschnittszeiten pro Strategie}}{17}{table.11}
-\contentsline {table}{\numberline {12}{Durschnittszeiten pro Strategie}}{17}{table.12}
-\contentsline {table}{\numberline {13}{Durschnittszeiten pro Strategie}}{18}{table.13}
-\contentsline {table}{\numberline {14}{Durschnittszeiten Strategie pro Strecke}}{27}{table.14}
-\contentsline {table}{\numberline {15}{Durschnittszeiten pro Strategie mit Rennspiel}}{27}{table.15}
-\contentsline {table}{\numberline {16}{Durschnittszeiten Strategie pro Strecke}}{27}{table.16}
-\contentsline {table}{\numberline {17}{Durschnittszeiten pro Strategie mit Rennspiel}}{28}{table.17}
-\contentsline {table}{\numberline {18}{Durschnittszeiten pro Strategie ohne Rennspiel}}{28}{table.18}
-\contentsline {table}{\numberline {19}{Durschnittliche Task Completion (TC)}}{28}{table.19}
-\contentsline {table}{\numberline {20}{Slotabfragen}}{29}{table.20}
-\contentsline {table}{\numberline {21}{Slotabfrage pro Person}}{30}{table.21}
-\contentsline {table}{\numberline {22}{\IeC {\"U}bersicht Versuchsablauf}}{30}{table.22}
-\contentsline {table}{\numberline {23}{Strecken- und Strategieverteilung}}{30}{table.23}
-\contentsline {table}{\numberline {24}{Durschnittszeiten Strategie pro Strecke}}{31}{table.24}
-\contentsline {table}{\numberline {25}{Durschnittszeiten pro Strategie}}{32}{table.25}
-\contentsline {table}{\numberline {26}{Durschnittszeiten pro Strategie}}{32}{table.26}
-\contentsline {table}{\numberline {27}{Durschnittszeiten pro Strategie}}{32}{table.27}
-\contentsline {table}{\numberline {28}{Durschnittszeiten Strategie pro Strecke}}{35}{table.28}
-\contentsline {table}{\numberline {29}{Durschnittszeiten pro Strategie mit Rennspiel}}{35}{table.29}
-\contentsline {table}{\numberline {30}{Durschnittszeiten Strategie pro Strecke}}{36}{table.30}
-\contentsline {table}{\numberline {31}{Durschnittszeiten pro Strategie mit Rennspiel}}{36}{table.31}
-\contentsline {table}{\numberline {32}{Durschnittszeiten pro Strategie ohne Rennspiel}}{36}{table.32}
-\contentsline {table}{\numberline {33}{Durschnittliche Task Completion (TC)}}{36}{table.33}
-\contentsline {table}{\numberline {34}{Durschnittszeiten Strategie pro Strecke}}{37}{table.34}
-\contentsline {table}{\numberline {35}{Durschnittszeiten pro Strategie mit Rennspiel}}{37}{table.35}
-\contentsline {table}{\numberline {36}{Durschnittszeiten Strategie pro Strecke}}{38}{table.36}
-\contentsline {table}{\numberline {37}{Durschnittszeiten pro Strategie mit Rennspiel}}{38}{table.37}
-\contentsline {table}{\numberline {38}{Durschnittszeiten pro Strategie ohne Rennspiel}}{38}{table.38}
-\contentsline {table}{\numberline {39}{Durschnittliche Task Completion (TC)}}{38}{table.39}
+\contentsline {table}{\numberline {1}{Interaktionsbeispiel \texttt {Aggregierte Auswahl ohne Pause}}}{8}{table.1}
+\contentsline {table}{\numberline {2}{Interaktionsbeispiel \texttt {Aggregierte Auswahl mit Pause (Zahl)}}}{9}{table.2}
+\contentsline {table}{\numberline {3}{Interaktionsbeispiel \texttt {Aggregierte Auswahl mit Pause (Barge-In)}}}{9}{table.3}
+\contentsline {table}{\numberline {4}{Interaktionsbeispiel \texttt {Sequentielle Auswahl}}}{10}{table.4}
+\contentsline {table}{\numberline {5}{Slotabfragen}}{13}{table.5}
+\contentsline {table}{\numberline {6}{Slotabfrage pro Person}}{13}{table.6}
+\contentsline {table}{\numberline {7}{\IeC {\"U}bersicht Versuchsablauf}}{14}{table.7}
+\contentsline {table}{\numberline {8}{Strecken- und Strategieverteilung}}{15}{table.8}
+\contentsline {table}{\numberline {9}{Anruf per Strecke}}{16}{table.9}
+\contentsline {table}{\numberline {10}{Durschnittszeiten Strategie pro Strecke}}{17}{table.10}
+\contentsline {table}{\numberline {11}{Durschnittszeiten pro Strategie}}{18}{table.11}
+\contentsline {table}{\numberline {12}{Durschnittszeiten pro Strategie}}{18}{table.12}
+\contentsline {table}{\numberline {13}{Durschnittszeiten pro Strategie}}{19}{table.13}
+\contentsline {table}{\numberline {14}{Durschnittszeiten Strategie pro Strecke}}{28}{table.14}
+\contentsline {table}{\numberline {15}{Durschnittszeiten pro Strategie mit Rennspiel}}{28}{table.15}
+\contentsline {table}{\numberline {16}{Durschnittszeiten Strategie pro Strecke}}{28}{table.16}
+\contentsline {table}{\numberline {17}{Durschnittszeiten pro Strategie mit Rennspiel}}{29}{table.17}
+\contentsline {table}{\numberline {18}{Durschnittszeiten pro Strategie ohne Rennspiel}}{29}{table.18}
+\contentsline {table}{\numberline {19}{Durschnittliche Task Completion (TC)}}{29}{table.19}
+\contentsline {table}{\numberline {20}{Slotabfragen}}{30}{table.20}
+\contentsline {table}{\numberline {21}{Slotabfrage pro Person}}{31}{table.21}
+\contentsline {table}{\numberline {22}{\IeC {\"U}bersicht Versuchsablauf}}{31}{table.22}
+\contentsline {table}{\numberline {23}{Strecken- und Strategieverteilung}}{31}{table.23}
+\contentsline {table}{\numberline {24}{Durschnittszeiten Strategie pro Strecke}}{32}{table.24}
+\contentsline {table}{\numberline {25}{Durschnittszeiten pro Strategie}}{33}{table.25}
+\contentsline {table}{\numberline {26}{Durschnittszeiten pro Strategie}}{33}{table.26}
+\contentsline {table}{\numberline {27}{Durschnittszeiten pro Strategie}}{33}{table.27}
+\contentsline {table}{\numberline {28}{Durschnittszeiten Strategie pro Strecke}}{36}{table.28}
+\contentsline {table}{\numberline {29}{Durschnittszeiten pro Strategie mit Rennspiel}}{36}{table.29}
+\contentsline {table}{\numberline {30}{Durschnittszeiten Strategie pro Strecke}}{37}{table.30}
+\contentsline {table}{\numberline {31}{Durschnittszeiten pro Strategie mit Rennspiel}}{37}{table.31}
+\contentsline {table}{\numberline {32}{Durschnittszeiten pro Strategie ohne Rennspiel}}{37}{table.32}
+\contentsline {table}{\numberline {33}{Durschnittliche Task Completion (TC)}}{37}{table.33}
+\contentsline {table}{\numberline {34}{Durschnittszeiten Strategie pro Strecke}}{38}{table.34}
+\contentsline {table}{\numberline {35}{Durschnittszeiten pro Strategie mit Rennspiel}}{38}{table.35}
+\contentsline {table}{\numberline {36}{Durschnittszeiten Strategie pro Strecke}}{39}{table.36}
+\contentsline {table}{\numberline {37}{Durschnittszeiten pro Strategie mit Rennspiel}}{39}{table.37}
+\contentsline {table}{\numberline {38}{Durschnittszeiten pro Strategie ohne Rennspiel}}{39}{table.38}
+\contentsline {table}{\numberline {39}{Durschnittliche Task Completion (TC)}}{39}{table.39}

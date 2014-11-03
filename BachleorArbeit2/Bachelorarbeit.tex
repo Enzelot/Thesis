@@ -133,16 +133,18 @@ Die vorliegende Arbeit beschäftigt sich mit der Frage, welche Disambiguierungss
 \newpage
 \section{Einleitung}
 
-Dialogsysteme für das Auto müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und so gut wie möglich assistieren. Die Herausforderung für einen Dialog Designer besteht daher darin, Sprachäußerungen so raffiniert zu gestalten, dass dem Benutzer zum Einen alle relevanten Informationen in verständlicher Weise geliefert werden und zum Anderen, dass der Benutzer darauf möglichst einfach antworten und seine Anfragen und Wünsche effizient übermitteln kann. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponemten ab. Zunächst müssen die Spracheingaben des Benutzer zu semantischen Objekten verarbeitet werden. Dabei wird zunächst die Spracheingabe auf eine Grammatik gematched, welche alle möglichen Spracheingaben des Benutzers abfängt und semantischen Objekten zuweist. Diese werden dann von einem Backend- Server verarbeitet, woraufhin eine passende Sprachausgabe ausgelöst wird. 
+Dialogsysteme für das Auto müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und ihm so gut wie möglich assistieren. Die Herausforderung für einen Dialog Designer besteht daher darin, Sprachäußerungen so raffiniert zu gestalten, dass dem Benutzer zum Einen alle relevanten Informationen in verständlicher Weise geliefert werden und zum Anderen, dass der Benutzer darauf möglichst einfach antworten und seine Anfragen und Wünsche effizient übermitteln kann. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponenten ab, welche anhand der in Abbildung \ref{odps3} dargestellten Funktionsweise der ODP S3 Plattform der SemVox GmbH kurz erläutert werden. Die ODP S3 Plattform ermöglichst die Umsetzung komplexer Sprachdialoge.  
+Zunächst müssen die Spracheingaben des Benutzers zu semantischen Objekten verarbeitet werden. Dabei wird zunächst die Spracheingabe auf eine Grammatik gematched, welche alle möglichen Spracheingaben des Benutzers abfängt und semantischen Objekten zuweist. Diese werden dann von einem Backend-Server verarbeitet, woraufhin eine passende Sprachausgabe ausgelöst wird. 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{odps3.png}
-\caption{Funktionsweise ODP-S3 Platform}
+\caption{Funktionsweise der ODP-S3 Platform}
 \label{odps3}
 \end{center}
 \end{figure}
-In dieser Arbeit wird der Frage nachgegangen, wie man eine Sprachausgabe einer Dismabiguierung innerhalb eines Dialogsystems, das speziell für das Auto konzipiert wurde, gestaltet. Dabei werden drei verschiedene Strategien in einem Wizard-Of-Oz- Experiment auf Effizienz und Beliebtheit unter den Versuchspersonen getestet.
+In dieser Arbeit konzentriert man sich allein auf die Sprachgenerierung. Ein komplexer Dialog zwischen System und Benutzer führt häufig dazu, dass der Benutzer eine Eingabe macht, die das System nicht eindeutig zuordnen kann und mehrere Optionen für die Ausführung der vom Benutzer geäußerten Eingabe bestehen. Es muss an dieser Stelle vom System eine Rückfrage beim Benutzer erfolgen, sodass dieser seine vorherige Eingabe eindeutig übermitteln kann. Wenn der Benutzer zum Beispiel den Wunsch äußert einen Kontakt aus dem im System gespeicherten Adressbuch anzurufen, es allerdings zwei Kontakte mit diesem Namen gibt, muss das System eine Rückfrage stellen, um zu ermitteln, welcher dieser beiden Kontakte gemeint ist. Der Dialog Designer spricht in diesem Fall von Disambiguierung.  Es wird in der vorliegenden Arbeit der Frage nachgegangen wie man konkret die Sprachausgabe einer solchen Disambiguierung innerhalb eines Dialogsystems, das speziell für das Auto konzipiert wurde, gestaltet. Dabei werden drei verschiedene Strategien in einem Wizard-of-Oz-Experiment auf Effizienz und Beliebtheit unter den Versuchspersonen getestet. Diese Strategien werden im Kapitel \ref{disambiguierungsstrategien} näher erläutert. Der Versuch in Kapitel \ref{versuch1} zeigt klar, dass bei einer Disambiguierung über wenige Optionen die Strategie \texttt{Aggregierte Auswahl ohne Pause} am beliebtesten unter den Versuchsperson ist. Man hat sich daher für einen zweiten Versuch entschieden, welcher sich lediglich in der Länge der Disambiguierung unterscheidet. Dieser in Kapitel \ref{Verusch2} durchgeführte Versuch zeigt, dass bei einer Disambiguierung über mehrere Optionen die Strategie \texttt{Aggregierte Auswahl mit Pause} die beliebtere Strategie ist. Neben der Beliebtheit unter den Versuchspersonen wurden bei beiden Versuchen weitere Faktoren, wie Dialogzeit, erfolgreiches Abschließen des Dialoges (Task Completion) oder Unterschiede des Dialogverhaltens zwischen hoher und geringer kognitiver Belastung erforscht. Ein zusammenfassendes Ergebnis beider Versuche findet sich in Kapitel \ref{Ergebnisse}. Zum Schluss erfolgt eine Diskussion über die ermittelten Ergebnisse und schließlich das Schlusswort. 
 
+\begin{comment}
 Bei Autofahrt effektive Sprachsteuerung wichtig \\
 dem System darf keine 100prozentige Aufmerksamkeit geschenkt werden\\
 Aufbau Dialogsysteme anhand von ODP-s3\\
@@ -153,7 +155,7 @@ Welche Disambiguierung bei CL + am effektivesten?(bessere Zeit, weniger Fehler, 
 Unterschied kleine versus große Auswahl\\
 beeinflusst CL+ das Dialogverhalten? (Reaktionszeit)\\
 Allg Unterschiede Cl+ vs Cl- \\
-
+\end{comment}
 
 
 \begin{comment}
@@ -313,6 +315,7 @@ they are cognitively loaded.\grqq}
 \end{itemize}
 
 \section{Disambiguierungsstrategien}
+\label{disambiguierungsstrategien}
 Insgesamt werden 3 Disambiguierungsstrategien auf Effizienz und Beliebtheit unter kognitiver Belastung getestet.
 \begin{itemize}
 \item Aggregierte Auswahl \textbf{ohne} Pause
@@ -426,7 +429,8 @@ System & Ok, ich werde Peter Müller jetzt anrufen.\\
 
 Diese Strategie ist wahrscheinlich besonders effizient, wenn der Benutzer einer hohen kognitiven Belastung ausgesetzt ist, da er das Tempo hier selbst bestimmen kann. Der Nachteil dieser Strategie liegt vermutlich darin, dass gerade bei vielen Interpretationsvorschlägen die Interaktion sehr lange dauert und der User jedes Mal eine Spracheingabe zur Fortsetzung des Dialoges eingeben muss. 
 
-\section{1. Versuch}
+\section{Versuch 1}
+\label{versuch1}
 Um zu testen, welche Disambiguierungsstrategie bei Versuchspersonen unter kognitiver Belastung am effizientesten ist, wird ein Wizard-of-Oz Experiment durchgeführt. Hierbei werden die Probanden ein Rennspiel fahren und parallel ein Testszenario durchführen, in welchem Sie per Spracheingabe erfolgreich einen Anruf aufbauen sollen. Desweiteren werden die Versuchspersonen dieses Testszenario ohne Rennspiel durchgehen, um mögliche Unterschiede der Ergebnisse zwischen kognitiv belastender und nicht kognitiv belastender Versuchsperson zu analysieren. 
 \subsection{Testszenario}
 Während der Systeminteraktion sollen die Versuchspersonen erfolgreich einen Anruf ausführen. Insgesamt sollen vier Personen angerufen werden, welche dem User über Personenprofile angezeigt werden.  Darin sieht die Versuchsperson welche Slots zu füllen sind. Abbildung \ref{anke} zeigt das Personenprofile von Anke aus welchem hervor geht, dass Anke auf der geschäftlichen Festnetznummer angerufen werden soll. 
@@ -900,7 +904,8 @@ wie kann man auswerten?
 \subsection{Qualitätssicherung}
 
 
-\section{2. Versuch}
+\section{Versuch 2}
+\label{Verusch2}
 Da die Ergebnisse des ersten Versuches sehr einheitlich gezeigt haben, dass bei einer Disambiguierung über zwei Möglichkeiten (zum Beispiel: Peter Müller oder Peter Meier) die ersten Strategie am besten angekommen ist, hat man sich zusätzlich für einen weiteren Versuch entschieden. In diesem Versuch werden pro Disambiguierung mehr als zwei Möglichkeiten vorgeschlagen (zum Beispiel: Peter Müller, Peter Meier, Peter Lauer, Peter Fischer, Peter Schneider oder Peter Schmidt). Dabei will man herausfinden, ob die erste Strategie auch bei mehreren Vorschlagen bevorzugt wird.
 \subsection{Testszenario}
 Das Testszenario ist das gleiche wie im ersten Versuch. Die Versuchspersonen rufen jeweils Anke, Peter und Fritz bei parallelem Rennspiel an und anschließend Kim ohne Rennspiel. Der Versuch unterscheidet sich jedoch in den zu füllenden Slots, welche in Tabelle \ref{slots2} aufgelistet sind. Die Anzahl der vorgeschlagenen Möglichkeiten für den jeweiligen Slot ist in Klammern angegeben.
@@ -1302,6 +1307,7 @@ wie kann man auswerten?
 \subsection{Qualitätssicherung}
 
 \section{Ergebnisse}
+\label{Ergebnisse}
 \subsection{Versuchsverlauf 1}
 \subsubsection{Zeiten}
 \paragraph{Rennzeiten}
@@ -1533,6 +1539,7 @@ Durschnitt &  14,9 sek & 18,93 sek & 17,59 sek \\
 
 
 \section{Diskussion}
+\label{discussion}
 was habe ich gemacht\\
 wie waren die überlegungen
 warum wurden welche Entscheidungen getroffen\
