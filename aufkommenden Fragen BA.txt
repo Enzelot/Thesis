@@ -15,3 +15,4 @@
 	
 
 * ODP-S3 noch rein, obwohl nicht damit gearbeitet wurden?
+* Zeiten für TC < max nur NICHT für Strat 3 testen, da bei anderen Antwort keinen Unterschied macht?
