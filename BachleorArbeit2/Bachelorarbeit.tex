@@ -29,6 +29,8 @@
 \usepackage{longtable} %Tabelle über mehrere Seiten
 \usepackage{textcomp} %Sonderzeichen
 \usepackage{lmodern} %modernisierte Schriftart
+\usepackage{booktabs}
+\usepackage{multirow}
 
 \usepackage{ragged2e} 
 
@@ -657,7 +659,7 @@ Abbildung \ref{fbnasatlx} zeigt den Nasa-TLX Teil des ersten Fragebogens.
 Die Ergebnisse dieses Testes werden zum Einen dafür genutzt um zu erforschen, bei welcher Strategie die Versuchspersonen eine höhere kognitive Belastung empfunden haben. Zum anderen kann man sehen, wie die Versuchspersonen ihre kognitive Belastung während einer Runde mit Rennspiel im Vergleich zur Runde ohne Rennspiel einschätzen. 
 \paragraph{Strategien}
 ~\\
-Der zweite Teil des Fragebogens ist in Abbildung \ref{fbstrategie} zu sehen. 
+Der zweite Teil des Fragebogens ist in Abbildung \ref{fbstrategie} zu sehen. In diesem Teil geht es darum, die letze Strategie anhand verschiedener Kategorien zu bewerten. 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{fbdialog.png}
@@ -775,9 +777,9 @@ Am Schluß des gesamten Test soll die Versuchsperson einen Fragebogen ausfüllen
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 72,5 sek & 93 sek & 67 sek \\
-Strecke B & 68,75 sek & 75,75 sek & 94,5 sek \\
-Strecke C & 74,5 sek & 58,37 sek & 61,75 sek \\
+Strecke A & 71,5 sek & 93 sek & 74,5 sek \\
+Strecke B & 68,75 sek & 75,75 sek & 91,5 sek \\
+Strecke C & 74,5 sek & 58,38 sek & 61,75 sek \\
 
 \hline
 \end{longtable}
@@ -786,14 +788,14 @@ Strecke C & 74,5 sek & 58,37 sek & 61,75 sek \\
 	\label{Dialogzeiten}\\
 	\caption[Durschnittszeiten pro Strategie mit Rennspiel]{Durschnittszeiten pro Strategie mit Rennspiel}\\
 	\hline
-	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endfirsthead
 	\hline
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Durschnitt & 71,92 sek &75,71 sek & 74,42 sek \\
+Durschnitt & 71,58 sek &75,71 sek & 75,92 sek \\
 
 
 \hline
@@ -815,9 +817,9 @@ Durschnitt & 71,92 sek &75,71 sek & 74,42 sek \\
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 15,53 sek & 20,38 sek & 19,75 sek \\
-Strecke B & 14,31 sek & 20,29 sek & 18,08 sek \\
-Strecke C  & 15,97 sek & 21,01 sek & 18,33 sek \\
+Strecke A & 15,34 sek & 20,38 sek & 20,28 sek \\
+Strecke B & 14,31 sek & 20,05 sek & 22,07 sek \\
+Strecke C  & 15,97 sek & 21,01 sek & 20,35 sek \\
 
 \hline
 \end{longtable}
@@ -833,7 +835,7 @@ Strecke C  & 15,97 sek & 21,01 sek & 18,33 sek \\
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Durschnitt & 15,27 sek & 20,56 sek & 18,72 sek \\
+Durschnitt & 15,19 sek & 20,52 sek & 20,81 sek \\
 
 
 \hline
@@ -850,12 +852,57 @@ Durschnitt & 15,27 sek & 20,56 sek & 18,72 sek \\
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Durschnitt &  14,9 sek & 18,93 sek & 17,59 sek \\
+Durschnitt &  14,9 sek & 18,8 sek & 17,59 sek \\
 
 
 \hline
 \end{longtable}
+
+\begin{longtable}{p{4cm}p{4cm}p{4cm}}
+	\label{Dialogzeiten13vs4}\\
+	\caption[Durschnittszeiten mit Rennspiel versus ohne Rennspiel]{Durschnittszeiten mit Rennspiel versus ohne Rennspiel}\\
+	\hline
+	\textbf{Dialogzeiten}&\textbf{Runde 1-3}&\textbf{Runde 4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Dialogzeiten}&\textbf{Runde 1-3}&\textbf{Runde 4}\\
+	\hline
+	\endhead
+Durschnitt &  18,57 sek & 17,59 \\
+
+
+\hline
+\end{longtable}
+
 \subsubsection{Fragebogen}
+\paragraph{Nasa-TLX}
+~\\
+
+\begin{longtable}{p{4cm}p{2cm}p{2cm}p{2cm}p{2cm}llccc}
+	\label{DialogzeitenKCL}\\
+	\caption[Antwortendurchschnitt Nasa-TLX]{Antwortendurchschnitt Nasa-TLX}\\
+	\hline
+		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c}{\textbf{Ergebnisse bestimmter Runden}}\\
+		\cmidrule(ll){3-5}
+	&&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwortenintervall}&\textbf{Strategien}&\textbf{Runden 1-4}&\textbf{Runden 1-3} &\textbf{Runde 4}\\
+	\hline
+	\endhead
+\multirow{3}{*}{1: gering 6: hoch} & Strategie 1 &  14,9 sek & 18,8 sek & 17,59 sek \\
+ & Strategie 2 &  14,9 sek & 18,8 sek & 17,59 sek \\
+ & Strategie 3 &  14,9 sek & 18,8 sek & 17,59 sek \\
+
+
+\hline
+\end{longtable}
+
+
+\paragraph{Strategien}
+~\\
 \subsubsection{Task Completion}
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Dialogzeiten}\\
