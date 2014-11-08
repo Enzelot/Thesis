@@ -26,6 +26,7 @@
 \usepackage{multirow} %Tabelle: mehrere Spalten vereinigen
 \usepackage{calc} %Rechnungen
 %\usepackage{booktabs} %Verbesserung der Tabellenqualität
+\usepackage{tabularx, calc} %Tabellen
 \usepackage{longtable} %Tabelle über mehrere Seiten
 \usepackage{textcomp} %Sonderzeichen
 \usepackage{lmodern} %modernisierte Schriftart
@@ -780,28 +781,10 @@ Am Schluß des gesamten Test soll die Versuchsperson einen Fragebogen ausfüllen
 Strecke A & 71,5 sek & 93 sek & 74,5 sek \\
 Strecke B & 68,75 sek & 75,75 sek & 91,5 sek \\
 Strecke C & 74,5 sek & 58,38 sek & 61,75 sek \\
-
+\hline
+Insgesamt & 71,58 sek & 75,71 sek & 75,92 sek\\
 \hline
 \end{longtable}
-
-\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
-	\label{Dialogzeiten}\\
-	\caption[Durschnittszeiten pro Strategie mit Rennspiel]{Durschnittszeiten pro Strategie mit Rennspiel}\\
-	\hline
-	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
-	\hline
-	\endfirsthead
-	\hline
-	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
-	\hline
-	\endhead
-Durschnitt & 71,58 sek &75,71 sek & 75,92 sek \\
-
-
-\hline
-\end{longtable}
-
-
 
 \paragraph{Dialogzeiten}
 ~\\
@@ -820,10 +803,15 @@ Durschnitt & 71,58 sek &75,71 sek & 75,92 sek \\
 Strecke A & 15,34 sek & 20,38 sek & 20,28 sek \\
 Strecke B & 14,31 sek & 20,05 sek & 22,07 sek \\
 Strecke C  & 15,97 sek & 21,01 sek & 20,35 sek \\
-
+\hline
+\hline
+Strecke A - C & 15,19 sek & 20,52 sek & 20,81 sek \\
+\hline
+ohne Strecke &  14,9 sek & 18,8 sek & 17,59 sek \\
 \hline
 \end{longtable}
 
+\begin{comment}
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Dialogzeiten}\\
 	\caption[Durschnittszeiten pro Strategie mit Rennspiel]{Durschnittszeiten pro Strategie mit Rennspiel}\\
@@ -857,6 +845,8 @@ Durschnitt &  14,9 sek & 18,8 sek & 17,59 sek \\
 
 \hline
 \end{longtable}
+\end{comment}
+
 
 \begin{longtable}{p{4cm}p{4cm}p{4cm}}
 	\label{Dialogzeiten13vs4}\\
@@ -878,13 +868,9 @@ Durschnitt &  18,57 sek & 17,59 \\
 \subsubsection{Fragebogen}
 \paragraph{Nasa-TLX}
 ~\\
-
-\begin{longtable}{p{4cm}p{2cm}p{2cm}p{2cm}p{2cm}llccc}
-	\label{DialogzeitenKCL}\\
-	\caption[Antwortendurchschnitt Nasa-TLX]{Antwortendurchschnitt Nasa-TLX}\\
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 	\hline
-		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c}{\textbf{Ergebnisse bestimmter Runden}}\\
-		\cmidrule(ll){3-5}
+		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
 	&&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
 	\hline
 	\endfirsthead
@@ -892,32 +878,111 @@ Durschnitt &  18,57 sek & 17,59 \\
 	\textbf{Antwortenintervall}&\textbf{Strategien}&\textbf{Runden 1-4}&\textbf{Runden 1-3} &\textbf{Runde 4}\\
 	\hline
 	\endhead
-\multirow{3}{*}{1: gering 6: hoch} & Strategie 1 &  14,9 sek & 18,8 sek & 17,59 sek \\
- & Strategie 2 &  14,9 sek & 18,8 sek & 17,59 sek \\
- & Strategie 3 &  14,9 sek & 18,8 sek & 17,59 sek \\
-
-
+		\multicolumn{5}{l}{\textbf{Geistige Anforderung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 &  1,88 & 2,08 & 1,25 \\
+ & Strategie 2 & 2,06 & 2,42 & 1\\
+ & Strategie 3 & 2,63 & 2,83 & 2 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Körperliche Anforderung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2 & 2,17 & 1,5 \\
+ & Strategie 2 & 1,44 & 2,25 & 1 \\
+ & Strategie 3 & 2 & 2,25 & 1,25 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Zeitliche Anforderung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,87 & 2,09 & 1,25 \\
+ & Strategie 2 & 1,75 & 2 & 1 \\
+ & Strategie 3 & 2,31 & 2,67 & 1,25 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Leistung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 4,25 & 4,5 & 3,5 \\
+ & Strategie 2 & 4,75 & 4,33 & 6 \\
+ & Strategie 3 & 4,25 & 4 & 5 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Anstrengung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2 & 2,25 & 1,25 \\
+ & Strategie 2 & 2,13 & 2,55 & 1 \\
+ & Strategie 3 & 2,63 & 2,92 & 1,75\\
+\hline
+		\multicolumn{5}{l}{\textbf{Frustration}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,69 & 1,83 & 1,25 \\
+ & Strategie 2 & 1,81 & 2,08 & 1 \\
+ & Strategie 3 & 2 & 2,25 & 1,25 \\
 \hline
 \end{longtable}
 
 
 \paragraph{Strategien}
 ~\\
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+	\hline
+		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+	&&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwortenintervall}&\textbf{Strategien}&\textbf{Runden 1-4}&\textbf{Runden 1-3} &\textbf{Runde 4}\\
+	\hline
+	\endhead
+		\multicolumn{5}{l}{\textbf{Der Dialog lenkte mich vom Rennspiel ab}}\\
+		\hline
+\multirow{3}{4cm}{1: kaum \newline 6: stark} & Strategie 1 & \multirow{3}{2,5cm}{in Runde 4 nicht beantwortet} & 2,25  & \multirow{3}{2,5cm}{nicht beantwortet} \\
+ & Strategie 2 & & 2,58 & \\
+ & Strategie 3 & & 2,58 & \\
+\hline
+		\multicolumn{5}{l}{\textbf{Die Nachfragen erleichterten es mir, den Anruf korrekt aufzubauen}}\\
+		\hline
+\multirow{3}{4cm}{1: erleichterte es\newline  6: erschwerte es} & Strategie 1 & 1,63 & 1,83 & 1,25 \\
+ & Strategie 2 & 1,69 & 1,92 & 1 \\
+ & Strategie 3 & 2,13 & 2,25 & 1,75 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Wussten Sie, wann das System Spracheingaben erwartete?}}\\
+		\hline
+\multirow{3}{4cm}{1: immer \newline  6: nicht immer} & Strategie 1 & 1,19 & 1,17 & 1,25 \\
+ & Strategie 2 & 1,38 & 1,33 & 1,5 \\
+ & Strategie 3 & 1,5 & 1,67 & 1 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Wie gefiel Ihnen der Dialog insgesamt?}}\\
+		\hline
+\multirow{3}{4cm}{1: sehr gut \newline  6: weniger gut} & Strategie 1 & 1,94 & 2,08 & 1,5 \\
+ & Strategie 2 & 2,50 & 2,67 & 2 \\
+ & Strategie 3 & 2,57 & 2,75 & 2 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Fiel es Ihnen einfacher, den Dialog ohne Rennspiel zu führen?}}\\
+		\hline
+\multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 & \multirow{3}{2,5cm}{in Runden 1-3 nicht beantwortet} & \multirow{3}{2,5cm}{nicht beantwortet} & 2 \\
+ & Strategie 2 & & & 3,75 \\
+ & Strategie 3 & & & 2,25\\
+\hline
+		\multicolumn{5}{l}{\textbf{Welcher Anruf gefiel Ihnen insgesamt am besten?}}\\
+		\hline
+\multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 75\% & & \\
+ & Strategie 2 & 16,6\% && \\
+ & Strategie 3 & 8,3\% && \\
+\hline
+\end{longtable}
 \subsubsection{Task Completion}
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Dialogzeiten}\\
 	\caption[Durschnittliche Task Completion (TC)]{Durschnittliche Task Completion (TC)}\\
 	\hline
-	\textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+\textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
 	\hline
 	\endfirsthead
 	\hline
 	\textbf{Strategien}&\textbf{\O TC insgesamt}&\textbf{\O TC Runde 1-3} &\textbf{\O TC Runde 4}\\
 	\hline
 	\endhead
-1. Strategie & 1,64 & 1,76 & 1,25  \\
+1. Strategie & 1,75 & 1,92 & 1,5  \\
 2. Strategie & 1,94 & 1,92 & 2  \\
-3. Strategie & 1,55 & 1,38 & 2  \\
+3. Strategie & 1,63 & 1,5 & 2  \\
+\hline
+Insgesamt & & 1,78 & 1,83 \\ 
 \hline
 \end{longtable}
 
@@ -1206,8 +1271,7 @@ Am Schluß des gesamten Test soll die Versuchsperson einen Fragebogen ausfüllen
 \end{itemize}
 ??Anschließend über Disambiguierungsstrategien aufklären und über einzelne Strategien befragen.
 ?$\rightarrow$ welche Strategie war am geeignetsten/einfachsten/intuitivsten für jeweilige Versuchsperson
-\end{commentn 
-}
+\end{comment}
 
 
 \subsection{Resultat}
@@ -1225,38 +1289,20 @@ Am Schluß des gesamten Test soll die Versuchsperson einen Fragebogen ausfüllen
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 72,5 sek & 93 sek & 67 sek \\
-Strecke B & 68,75 sek & 75,75 sek & 94,5 sek \\
-Strecke C & 74,5 sek & 58,37 sek & 61,75 sek \\
-
+Strecke A & 81 sek & 80,3 sek & 74,25 sek \\
+Strecke B & 74,5 sek & 84,25 sek & 88 sek \\
+Strecke C & 75 sek & 67,9 sek & 65 sek \\
+\hline
+Strecke A - C & 76,83 & 77,47 & 76,73 \\
 \hline
 \end{longtable}
-
-\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
-	\label{Dialogzeiten}\\
-	\caption[Durschnittszeiten pro Strategie mit Rennspiel]{Durschnittszeiten pro Strategie mit Rennspiel}\\
-	\hline
-	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
-	\hline
-	\endfirsthead
-	\hline
-	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
-	\hline
-	\endhead
-Durschnitt & 71,92 sek &75,71 sek & 74,42 sek \\
-
-
-\hline
-\end{longtable}
-
-
 
 \paragraph{Dialogzeiten}
 ~\\
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{durchschnittsvorl}\\
-	\caption[Durschnittszeiten Strategie pro Strecke]{Durschnittszeiten Strategie pro Strecke}\\
+	\caption[Durchschnittszeiten Strategie pro Strecke]{Durschnittszeiten Strategie pro Strecke}\\
 	\hline
 	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -1265,65 +1311,154 @@ Durschnitt & 71,92 sek &75,71 sek & 74,42 sek \\
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 15,53 sek & 20,38 sek & 19,75 sek \\
-Strecke B & 14,31 sek & 20,29 sek & 18,08 sek \\
-Strecke C  & 15,97 sek & 21,01 sek & 18,33 sek \\
-
+Strecke A & 25,76 sek & 38,32 sek & 33,98 sek \\
+Strecke B & 31,41 sek & 40,2 sek & 36,61 sek \\
+Strecke C  & 29,59 sek & 37,9 sek & 28,29 sek \\
+\hline
+\hline
+Strecke A - C & 29,55 sek & 38,54 sek & 34,34 sek\\
+\hline
+ohne Strecke & 24,12 & 34,35 & 30,44 \\
 \hline
 \end{longtable}
-
-\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
-	\label{Dialogzeiten}\\
-	\caption[Durschnittszeiten pro Strategie mit Rennspiel]{Durschnittszeiten pro Strategie mit Rennspiel}\\
+ 
+\begin{longtable}{p{4cm}p{4cm}p{4cm}}
+	\label{Dialogzeiten13vs4}\\
+	\caption[Durschnittszeiten mit Rennspiel versus ohne Rennspiel]{Durschnittszeiten mit Rennspiel versus ohne Rennspiel}\\
 	\hline
-	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\textbf{Dialogzeiten}&\textbf{Runde 1-3}&\textbf{Runde 4}\\
 	\hline
 	\endfirsthead
 	\hline
-	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\textbf{Dialogzeiten}&\textbf{Runde 1-3}&\textbf{Runde 4}\\
 	\hline
 	\endhead
-Durschnitt & 15,27 sek & 20,56 sek & 18,72 sek \\
+Durschnitt &  34,64 sek & 29,63 sek \\
 
 
 \hline
 \end{longtable}
 
-\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
-	\label{DialogzeitenKCL}\\
-	\caption[Durschnittszeiten pro Strategie ohne Rennspiel]{Durschnittszeiten pro Strategie ohne Rennspiel}\\
-	\hline
-	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
-	\hline
-	\endfirsthead
-	\hline
-	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
-	\hline
-	\endhead
-Durschnitt &  14,9 sek & 18,93 sek & 17,59 sek \\
-
-
-\hline
-\end{longtable}
 \subsubsection{Fragebogen}
+\paragraph{Nasa-TLX}
+~\\
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+	\hline
+		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+	&&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwortenintervall}&\textbf{Strategien}&\textbf{Runden 1-4}&\textbf{Runden 1-3} &\textbf{Runde 4}\\
+	\hline
+	\endhead
+		\multicolumn{5}{l}{\textbf{Geistige Anforderung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 &  2,31 & 2,67 & 1,25 \\
+ & Strategie 2 & 2,31 & 2,58 & 1,5\\
+ & Strategie 3 & 2,56 & 2,83 & 1,75 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Körperliche Anforderung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,67 & 2,17 & 1 \\
+ & Strategie 2 & 2,06 & 2,25 & 1,5 \\
+ & Strategie 3 & 1,94 & 2,08 & 1,5 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Zeitliche Anforderung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2 & 2,25 & 1,25 \\
+ & Strategie 2 & 2,25 & 2,5 & 1,5 \\
+ & Strategie 3 & 1,94 & 2,17 & 1,25 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Leistung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 5,13 & 4,83 & 6 \\
+ & Strategie 2 & 4,88 & 4,67 & 5,5 \\
+ & Strategie 3 & 4,56 & 4,08 & 6 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Anstrengung}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,38 & 2,83 & 1 \\
+ & Strategie 2 & 2,44 & 2,67 & 1,75 \\
+ & Strategie 3 & 2,31 & 2,67 & 1,25\\
+\hline
+		\multicolumn{5}{l}{\textbf{Frustration}}\\
+		\hline
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,94 & 2,25 & 1 \\
+ & Strategie 2 & 1,94 & 2 & 1,75 \\
+ & Strategie 3 & 2,31 & 2,58 & 1,5 \\
+\hline
+\end{longtable}
+
+
+\paragraph{Strategien}
+~\\
+\begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+	\hline
+		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+	&&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwortenintervall}&\textbf{Strategien}&\textbf{Runden 1-4}&\textbf{Runden 1-3} &\textbf{Runde 4}\\
+	\hline
+	\endhead
+		\multicolumn{5}{l}{\textbf{Der Dialog lenkte mich vom Rennspiel ab}}\\
+		\hline
+\multirow{3}{4cm}{1: kaum \newline 6: stark} & Strategie 1 & \multirow{3}{2,5cm}{in Runde 4 nicht beantwortet} & 3,5  & \multirow{3}{2,5cm}{nicht beantwortet} \\
+ & Strategie 2 & & 2,92 & \\
+ & Strategie 3 & & 3,17 & \\
+\hline
+		\multicolumn{5}{l}{\textbf{Die Nachfragen erleichterten es mir, den Anruf korrekt aufzubauen}}\\
+		\hline
+\multirow{3}{4cm}{1: erleichterte es\newline  6: erschwerte es} & Strategie 1 & 2,44 & 2,58 & 2 \\
+ & Strategie 2 & 2,25 & 2,33 & 2 \\
+ & Strategie 3 & 2,38 & 2,5 & 2 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Wussten Sie, wann das System Spracheingaben erwartete?}}\\
+		\hline
+\multirow{3}{4cm}{1: immer \newline  6: nicht immer} & Strategie 1 & 1,63 & 1,67 & 1,5 \\
+ & Strategie 2 & 1,5 & 1,5 & 1,5 \\
+ & Strategie 3 & 1,57 & 1,5 & 1,75 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Wie gefiel Ihnen der Dialog insgesamt?}}\\
+		\hline
+\multirow{3}{4cm}{1: sehr gut \newline  6: weniger gut} & Strategie 1 & 2,94 & 2,83 & 3,25 \\
+ & Strategie 2 & 2,44 & 2,42 & 2,5 \\
+ & Strategie 3 & 2,38 & 2,3 & 2,5 \\
+\hline
+		\multicolumn{5}{l}{\textbf{Fiel es Ihnen einfacher, den Dialog ohne Rennspiel zu führen?}}\\
+		\hline
+\multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 & \multirow{3}{2,5cm}{in Runden 1-3 nicht beantwortet} & \multirow{3}{2,5cm}{nicht beantwortet} & 2,75 \\
+ & Strategie 2 & & & 3 \\
+ & Strategie 3 & & & 2,5\\
+\hline
+		\multicolumn{5}{l}{\textbf{Welcher Anruf gefiel Ihnen insgesamt am besten?}}\\
+		\hline
+\multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 16,7\% & & \\
+ & Strategie 2 & 33,3\% && \\
+ & Strategie 3 & 50\% && \\
+\hline
+\end{longtable}
 \subsubsection{Task Completion}
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Dialogzeiten}\\
 	\caption[Durschnittliche Task Completion (TC)]{Durschnittliche Task Completion (TC)}\\
 	\hline
-	\textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+\textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
 	\hline
 	\endfirsthead
 	\hline
 	\textbf{Strategien}&\textbf{\O TC insgesamt}&\textbf{\O TC Runde 1-3} &\textbf{\O TC Runde 4}\\
 	\hline
 	\endhead
-1. Strategie & 1,64 & 1,76 & 1,25  \\
-2. Strategie & 1,94 & 1,92 & 2  \\
-3. Strategie & 1,55 & 1,38 & 2  \\
+1. Strategie & 1,88 & 1,83 & 2  \\
+2. Strategie & 1,81 & 1,75 & 2  \\
+3. Strategie & 1,56 & 1,42 & 2  \\
+\hline
+Insgesamt & & 1,67 & 2 \\ 
 \hline
 \end{longtable}
-
 \begin{comment}
 Fragebogen: NASA-TLX\\
 Wurde der Task zu ende geführt?\\
