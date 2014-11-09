@@ -516,6 +516,16 @@ Während des Versuchs wird die Versuchsperson, das Rennspiel und die Dialoginter
 Die Versuchspersonen fahren in den Runden 2-4 jeweils eine Strecke mit unterschiedlicher Disambiguierungsstrategie. Insgesamt werden diese auf drei unterschiedliche Strecken verteilt. Man hat sich für drei unterschiedliche Strecken entschieden, da man einen Lerneffekt bei einer gleichbleibenden Strecke ausschließen wollte. Parallel  werden die Zeiten gemessen, die eine Versuchsperson für die Absolvierung einer Strecke bei der Interaktion mit einer bestimmten Disambiguierungsstrategie benötigt (siehe Unterkapitel \ref{messwerte}). Da man diese Zeiten miteinander vergleichen möchte, müssen die Disambiguierungsstrategien geschickt auf die Strecken verteilt werden, da die Strecke unterschiedlich lang sind und daher keine aussagekräftigen Vergleiche untereinander bieten. Um diesen Konflikt zu lösen, werden die Versuchspersonen in drei Gruppen aufgeteilt, sodass jede Gruppe jede Strecke mit einer unterschiedlichen Disambiguierungsstrategie fährt. Schließlich kann man so für jede Strecke die Zeiten für unterschiedliche Strategien sammeln und vergleichen, mit welcher Strategie eine bestimmte Strecke am schnellsten gefahren wurde (siehe Kapitel \ref{messwerte} Auswertung). \\
 In der letzten Runde soll nur das Testszenario ohne Rennspiel durchgeführt werden. Hierfür gibt es Gruppe 4, welche aus allen Versuchsteilnehmern besteht. Diese wird jedoch nochmal in drei Zwischengruppen aufgeteilt, sodass ein drittel der Versuchspersonen in der vierten Runde das Testszenario in Strategie 1, ein drittel in Strategie 2 und das letzte drittel in Strategie 3 durchführen. Ein Überblick der Strecken- und Strategieverteilung pro Gruppe ist in Tabelle \ref{ablauf} aufgelistet. 
 
+\subsection{Control Panel}
+Um ein laufendes System zu simulieren wurde ein Control Panel entwickelt, welches verschiedene Sprachausgaben per Mausklick triggert. Damit kann der Versuchsleiter, der Wizard, die passenden Sprachausgaben auf entsprechende Benutzereingaben auslösen. Neben Ausgaben für die einzelnen Disambiguierungsstrategien sind weitere Sprachausgaben abgedeckt, welche oberflächlich zu jeder Eingabe des Benutzers eine Antwort bereit stellen und somit einen ungehinderten Ablauf des Dialogs gewährleisten. Zusätzlich dazu ist ein Stoppbutton enthalten, mit welchem per Klick alle aktiven Sprachausgaben abgebrochen werden können. 
+Das Control Panel wurde mit JavaFx\footnote{\label{foot:javafx}\url{http://docs.oracle.com/javase/8/javase-clienttechnologies.htm}} entwickelt. Mit Hilfe des Programms JavaFX Scene Builder\footnote{\label{foot:fxsb}\url{http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html}} wurde zunächst das Design entwickelt und in einer .fxml Datei gespeichert. Diese wurde anschließend in Eclipse unter Installation des Plugins E(fx)clipse geladen und die Funktionen für die Sprachausgaben und des Stopp-Buttons implementiert. Die Sprachausgaben wurden online auf der Webseite \url{http://www.fromtexttospeech.com/} als .mp3 Datei generiert und anschließend zu .wav Dateien konvertiert. 
+Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt es ein extra Tab mit speziellen Sprachausgaben. Die gemeinsamen Sprachausgaben wie \texttt{Cancel} und der Stoppbutton sind in jedem Personentab extra enthalten, damit eine schnelle Reaktion des Versuchsleiters möglich ist. Das Commonstab enthält die Begrüßungsausgabe. Zur Orientierung ist nach jedem speziellen Button die ausgelöste Sprachausgabe zu sehen. 
+\begin{figure}[htbp]
+\includegraphics{controlpanel.png}
+\caption{Controlpanel}
+\label{cp1}
+\end{figure}
+
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{ablauf}\\
 	\caption[Strecken- und Strategieverteilung]{Strecken- und Strategieverteilung}\\
@@ -555,6 +565,12 @@ keine Strecke & Kim\\
 
 \hline
 \end{longtable}
+
+\subsection{Versuchspersonen}
+geplant: 10 bis max 30\\
+Affinität zu Technik?\\
+Studierende der CoLi?\\
+Alter usw.\\
 
 \subsection{Auswertung}
 Um herauszufinden, welche Disambiguierungsstrategie am effizientesten ist, werden verschiedene Auswertungen vorgenommen. 
@@ -808,31 +824,37 @@ Für jede Strategie wird die Task Completion ausgewertet, welche besagt, mit wel
 \item 1 Punkt, wenn ein Slot richtig gefüllt wird
 \item 2 Punkte, wenn alle Slots richtig gefüllt wird
 \end{itemize}
-Zur Auswertung wird dann pro Strategie eine Durschnittspunktzahl berechnet. 
+Zur Auswertung wird pro Strategie eine Durschnittspunktzahl berechnet. 
+Diese finden sich in Tabelle \ref{TCV1}.
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
+	\label{TCV1}\\
+	\caption[Durschnittliche Task Completion (TC)]{Durschnittliche Task Completion (TC)}\\
+	\hline
+\textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Strategien}&\textbf{\O TC insgesamt}&\textbf{\O TC Runde 1-3} &\textbf{\O TC Runde 4}\\
+	\hline
+	\endhead
+1. Strategie & 1,75 & 1,92 & 1,5  \\
+2. Strategie & 1,94 & 1,92 & 2  \\
+3. Strategie & 1,63 & 1,5 & 2  \\
+\hline
+Insgesamt & & 1,78 & 1,83 \\ 
+\hline
+\end{longtable}
+
+Im Durchschnitt wurde in der Runde ohne Rennspiel eine höhere Task Completion erreicht. Das besagt, dass die Dialoge der vierten Runde am erfolgreichsten sind. Der Unterschied ist jedoch sehr gering, sodass man für ein eindeutiges Ergebnis mehr Ergebnisse zur Auswertung benötigt. Das Ergebnis zeigt weiter, dass die 2. Strategie insgesamt am erfolgreichsten ist. Die unerfolgreichste Strategie ist nach diesem Ergebnis die dritte Strategie. Dies passt zum Ergebnis, dass diese Strategie im 2. Teil des Fragebogen am schlechtesten gewertet wurde. Strategie 1, welche als beliebteste Strategie der Runde 1-3 ausgewählt wurde, liefert für diese Runden die gleiche Task Completion wie Strategie 2. Hier fehlen weitere Ergebnisse um eine konkrete Verbindung zwischen beliebteste Strategie und Strategie mit höchster Task Completion herzustellen. Dabei muss auch der Fall betrachtet werden, dass die Versuchsperson ihre Fehler möglicherweise gar nicht bemerken. Diese Verbindung könnte in einem umfangreichen Experiment in späteren Arbeiten überprüft werden. 
+Grundsätzlich kann man aus diesem Ergebnis sehen, dass insgesamt der Anruf am häufigsten korrekt mit Strategie 1 und am seltensten korrekt mit Strategie 3 ausgeführt werden konnte. 
+
+\begin{comment}
 \subsection{Hypothesen}
 \textbf{beliebt}: kurze Sprachausgabe, kurze Spracheingabe, wenig Aufmerksamkeit \\
 \textbf{unbeliebt}: lange Sprachausgaben mit unnötigen Informationen, anstrengendes Zuhören\\
 \textbf{hoher CL}: kurze knappe Eingabe (BargeIn, Füllwörter), Confirmations bevorzugt (Related Work) und möglichst viele Pausen (Strat 3)\\
 \textbf{kein/niedriger CL}: weniger BargeIn und Füllwörter(Related Work)
-
-
-
-
-\subsection{Versuchspersonen}
-geplant: 10 bis max 30\\
-Affinität zu Technik?\\
-Studierende der CoLi?\\
-Alter usw.\\
-
-\subsection{Control Panel}
-Um ein laufendes System zu simulieren wurde ein Control Panel entwickelt, welches verschiedene Sprachausgaben per Mausklick triggert. Damit kann der Versuchsleiter, der Wizard, die passenden Sprachausgaben auf entsprechende Benutzereingaben auslösen. Neben Ausgaben für die einzelnen Disambiguierungsstrategien sind weitere Sprachausgaben abgedeckt, welche oberflächlich zu jeder Eingabe des Benutzers eine Antwort bereit stellen und somit einen ungehinderten Ablauf des Dialogs gewährleisten. Zusätzlich dazu ist ein Stoppbutton enthalten, mit welchem per Klick alle aktiven Sprachausgaben abgebrochen werden können. 
-Das Control Panel wurde mit JavaFx\footnote{\label{foot:javafx}\url{http://docs.oracle.com/javase/8/javase-clienttechnologies.htm}} entwickelt. Mit Hilfe des Programms JavaFX Scene Builder\footnote{\label{foot:fxsb}\url{http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html}} wurde zunächst das Design entwickelt und in einer .fxml Datei gespeichert. Diese wurde anschließend in Eclipse unter Installation des Plugins E(fx)clipse geladen und die Funktionen für die Sprachausgaben und des Stopp-Buttons implementiert. Die Sprachausgaben wurden online auf der Webseite \url{http://www.fromtexttospeech.com/} als .mp3 Datei generiert und anschließend zu .wav Dateien konvertiert. 
-Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt es ein extra Tab mit speziellen Sprachausgaben. Die gemeinsamen Sprachausgaben wie \texttt{Cancel} und der Stoppbutton sind in jedem Personentab extra enthalten, damit eine schnelle Reaktion des Versuchsleiters möglich ist. Das Commonstab enthält die Begrüßungsausgabe. Zur Orientierung ist nach jedem speziellen Button die ausgelöste Sprachausgabe zu sehen. 
-\begin{figure}[htbp]
-\includegraphics{controlpanel.png}
-\caption{Controlpanel}
-\label{cp1}
-\end{figure}
 
 
 \subsection{Simulation und Durchführung}
@@ -882,7 +904,7 @@ Am Schluß des gesamten Test soll die Versuchsperson einen Fragebogen ausfüllen
 ??Anschließend über Disambiguierungsstrategien aufklären und über einzelne Strategien befragen.
 ?$\rightarrow$ welche Strategie war am geeignetsten/einfachsten/intuitivsten für jeweilige Versuchsperson
 
-
+\end{comment}
 
 \subsection{Resultat}
 \subsubsection{Zeiten}
@@ -1133,8 +1155,9 @@ wie kann man auswerten?
 \end{comment}
 
 
-
+\begin{comment}
 \subsection{Qualitätssicherung}
+\end{comment}
 
 
 \section{Versuch 2}
@@ -1420,20 +1443,31 @@ Für jede Strategie wird ebenfalls die Task Completion ausgewertet, welche besag
 \item 1 Punkt, wenn ein Slot richtig gefüllt wird
 \item 2 Punkte, wenn alle Slots richtig gefüllt wird
 \end{itemize}
-Zur Auswertung wird dann pro Strategie eine Durschnittspunktzahl berechnet.
-Diese Vorgehensweise entspricht der aus Versuch 1. 
-\subsection{Hypothesen}
-\textbf{beliebt}: kurze Sprachausgabe, kurze Spracheingabe, wenig Aufmerksamkeit \\
-\textbf{unbeliebt}: lange Sprachausgaben mit unnötigen Informationen, anstrengendes Zuhören\\
-\textbf{hoher CL}: kurze knappe Eingabe (BargeIn, Füllwörter), Confirmations bevorzugt (Related Work) und möglichst viele Pausen (Strat 3)\\
-\textbf{kein/niedriger CL}: weniger BargeIn und Füllwörter(Related Work)
+Zur Auswertung wird dann pro Strategie eine Durschnittspunktzahl berechnet, welche in \ref{TCV2} stehen. 
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
+	\label{TCV2}\\
+	\caption[Task Completion Versuch 2]{Task Completion Versuch 2}\\
+	\hline
+\textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Strategien}&\textbf{\O TC insgesamt}&\textbf{\O TC Runde 1-3} &\textbf{\O TC Runde 4}\\
+	\hline
+	\endhead
+1. Strategie & 1,88 & 1,83 & 2  \\
+2. Strategie & 1,81 & 1,75 & 2  \\
+3. Strategie & 1,56 & 1,42 & 2  \\
+\hline
+Insgesamt & & 1,67 & 2 \\ 
+\hline
+\end{longtable}
+
+Hier zeigt sich klar, dass die Dialoge in Runde 4 ohne Fehler erfolgten und somit im Durchschnitt erfolgreicher waren als die Runden mit Rennspiel. Es fällt auf, dass die Strategie, die in diesem Versuch als am beliebtesten ausgewertet wurde am meisten Fehler aufweist. Dabei kommt erneut die Frage aus Versuch 1 auf, ob man hier eine Verbindung ziehen kann und ob die Versuchspersonen bemerkten, dass sie die Slots falsch gefüllt haben. 
+Grundsätzlich kann man aus diesem Ergebnis sehen, dass insgesamt der Anruf am häufigsten korrekt mit Strategie 1 und am seltensten korrekt mit Strategie 2 ausgeführt werden konnte. 
 
 
-\subsection{Versuchspersonen}
-geplant: 10 bis max 30\\
-Affinität zu Technik?\\
-Studierende der CoLi?\\
-Alter usw.\\
 
 \subsection{Control Panel}
 Das Control Panel aus Versuch 1 wurde mit anderen Sprachausgaben ausgestattet und es wurden weitere Buttons für Strategie 3 hinzugefügt. 
