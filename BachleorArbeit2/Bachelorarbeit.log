@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  9 NOV 2014 02:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  9 NOV 2014 03:29
 entering extended mode
 **Bachelorarbeit.tex
 (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.tex
@@ -948,16 +948,13 @@ LaTeX Warning: Label `ablauf' multiply defined.
 LaTeX Warning: Label `messwerte' multiply defined.
 
 
-LaTeX Warning: Label `durchschnittsvorl' multiply defined.
-
-
 LaTeX Warning: Label `fragebogen' multiply defined.
 
 
-LaTeX Warning: Label `cp1' multiply defined.
-
-
 LaTeX Warning: Label `durchschnittsvorl' multiply defined.
+
+
+LaTeX Warning: Label `cp1' multiply defined.
 
 
 LaTeX Warning: Label `durchschnittsvorl' multiply defined.
@@ -1753,7 +1750,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 1335--1339
+Underfull \hbox (badness 10000) in paragraph at lines 1337--1341
 
  []
 
@@ -1764,15 +1761,20 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 [40]
 File: controlpanel.png Graphic file (type png)
  <use controlpanel.png>
-Package pdftex.def Info: controlpanel.png used on input line 1343.
+Package pdftex.def Info: controlpanel.png used on input line 1345.
 (pdftex.def)             Requested size: 466.7426pt x 324.46138pt.
 
-Overfull \hbox (48.48892pt too wide) in paragraph at lines 1343--1344
+Overfull \hbox (48.48892pt too wide) in paragraph at lines 1345--1346
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
+Underfull \hbox (badness 10000) in paragraph at lines 1403--1404
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1424--1425
 
  []
 
@@ -1781,36 +1783,31 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 1422--1423
-
- []
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 1465--1466
+Underfull \hbox (badness 10000) in paragraph at lines 1467--1468
 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1468--1468
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1470--1470
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1473--1473
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1475--1475
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1473--1473
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1475
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1473--1473
+Underfull \hbox (badness 10000) in paragraph at lines 1475--1475
 []|\T1/lmr/bx/n/12 Runden
  []
 
@@ -1819,47 +1816,47 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 1516--1517
+Underfull \hbox (badness 10000) in paragraph at lines 1518--1519
 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1519--1519
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1521--1521
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1524--1524
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1526--1526
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
+Underfull \hbox (badness 10000) in paragraph at lines 1526--1526
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1524--1524
+Underfull \hbox (badness 10000) in paragraph at lines 1526--1526
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1529--1529
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 1531--1531
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1529--1530
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 1531--1532
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1553--1553
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 1555--1555
 []|[]| 
  []
 
 
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1553--1553
+Overfull \hbox (14.22638pt too wide) in paragraph at lines 1555--1555
 []|[]| 
  []
 
@@ -1868,13 +1865,8 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 1573--1573
+Underfull \hbox (badness 10000) in paragraph at lines 1575--1575
 []|\T1/lmr/bx/n/12 ØTC ins-ge-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1617--1618
-
  []
 
 
@@ -1882,7 +1874,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 1656--1657
+Underfull \hbox (badness 10000) in paragraph at lines 1619--1620
 
  []
 
@@ -1891,7 +1883,12 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 1719--1719
+Underfull \hbox (badness 10000) in paragraph at lines 1658--1659
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1721--1721
 []|\T1/lmr/bx/n/12 ØTC ins-ge-
  []
 
@@ -1900,12 +1897,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [47]
-Underfull \hbox (badness 10000) in paragraph at lines 1731--1732
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1770--1771
+Underfull \hbox (badness 10000) in paragraph at lines 1733--1734
 
  []
 
@@ -1914,7 +1906,12 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1833--1833
+Underfull \hbox (badness 10000) in paragraph at lines 1772--1773
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1835--1835
 []|\T1/lmr/bx/n/12 ØTC ins-ge-
  []
 
@@ -1923,18 +1920,18 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [49]
-Overfull \hbox (2.03458pt too wide) in paragraph at lines 1846--1850
+Overfull \hbox (2.03458pt too wide) in paragraph at lines 1848--1852
 \T1/lmr/m/n/12 wie wa-ren die über-le-gun-gen warum wur-den wel-che Ent-schei-d
 un-gen ge-trof-fen warum
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1854--1855
+Underfull \hbox (badness 10000) in paragraph at lines 1856--1857
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1856--1860
+Underfull \hbox (badness 10000) in paragraph at lines 1858--1862
 
  []
 
@@ -1947,16 +1944,16 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1903.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1905.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [1]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1903.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1905.
  (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1903.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1903.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1905.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1905.
 
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: 1E860D903D309BACE563ED0756D6D66D;3927.
@@ -1967,13 +1964,13 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1903.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1905.
  ) 
 Here is how much of TeX's memory you used:
- 10658 strings out of 493921
- 158557 string characters out of 3144878
- 314221 words of memory out of 3000000
- 13518 multiletter control sequences out of 15000+200000
+ 10659 strings out of 493921
+ 158570 string characters out of 3144878
+ 320255 words of memory out of 3000000
+ 13519 multiletter control sequences out of 15000+200000
  86610 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,11n,51p,2277b,541s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1989,7 +1986,7 @@ eX 2.9/fonts/type1/public/lm/lmss17.pfb><C:/Program Files (x86)/MiKTeX 2.9/font
 s/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lm
 tt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Bachelorarbeit.pdf (61 pages, 911289 bytes).
+Output written on Bachelorarbeit.pdf (61 pages, 911226 bytes).
 PDF statistics:
  883 PDF objects out of 1000 (max. 8388607)
  205 named destinations out of 1000 (max. 500000)

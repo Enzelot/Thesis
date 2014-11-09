@@ -48,12 +48,12 @@
 \contentsline {subsubsection}{\numberline {6.4.2}Fragebogen}{40}{subsubsection.6.4.2}
 \contentsline {subsubsection}{\numberline {6.4.3}Task Completion}{40}{subsubsection.6.4.3}
 \contentsline {subsection}{\numberline {6.5}Hypothesen}{40}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Versuchspersonen}{40}{subsection.6.6}
+\contentsline {subsection}{\numberline {6.6}Versuchspersonen}{41}{subsection.6.6}
 \contentsline {subsection}{\numberline {6.7}Control Panel}{41}{subsection.6.7}
-\contentsline {subsection}{\numberline {6.8}Resultat}{42}{subsection.6.8}
-\contentsline {subsubsection}{\numberline {6.8.1}Zeiten}{42}{subsubsection.6.8.1}
-\contentsline {paragraph}{\nonumberline Rennzeiten}{42}{section*.17}
-\contentsline {paragraph}{\nonumberline Dialogzeiten}{42}{section*.18}
+\contentsline {subsection}{\numberline {6.8}Resultat}{41}{subsection.6.8}
+\contentsline {subsubsection}{\numberline {6.8.1}Zeiten}{41}{subsubsection.6.8.1}
+\contentsline {paragraph}{\nonumberline Rennzeiten}{41}{section*.17}
+\contentsline {paragraph}{\nonumberline Dialogzeiten}{41}{section*.18}
 \contentsline {subsubsection}{\numberline {6.8.2}Fragebogen}{43}{subsubsection.6.8.2}
 \contentsline {paragraph}{\nonumberline Nasa-TLX}{43}{section*.19}
 \contentsline {paragraph}{\nonumberline Strategien}{44}{section*.20}
@@ -63,17 +63,17 @@
 \contentsline {subsection}{\numberline {7.1}Versuchsverlauf 1}{46}{subsection.7.1}
 \contentsline {subsubsection}{\numberline {7.1.1}Zeiten}{46}{subsubsection.7.1.1}
 \contentsline {paragraph}{\nonumberline Rennzeiten}{46}{section*.21}
-\contentsline {paragraph}{\nonumberline Dialogzeiten}{46}{section*.22}
-\contentsline {subsubsection}{\numberline {7.1.2}Fragebogen}{47}{subsubsection.7.1.2}
-\contentsline {subsubsection}{\numberline {7.1.3}Task Completion}{47}{subsubsection.7.1.3}
+\contentsline {paragraph}{\nonumberline Dialogzeiten}{47}{section*.22}
+\contentsline {subsubsection}{\numberline {7.1.2}Fragebogen}{48}{subsubsection.7.1.2}
+\contentsline {subsubsection}{\numberline {7.1.3}Task Completion}{48}{subsubsection.7.1.3}
 \contentsline {subsection}{\numberline {7.2}Versuchsverlauf 2}{48}{subsection.7.2}
 \contentsline {subsubsection}{\numberline {7.2.1}Zeiten}{48}{subsubsection.7.2.1}
 \contentsline {paragraph}{\nonumberline Rennzeiten}{48}{section*.23}
-\contentsline {paragraph}{\nonumberline Dialogzeiten}{48}{section*.24}
-\contentsline {subsubsection}{\numberline {7.2.2}Fragebogen}{49}{subsubsection.7.2.2}
-\contentsline {subsubsection}{\numberline {7.2.3}Task Completion}{49}{subsubsection.7.2.3}
+\contentsline {paragraph}{\nonumberline Dialogzeiten}{49}{section*.24}
+\contentsline {subsubsection}{\numberline {7.2.2}Fragebogen}{50}{subsubsection.7.2.2}
+\contentsline {subsubsection}{\numberline {7.2.3}Task Completion}{50}{subsubsection.7.2.3}
 \contentsline {section}{\numberline {8}Diskussion}{50}{section.8}
 \contentsline {subsection}{\numberline {8.1}Allgemeine Diskussion}{50}{subsection.8.1}
 \contentsline {subsection}{\numberline {8.2}Vergleichbare Studien}{50}{subsection.8.2}
-\contentsline {subsection}{\numberline {8.3}Future Work}{50}{subsection.8.3}
+\contentsline {subsection}{\numberline {8.3}Future Work}{51}{subsection.8.3}
 \contentsline {section}{\numberline {9}Schlusswort}{51}{section.9}
