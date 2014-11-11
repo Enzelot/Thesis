@@ -104,7 +104,7 @@ Saarbrücken,
 \cleardoublepage
 $\,$\\
 \vfill
-Meine Bachelorarbeit entstand im Zeitraum vom Juli 2014 bis Oktober 2014 bei SemVox GmbH unter der Leitung von Prof. Dietrich Klakow und der Betreuung von Pia Kuznik und Dr.-Ing. Markus Löckelt
+Meine Bachelorarbeit entstand im Zeitraum vom Juli 2014 bis Oktober 2014 bei SemVox GmbH unter der Leitung von Prof. Dietrich Klakow und der Betreuung von Pia Kuznik.
 
 
 \cleardoublepage
@@ -136,8 +136,8 @@ Die vorliegende Arbeit beschäftigt sich mit der Frage, welche Disambiguierungss
 \newpage
 \section{Einleitung}
 
-Dialogsysteme für das Auto müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und ihm so gut wie möglich assistieren. Die Herausforderung für einen Dialog Designer besteht daher darin, Sprachäußerungen so raffiniert zu gestalten, dass dem Benutzer zum Einen alle relevanten Informationen in verständlicher Weise geliefert werden und zum Anderen, dass der Benutzer darauf möglichst einfach antworten und seine Anfragen und Wünsche effizient übermitteln kann. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponenten ab, welche anhand der in Abbildung \ref{odps3} dargestellten Funktionsweise der ODP S3 Plattform der SemVox GmbH kurz erläutert werden. Die ODP S3 Plattform ermöglichst die Umsetzung komplexer Sprachdialoge.  
-Zunächst müssen die Spracheingaben des Benutzers zu semantischen Objekten verarbeitet werden. Dabei wird zunächst die Spracheingabe auf eine Grammatik gematched, welche alle möglichen Spracheingaben des Benutzers abfängt und semantischen Objekten zuweist. Diese werden dann von einem Backend-Server verarbeitet, woraufhin eine passende Sprachausgabe ausgelöst wird. 
+Dialogsysteme für das Auto müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und ihm so gut wie möglich assistieren. Die Herausforderung für einen Dialog Designer besteht daher darin, Sprachäußerungen so raffiniert zu gestalten, dass dem Benutzer zum Einen alle relevanten Informationen in verständlicher Weise geliefert werden und zum Anderen, dass der Benutzer darauf möglichst einfach antworten und seine Anfragen und Wünsche effizient übermitteln kann. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponenten ab, welche anhand der in Abbildung \ref{odps3} dargestellten Funktionsweise der ODP S3 Plattform der SemVox GmbH\footnote{\label{foot:odps3}\url{http://semvox.de}} kurz erläutert werden. Die ODP S3 Plattform ermöglichst die Umsetzung komplexer Sprachdialoge.  
+Zunächst müssen die Spracheingaben des Benutzers zu semantischen Objekten verarbeitet werden. Dabei wird zunächst die Spracheingabe auf eine Grammatik abgeglichen, welche alle möglichen Spracheingaben des Benutzers abfängt und semantischen Objekten zuweist. Diese werden dann von einem Backend-Server verarbeitet, woraufhin eine passende Sprachausgabe ausgelöst wird. 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{odps3.png}
@@ -145,7 +145,7 @@ Zunächst müssen die Spracheingaben des Benutzers zu semantischen Objekten vera
 \label{odps3}
 \end{center}
 \end{figure}
-In dieser Arbeit konzentriert man sich allein auf die Sprachgenerierung. Ein komplexer Dialog zwischen System und Benutzer führt häufig dazu, dass der Benutzer eine Eingabe macht, die das System nicht eindeutig zuordnen kann und mehrere Optionen für die Ausführung der vom Benutzer geäußerten Eingabe bestehen. Es muss an dieser Stelle vom System eine Rückfrage beim Benutzer erfolgen, sodass dieser seine vorherige Eingabe eindeutig übermitteln kann. Wenn der Benutzer zum Beispiel den Wunsch äußert einen Kontakt aus dem im System gespeicherten Adressbuch anzurufen, es allerdings zwei Kontakte mit diesem Namen gibt, muss das System eine Rückfrage stellen, um zu ermitteln, welcher dieser beiden Kontakte gemeint ist. Der Dialog Designer spricht in diesem Fall von Disambiguierung.  Es wird in der vorliegenden Arbeit der Frage nachgegangen wie man konkret die Sprachausgabe einer solchen Disambiguierung innerhalb eines Dialogsystems, das speziell für das Auto konzipiert wurde, gestaltet. Dabei werden drei verschiedene Strategien in einem Wizard-of-Oz-Experiment auf Effizienz und Beliebtheit unter den Versuchspersonen getestet. Diese Strategien werden im Kapitel \ref{disambiguierungsstrategien} näher erläutert. Der Versuch in Kapitel \ref{versuch1} zeigt klar, dass bei einer Disambiguierung über wenige Optionen die Strategie \texttt{Aggregierte Auswahl ohne Pause} am beliebtesten unter den Versuchsperson ist. Man hat sich daher für einen zweiten Versuch entschieden, welcher sich lediglich in der Länge der Disambiguierung unterscheidet. Dieser in Kapitel \ref{Verusch2} durchgeführte Versuch zeigt, dass bei einer Disambiguierung über mehrere Optionen die Strategie \texttt{Aggregierte Auswahl mit Pause} die beliebtere Strategie ist. Neben der Beliebtheit unter den Versuchspersonen wurden bei beiden Versuchen weitere Faktoren, wie Dialogzeit, erfolgreiches Abschließen des Dialoges (Task Completion) oder Unterschiede des Dialogverhaltens zwischen hoher und geringer kognitiver Belastung erforscht. Ein zusammenfassendes Ergebnis beider Versuche findet sich in Kapitel \ref{Ergebnisse}. Zum Schluss erfolgt eine Diskussion über die ermittelten Ergebnisse und schließlich das Schlusswort. 
+In dieser Arbeit konzentriert man sich allein auf die Sprachgenerierung. Ein komplexer Dialog zwischen System und Benutzer führt häufig dazu, dass der Benutzer eine Eingabe macht, die das System nicht eindeutig zuordnen kann und mehrere Optionen für die Ausführung der vom Benutzer geäußerten Eingabe bestehen. Es muss an dieser Stelle vom System eine Rückfrage beim Benutzer erfolgen, sodass dieser seine vorherige Eingabe eindeutig übermitteln kann. Wenn der Benutzer zum Beispiel den Wunsch äußert einen Kontakt aus dem im System gespeicherten Adressbuch anzurufen, es allerdings zwei Kontakte mit diesem Namen gibt, muss das System eine Rückfrage stellen, um zu ermitteln, welcher dieser beiden Kontakte gemeint ist. Der Dialog Designer spricht in diesem Fall von Disambiguierung.  Es wird in der vorliegenden Arbeit der Frage nachgegangen wie man konkret die Sprachausgabe einer solchen Disambiguierung innerhalb eines Dialogsystems, das speziell für das Auto konzipiert wurde, gestaltet. Dabei werden drei verschiedene Strategien in einem Wizard-of-Oz-Experiment auf Effizienz und Beliebtheit unter den Versuchspersonen getestet. Diese Strategien werden im Kapitel \ref{disambiguierungsstrategien} näher erläutert. Der Versuch in Kapitel \ref{versuch1} zeigt klar, dass bei einer Disambiguierung über wenige Optionen die Strategie \texttt{Aggregierte Auswahl ohne Pause} am beliebtesten unter den Versuchsperson ist. Man hat sich daher für einen zweiten Versuch entschieden, welcher sich lediglich in der Länge der Disambiguierung unterscheidet. Dieser in Kapitel \ref{Verusch2} durchgeführte Versuch zeigt, dass bei einer Disambiguierung über mehrere Optionen die Strategie \texttt{Sequentielle Auswahl} die beliebteste Strategie ist. Neben der Beliebtheit unter den Versuchspersonen wurden bei beiden Versuchen weitere Faktoren, wie Dialogzeit, erfolgreiches Abschließen des Dialoges (Task Completion) oder Unterschiede des Dialogverhaltens zwischen hoher und geringer kognitiver Belastung erforscht. Ein zusammenfassendes Ergebnis beider Versuche findet sich in Kapitel \ref{Ergebnisse}. Daran schließt sich eine Diskussion über die ermittelten Daten an, gefolgt von einem persönlichen Fazit. 
 
 \begin{comment}
 Bei Autofahrt effektive Sprachsteuerung wichtig \\
@@ -192,8 +192,8 @@ in-car tasks which may occur in human-human interactions. (Mishra et al. )\\
 \newpage
 \section{Related Work}
 
-Dialogsysteme, Disambiguierungsstrategien in Interaktionen sowie kognitive Belastung in Videospielen und Dialogsystemen werden in weiteren Forschungsgebieten erforscht. \\
-In einer früheren Studie (\cite{idsia}) wurde eine weitere Disambiguierungsstrategie für Dialogsysteme untersucht. Bei dieser vorgestellten Strategie werden zusätzliche Informationen zur Disambiguierung vom User erfragt. Angewendet auf den Anrufen Task in dieser Studie würde das System zum Beispiel nachfragen, wo denn Fritz wohnt, anstatt zu fragen, ob der User Fritz aus München oder Ingolstadt meint.
+Dialogsysteme, Disambiguierungsstrategien in Interaktionen sowie kognitive Belastung in Videospielen und Dialogsystemen werden in weiteren Arbeiten erforscht. \\
+In einer früheren Studie (\cite{idsia}) wurde eine weitere Disambiguierungsstrategie für Dialogsysteme untersucht. Bei dieser vorgestellten Strategie werden zusätzliche Informationen zur Disambiguierung vom User erfragt. Angewendet auf das Testszenario dieser Studie (siehe Kapitel \ref{testszenario1}) würde das System zum Beispiel nachfragen, wo denn Fritz wohnt, anstatt zu fragen, ob der User Fritz aus München oder Ingolstadt meint.
 In weiteren Studien wurde die kognitive Belastung während Videospielen (\cite{CLmmorpg}, \cite{eCLDS}) und während einer Systeminteraktion untersucht (\cite{DbCL}, \cite{eCLDS}). Dabei wurde festgestellt, dass eine kognitive Belastung das Dialogverhalten ändert. Die Ergebnisse zeigen, dass während einer hohen kognitiven Belastung längere Pausen zwischen zwei Sprachäußerungen eingelegt werden und die Anzahl der Sprachäußerungen  geringer ist im Vergleich zur Anzahl während einer niedrigen kognitiven Belastung. (\cite{DbCL}) Außerdem kam man zu dem Ergebnis, dass die Anzahl der Barge-ins während einer hohen kognitiven Belastung deutlich höher ist im Vergleich zu einer niedrigen Belastung. (\cite{eCLDS})
 In (\cite{eCLDS}) hat man weiter herausgefunden, dass Versuchspersonen unter kognitiver Belastung Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} über solchen Dialogabläufen bevorzugen, in denen das System den zu füllenden Slot als Antwort verlangt. Daher wird vermutet, dass die dritte Disambiguierungsstrategie bei Versuchspersonen mit hoher kognitiver Belastung am effizientesten ist.  In der erwähnten Studie fuhren die Versuchspersonen ebenfalls parallel zur Dialoginteraktion ein Rennspiel. Man hat dabei festgestellt, dass die Completion Rate des aufgestellten Task bei der alleinigen Interaktion mit dem Systems höher war als bei der Interaktion parallel zum Rennspiel. Desweiteren konnte man durch die Ergebnisse des NASA-TLX Testes sehen, dass die Versuchspersonen einen Unterschied der kognitiven Belastung zwischen dem alleinigen Fahren, der alleinigen Interaktion und des Fahrens während der Interaktion gemerkt haben. Ähnliche Ergebnisse werden für die vorliegende Studie erwartet.
 In einer weiteren Studie wurde erforscht, dass eine kognitive Belastung, die durch eine parallele Interaktion mit anderen Spielern in einem Computerspiel ausgelöst wird, die Performance im Spiel verschlechtert (\cite{CLmmorpg}). Die Kommunikation mit anderen Spielern im Computerspiel kann mit der Systeminteraktion aus dieser Studie verglichen werden, weshalb eine schlechtere Rennspielleistung während des Anrufen-Task im Vergleich zur Rennspielleistung ohne Systeminteraktion erwartet wird. In \cite{Wozhcd} konnte festgestellt werden, dass Benutzer, die sich mehr auf einen anderen Task als auf die Systeminteraktion konzentrieren, eher unflüssige und abgehackte Sprachausgaben produzieren. In einer zukünftigen Arbeit könnte überprüft werden, ob solche Sprachäußerungen die angewendeten Disambiguierungsstrategien in einem echten System negativ beeinflussen.
@@ -436,6 +436,7 @@ Diese Strategie ist wahrscheinlich besonders effizient, wenn der Benutzer einer 
 \label{versuch1}
 Um zu testen, welche Disambiguierungsstrategie bei Versuchspersonen unter kognitiver Belastung am effizientesten ist, wird ein Wizard-of-Oz Experiment durchgeführt. Hierbei werden die Probanden ein Rennspiel fahren und parallel ein Testszenario durchführen, in welchem Sie per Spracheingabe erfolgreich einen Anruf aufbauen sollen. Desweiteren werden die Versuchspersonen dieses Testszenario ohne Rennspiel durchgehen, um mögliche Unterschiede der Ergebnisse zwischen kognitiv belastender und nicht kognitiv belastender Versuchsperson zu analysieren. 
 \subsection{Testszenario}
+\label{testszenario1}
 Während der Systeminteraktion sollen die Versuchspersonen erfolgreich einen Anruf ausführen. Insgesamt sollen vier Personen angerufen werden, welche dem User über Personenprofile angezeigt werden.  Darin sieht die Versuchsperson welche Slots zu füllen sind. Abbildung \ref{anke} zeigt das Personenprofile von Anke aus welchem hervor geht, dass Anke auf der geschäftlichen Festnetznummer angerufen werden soll. 
 \begin{figure}[htbp]
 \begin{center}
@@ -575,7 +576,7 @@ Alter usw.\\
 \subsection{Auswertung}
 Um herauszufinden, welche Disambiguierungsstrategie am effizientesten ist, werden verschiedene Auswertungen vorgenommen. 
 Zunächst werden die Zeiten gemessen, die die Versuchsperson zum einen für das absolvieren der Strecke und zum anderen für das erfolgreiche abschließen des Testszenarios benötigt (Unterkapitel \ref{messwerte}).
-Nach jeder Rennrunde wird die Versuchsperson außerdem einen Fragebogen ausfüllen, welche sich  auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien bezieht (Unterkapitel \ref{fragebogen}). Desweiteren wird die Task Completion ausgewertet um zu erforschen, wie erfolgreich ein Dialog geführt wurde. Schließlich wird durch aufkommende sprachliche Phänomene einer Disambiguierungsstrategie untersucht, ob sich das Dialogverhalten bei kognitiver Belastung von dem Dialogverhalten ohne kognitive Belastung unterscheidet. 
+Nach jeder Rennrunde wird die Versuchsperson außerdem einen Fragebogen ausfüllen, welche sich  auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien bezieht (Unterkapitel \ref{fragebogen}). Desweiteren wird die Task Completion ausgewertet um zu erforschen, wie erfolgreich ein Dialog geführt wurde. Schließlich wird überprüft, wie die Versuchspersonen auf Rückfragen geantwortet haben und ob es dabei einen Unterschied zwischen hoch und niedrig belastenden Personen gibt. 
 \subsubsection{gemessene Zeiten}
 \label{messwerte}
 \paragraph{Rennzeiten} 
@@ -848,6 +849,47 @@ Insgesamt & & 1,78 & 1,83 \\
 
 Im Durchschnitt wurde in der Runde ohne Rennspiel eine höhere Task Completion erreicht. Das besagt, dass die Dialoge der vierten Runde am erfolgreichsten sind. Der Unterschied ist jedoch sehr gering, sodass man für ein eindeutiges Ergebnis mehr Ergebnisse zur Auswertung benötigt. Das Ergebnis zeigt weiter, dass die 2. Strategie insgesamt am erfolgreichsten ist. Die unerfolgreichste Strategie ist nach diesem Ergebnis die dritte Strategie. Dies passt zum Ergebnis, dass diese Strategie im 2. Teil des Fragebogen am schlechtesten gewertet wurde. Strategie 1, welche als beliebteste Strategie der Runde 1-3 ausgewählt wurde, liefert für diese Runden die gleiche Task Completion wie Strategie 2. Hier fehlen weitere Ergebnisse um eine konkrete Verbindung zwischen beliebteste Strategie und Strategie mit höchster Task Completion herzustellen. Dabei muss auch der Fall betrachtet werden, dass die Versuchsperson ihre Fehler möglicherweise gar nicht bemerken. Diese Verbindung könnte in einem umfangreichen Experiment in späteren Arbeiten überprüft werden. 
 Grundsätzlich kann man aus diesem Ergebnis sehen, dass insgesamt der Anruf am häufigsten korrekt mit Strategie 1 und am seltensten korrekt mit Strategie 3 ausgeführt werden konnte. 
+
+
+\subsubsection{Dialoverhalten}
+Für jede Strategie werden die Antworten der Versuchspersonen gesammelt. Dabei wurden folgenden Antworten pro Strategie gesammelt:
+\begin{longtable}{p{4cm}p{4cm}p{4cm}}
+	\label{Dialogverhalten11}\\
+	\caption[Antwortmöglichkeiten1]{Antwortmöglichkeiten1}\\
+	\hline
+\textbf{Antwort-möglichkeiten}&\textbf{Beispiel \newline Slotabfrage}&\textbf{Beispiel \newline Antwort}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwort-möglichkeiten}&\textbf{Beispiel \newline Slotabfrage}&\textbf{Beispiel \newline Antwort}\\
+	\hline
+	\endhead
+Slots  & Willst du Anke privat oder geschäftlich anrufen? & geschäftlich  \\
+Position & Willst du Anke 1. privat oder 2. geschäftlich anrufen? & zweitens  \\
+ja/nein & Willst du Anke privat anrufen? &  nein\\ 
+\hline
+\end{longtable}
+
+Die Häufigkeit dieser Antworten pro Stratgie aus Runde 1-3 sind in nachfolgender Tabelle aufgelistet.
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
+	\label{Dialogverhalten12}\\
+	\caption[Antwortenverteilung pro Strategie]{Antwortenverteilung pro Strategie}\\
+	\hline
+\textbf{Antwort-möglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwortmöglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\hline
+	\endhead
+Slots & 100\% & 70,8\%\ & 16,7\%  \\
+Position & 0\% & 29,2\% & 0\%  \\
+ja/nein & 0\% & 0\%  & 83,3 \%  \\
+\hline
+\end{longtable}
+
+Um zu erforschen, ob sich das Dialogverhalten in Runde 4 ändert, hat man pro Person die Antworten aus der Strategie der 4. Runde mit der entsprechenden Strategie aus den Runden davor verglichen. Die Ergebnisse zeigen, dass die Antwortmöglichkeit bei hoher Belastung die gleiche ist wie bei niedriger Belastung. Dadurch ist kein Unterschied im Dialogverhalten bei unterschiedlicher Belastung erkennbar ist. 
 
 \begin{comment}
 \subsection{Hypothesen}
@@ -1250,9 +1292,8 @@ Ein Überblick der Strecken- und Strategieverteilung pro Gruppe ist in Tabelle \
 \end{longtable}
 
 \subsection{Auswertung}
-
 Wie in Versuch 1 werden die Zeiten gemessen, die die Versuchsperson zum einen für das absolvieren der Strecke und zum anderen für das erfolgreiche Abschließen des Testszenarios benötigt (Unterkapitel \ref{messwerte}).
-Nach jeder Rennrunde wird die Versuchsperson ebenfalls einen Fragebogen ausfüllen, welcher sich auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien bezieht (Unterkapitel \ref{fragebogen}). 
+Nach jeder Rennrunde wird die Versuchsperson ebenfalls einen Fragebogen ausfüllen, welcher sich auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien bezieht (Unterkapitel \ref{fragebogen}). Ebenfalls wird die Task Comlpletion ausgewertet und das Dialogverhalten untersucht. 
 \subsubsection{gemessene Zeiten}
 \label{messwerte}
 \paragraph{Rennzeiten} 
@@ -1467,6 +1508,29 @@ Insgesamt & & 1,67 & 2 \\
 Hier zeigt sich klar, dass die Dialoge in Runde 4 ohne Fehler erfolgten und somit im Durchschnitt erfolgreicher waren als die Runden mit Rennspiel. Es fällt auf, dass die Strategie, die in diesem Versuch als am beliebtesten ausgewertet wurde am meisten Fehler aufweist. Dabei kommt erneut die Frage aus Versuch 1 auf, ob man hier eine Verbindung ziehen kann und ob die Versuchspersonen bemerkten, dass sie die Slots falsch gefüllt haben. 
 Grundsätzlich kann man aus diesem Ergebnis sehen, dass insgesamt der Anruf am häufigsten korrekt mit Strategie 1 und am seltensten korrekt mit Strategie 2 ausgeführt werden konnte. 
 
+\subsubsection{Dialoverhalten}
+In diesem Versuch wurden mit den selben Antwortmöglichkeiten geantwortet wie in Versuch 1 (siehe Tabelle \ref{Dialogverhalten11}.
+
+Die Häufigkeit dieser Antworten pro Stratgie aus Runde 1-3 sind in nachfolgender Tabelle aufgelistet.
+
+\begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
+	\label{Dialogverhalten12}\\
+	\caption[Antwortenverteilung pro Strategie]{Antwortenverteilung pro Strategie}\\
+	\hline
+\textbf{Antwort-möglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Antwortmöglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+	\hline
+	\endhead
+Slots & 100\% & 62,5\%\ & 0\%  \\
+Position & 0\% & 37,5\% & 0\%  \\
+ja/nein & 0\% & 0\%  & 100 \%  \\
+\hline
+\end{longtable}
+Diese Ergebnisse sind mit denen aus Versuch 1 zu vergleichen. 
+Außerdem stimmen hier ebenfalls die Antwortmöglichkeiten bei hoher Belastung mit denen bei niedrigen Belastung überein, weshalb kein Unterschied im Dialogverhalten bei unterschiedlicher Belastung erkennbar ist. 
 
 
 \subsection{Control Panel}
@@ -1736,8 +1800,6 @@ wie kann man auswerten?
 \end{itemize}
 \end{itemize}
 \end{comment}
-
-
 
 \subsection{Qualitätssicherung}
 
