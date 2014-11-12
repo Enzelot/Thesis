@@ -94,7 +94,7 @@ vorgelegt von\\
 
 
 \normalsize
-Saarbrücken,
+Bachem,
 \today
 
 \end{center}
@@ -119,9 +119,11 @@ Meine Bachelorarbeit entstand im Zeitraum vom Juli 2014 bis Oktober 2014 bei Sem
 \addcontentsline{toc}{section}{Tabellenverzeichnis}
 \listoftables
 \cleardoublepage
+\begin{comment}
 \markboth{Abkürzungsverzeichnis}{Abkürzungsverzeichnis}
 \addcontentsline{toc}{section}{Abkürzungsverzeichnis}
 \section*{Abkürzungsverzeichnis}  
+\end{comment}
 
 \cleardoublepage
 
@@ -136,7 +138,7 @@ Die vorliegende Arbeit beschäftigt sich mit der Frage, welche Disambiguierungss
 \newpage
 \section{Einleitung}
 
-Dialogsysteme für das Auto müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und ihm so gut wie möglich assistieren. Die Herausforderung für einen Dialog Designer besteht daher darin, Sprachäußerungen so raffiniert zu gestalten, dass dem Benutzer zum Einen alle relevanten Informationen in verständlicher Weise geliefert werden und zum Anderen, dass der Benutzer darauf möglichst einfach antworten und seine Anfragen und Wünsche effizient übermitteln kann. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponenten ab, welche anhand der in Abbildung \ref{odps3} dargestellten Funktionsweise der ODP S3 Plattform der SemVox GmbH\footnote{\label{foot:odps3}\url{http://semvox.de}} kurz erläutert werden. Die ODP S3 Plattform ermöglichst die Umsetzung komplexer Sprachdialoge.  
+Dialogsysteme für das Auto müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und ihm so gut wie möglich assistieren. Die Herausforderung für einen Dialog Designer besteht daher darin, Sprachäußerungen so raffiniert zu gestalten, dass dem Benutzer zum Einen alle relevanten Informationen in verständlicher Weise geliefert werden und zum Anderen, dass der Benutzer darauf möglichst einfach antworten und seine Anfragen und Wünsche effizient übermitteln kann. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponenten ab, welche anhand der in Abbildung \ref{odps3} dargestellten Funktionsweise der ODP S3 Plattform der SemVox GmbH\footnote{\label{foot:odps3}\url{http://www.semvox.de/de/technologie/odp-s3.html}} kurz erläutert werden. Die ODP S3 Plattform ermöglichst die Umsetzung komplexer Sprachdialoge.  
 Zunächst müssen die Spracheingaben des Benutzers zu semantischen Objekten verarbeitet werden. Dabei wird zunächst die Spracheingabe auf eine Grammatik abgeglichen, welche alle möglichen Spracheingaben des Benutzers abfängt und semantischen Objekten zuweist. Diese werden dann von einem Backend-Server verarbeitet, woraufhin eine passende Sprachausgabe ausgelöst wird. 
 \begin{figure}[htbp]
 \begin{center}
@@ -441,7 +443,7 @@ Während der Systeminteraktion sollen die Versuchspersonen erfolgreich einen Anr
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=12cm]{Anke.pdf}
-\caption{Personenprofil: Anke}
+\caption{Personenprofil: Anke im 1. Versuch}
 \label{anke}
 \end{center}
 \end{figure}
@@ -517,16 +519,6 @@ Während des Versuchs wird die Versuchsperson, das Rennspiel und die Dialoginter
 Die Versuchspersonen fahren in den Runden 2-4 jeweils eine Strecke mit unterschiedlicher Disambiguierungsstrategie. Insgesamt werden diese auf drei unterschiedliche Strecken verteilt. Man hat sich für drei unterschiedliche Strecken entschieden, da man einen Lerneffekt bei einer gleichbleibenden Strecke ausschließen wollte. Parallel  werden die Zeiten gemessen, die eine Versuchsperson für die Absolvierung einer Strecke bei der Interaktion mit einer bestimmten Disambiguierungsstrategie benötigt (siehe Unterkapitel \ref{messwerte}). Da man diese Zeiten miteinander vergleichen möchte, müssen die Disambiguierungsstrategien geschickt auf die Strecken verteilt werden, da die Strecke unterschiedlich lang sind und daher keine aussagekräftigen Vergleiche untereinander bieten. Um diesen Konflikt zu lösen, werden die Versuchspersonen in drei Gruppen aufgeteilt, sodass jede Gruppe jede Strecke mit einer unterschiedlichen Disambiguierungsstrategie fährt. Schließlich kann man so für jede Strecke die Zeiten für unterschiedliche Strategien sammeln und vergleichen, mit welcher Strategie eine bestimmte Strecke am schnellsten gefahren wurde (siehe Kapitel \ref{messwerte} Auswertung). \\
 In der letzten Runde soll nur das Testszenario ohne Rennspiel durchgeführt werden. Hierfür gibt es Gruppe 4, welche aus allen Versuchsteilnehmern besteht. Diese wird jedoch nochmal in drei Zwischengruppen aufgeteilt, sodass ein drittel der Versuchspersonen in der vierten Runde das Testszenario in Strategie 1, ein drittel in Strategie 2 und das letzte drittel in Strategie 3 durchführen. Ein Überblick der Strecken- und Strategieverteilung pro Gruppe ist in Tabelle \ref{ablauf} aufgelistet. 
 
-\subsection{Control Panel}
-Um ein laufendes System zu simulieren wurde ein Control Panel entwickelt, welches verschiedene Sprachausgaben per Mausklick triggert. Damit kann der Versuchsleiter, der Wizard, die passenden Sprachausgaben auf entsprechende Benutzereingaben auslösen. Neben Ausgaben für die einzelnen Disambiguierungsstrategien sind weitere Sprachausgaben abgedeckt, welche oberflächlich zu jeder Eingabe des Benutzers eine Antwort bereit stellen und somit einen ungehinderten Ablauf des Dialogs gewährleisten. Zusätzlich dazu ist ein Stoppbutton enthalten, mit welchem per Klick alle aktiven Sprachausgaben abgebrochen werden können. 
-Das Control Panel wurde mit JavaFx\footnote{\label{foot:javafx}\url{http://docs.oracle.com/javase/8/javase-clienttechnologies.htm}} entwickelt. Mit Hilfe des Programms JavaFX Scene Builder\footnote{\label{foot:fxsb}\url{http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html}} wurde zunächst das Design entwickelt und in einer .fxml Datei gespeichert. Diese wurde anschließend in Eclipse unter Installation des Plugins E(fx)clipse geladen und die Funktionen für die Sprachausgaben und des Stopp-Buttons implementiert. Die Sprachausgaben wurden online auf der Webseite \url{http://www.fromtexttospeech.com/} als .mp3 Datei generiert und anschließend zu .wav Dateien konvertiert. 
-Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt es ein extra Tab mit speziellen Sprachausgaben. Die gemeinsamen Sprachausgaben wie \texttt{Cancel} und der Stoppbutton sind in jedem Personentab extra enthalten, damit eine schnelle Reaktion des Versuchsleiters möglich ist. Das Commonstab enthält die Begrüßungsausgabe. Zur Orientierung ist nach jedem speziellen Button die ausgelöste Sprachausgabe zu sehen. 
-\begin{figure}[htbp]
-\includegraphics{controlpanel.png}
-\caption{Controlpanel}
-\label{cp1}
-\end{figure}
-
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{ablauf}\\
 	\caption[Strecken- und Strategieverteilung]{Strecken- und Strategieverteilung}\\
@@ -566,6 +558,16 @@ keine Strecke & Kim\\
 
 \hline
 \end{longtable}
+
+\subsection{Control Panel}
+Um ein laufendes System zu simulieren wurde ein Control Panel entwickelt, welches verschiedene Sprachausgaben per Mausklick triggert. Damit kann der Versuchsleiter, der Wizard, die passenden Sprachausgaben auf entsprechende Benutzereingaben auslösen. Neben Ausgaben für die einzelnen Disambiguierungsstrategien sind weitere Sprachausgaben abgedeckt, welche oberflächlich zu jeder Eingabe des Benutzers eine Antwort bereit stellen und somit einen ungehinderten Ablauf des Dialogs gewährleisten. Zusätzlich dazu ist ein Stoppbutton enthalten, mit welchem per Klick alle aktiven Sprachausgaben abgebrochen werden können. 
+Das Control Panel wurde mit JavaFx\footnote{\label{foot:javafx}\url{http://docs.oracle.com/javase/8/javase-clienttechnologies.htm}} entwickelt. Mit Hilfe des Programms JavaFX Scene Builder\footnote{\label{foot:fxsb}\url{http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html}} wurde zunächst das Design entwickelt und in einer .fxml Datei gespeichert. Diese wurde anschließend in Eclipse unter Installation des Plugins E(fx)clipse geladen und die Funktionen für die Sprachausgaben und des Stopp-Buttons implementiert. Die Sprachausgaben wurden online auf der Webseite \url{http://www.fromtexttospeech.com/} als .mp3 Datei generiert und anschließend zu .wav Dateien konvertiert. 
+Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt es ein extra Tab mit speziellen Sprachausgaben. Die gemeinsamen Sprachausgaben wie \texttt{Cancel} und der Stoppbutton sind in jedem Personentab extra enthalten, damit eine schnelle Reaktion des Versuchsleiters möglich ist. Das Commonstab enthält die Begrüßungsausgabe. Zur Orientierung ist nach jedem speziellen Button die ausgelöste Sprachausgabe zu sehen. 
+\begin{figure}[htbp]
+\includegraphics{controlpanel.png}
+\caption{Controlpanel}
+\label{cp1}
+\end{figure}
 
 \subsection{Versuchspersonen}
 Es wurden 12 Versuchspersonen getestet. Davon waren sieben in der Altersgruppe 18-29, zwei in der Altersgruppe 30-41 und drei in der Altergruppe 42-53. Alle Veruschpersonen waren deutsche Muttersprachler. Unter diesen Personen haben zwei Erfahrung mit Dialogsystemen, zwei spielen öfter Rennspiele und fünf fiel die Einführungsrunde einfach. Zu Beginn wurden die Versuchspersonen in eine Gruppe aufgeteilt, durch die bestimmt wird, welche Strategie auf welcher Strecke gefahren wird (siehe Tabelle \ref{ablauf}.
@@ -690,7 +692,7 @@ ohne Strecke &  14,9 sek & 18,8 sek & 17,59 sek \\
 Die Unterschiede aus Strategie 1 sind statistisch signifikant gegenüber den Unterschieden aus Strategie 2 und 3. Die Unterschiede aus Strategie 2 und 3 sind zueinander jedoch nicht signifikant. Das Ergebnis zeigt, dass die Strategie 1 den kürzesten Dialog sowohl mit Rennspiel, als auch ohne Rennspiel ermöglicht. Die letzten beiden Zeilen der Tabelle zeigen, dass die Versuchspersonen einen deutlich kürzeren Dialog in jeder Strategie ohne Rennspiel ablegen. Die Ergebnisse aus dem Unterkapitel \ref{Dialogverhalten1} lassen ausschließen, dass die Unterschiede aufgrund eines unterschiedlichen Dialogverhaltens zu erklären sind. Dies lässt vermuten, dass die Reaktionszeiten bei geringer Belastung kleiner sind als bei hoher Belastung und die zeitlichen Unterschiede dadurch zu Stande kommen. 
 \subsubsection{Fragebogen}
 \label{fragebogen}
-Neben den Zeiten wird nach jeder Runde ein Fragebogen ausgefüllt. Dieser besteht im ersten Teil aus einem Ausschnitt des NASA-TLX Testes zur subjektiven Einschätzung der empfundenen kognitiven Belastung. Im zweiten Teil werden Fragen über die zuletzt getestete Strategie gestellt und es wird die Möglichkeit gegeben positives oder negatives Feedback über den Dialog der letzten Runde zu geben. Zu Beginn des Versuchs wird ein allgemeiner Fragebogen ausgefüllt, der Informationen zur Versuchsperson liefert. 
+Neben den Zeiten wird nach jeder Runde ein Fragebogen ausgefüllt. Dieser besteht im ersten Teil aus einem Ausschnitt des NASA-TLX Testes zur subjektiven Einschätzung der empfundenen kognitiven Belastung\footnote{\label{foot:nasatlx1}\url{http://www.keithv.com/software/nasatlx/nasatlx_german.html}} . Im zweiten Teil werden Fragen über die zuletzt getestete Strategie gestellt und es wird die Möglichkeit gegeben positives oder negatives Feedback über den Dialog der letzten Runde zu geben. Zu Beginn des Versuchs wird ein allgemeiner Fragebogen ausgefüllt, der Informationen zur Versuchsperson liefert. 
 \paragraph{Nasa-TLX}
 ~\\
 Abbildung \ref{fbnasatlx} zeigt den Nasa-TLX Teil des ersten Fragebogens. 
@@ -1244,10 +1246,18 @@ Typ(4) & geschäftliche Mobilnummer, geschäftliche Festnetznummer, private Mobi
 Firma(6) & Kohlpharma, Möbel Martin, Globus, Sparkasse, Carglass oder Post\\
 Nachname(6) & Meier, Bies, Schmidt, Bauer, Schuhmacher oder Schiller \\
 Stadt(6) & Saarbrücken, Frankfurt, Köln, Berlin, Ingolstadt oder München\\
-
-
 \hline
 \end{longtable}
+
+Die Personenprofile wurden auf die geänderten Slots angepasst. Abbildung \ref{anke2} zeigt das neue Profil von Anke. 
+
+\begin{figure}[htbp]
+\begin{center}
+\includegraphics[width=12cm]{Anke2.pdf}
+\caption{Personenprofil: Anke im 2. Versuch}
+\label{anke2}
+\end{center}
+\end{figure}
 
 
 \begin{longtable}{p{3,2cm}p{3,2cm}p{3,2cm}p{3,2cm}}
@@ -1313,11 +1323,11 @@ Ein Überblick der Strecken- und Strategieverteilung pro Gruppe ist in Tabelle \
 \end{longtable}
 
 \subsection{Control Panel}
-Das Control Panel aus Versuch 1 wurde mit anderen Sprachausgaben ausgestattet und es wurden weitere Buttons für Strategie 3 hinzugefügt. 
+Das Control Panel aus Versuch 1 wurde mit anderen Sprachausgaben ausgestattet und es wurden weitere Buttons für Strategie 3 hinzugefügt. (Abbildung \ref{cp2})
 \begin{figure}[htbp]
-\includegraphics{controlpanel.png}
-\caption{Controlpanel}
-\label{cp1}
+\includegraphics{controlpanel2.png}
+\caption{Controlpanel 2. Versuch}
+\label{cp2}
 \end{figure}
 
 
@@ -1342,6 +1352,7 @@ Wie in Versuch 1 sollten die Versuchspersonen ihre Eingabe deutlich über ein Ti
 
 
 \subsection{Auswertung}
+\label{auswertung2}
 Wie in Versuch 1 werden die Zeiten gemessen, die die Versuchsperson zum einen für das absolvieren der Strecke und zum anderen für das erfolgreiche Abschließen des Testszenarios benötigt (Unterkapitel \ref{messwerte}).
 Nach jeder Rennrunde wird die Versuchsperson ebenfalls einen Fragebogen ausfüllen, welcher sich auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien bezieht (Unterkapitel \ref{fragebogen}). Ebenfalls wird die Task Comlpletion ausgewertet und das Dialogverhalten untersucht. 
 \subsubsection{gemessene Zeiten}
@@ -1473,7 +1484,8 @@ Die nachfolgender Tabelle zeigt die Ergebnisse jeder Frage pro Strategie.
 \hline
 \end{longtable}
 
-Auch in diesem Versuch sind die Antworten der einzelnen Strategien nicht signifikant und es ist kein eindeutiges Muster zu erkennen, welche Strategie am unbelastendsten ist. Beim Vergleich der Antworten von Runde 1-3 mit Runde 4 wird jedoch deutlich, dass bei allen Fragen die Runde mit Rennspiel als belastender gewertet wurde als die Runde ohne Rennspiel. Dieses Ergebnis bestätigt dass Ergebnis aus Versuch 1 und bestärkt die Aussage, dass hier ein Unterschied in der Belastung empfunden worder ist.  
+Auch in diesem Versuch sind die Antworten der einzelnen Strategien nicht signifikant und es ist kein eindeutiges Muster zu erkennen, welche Strategie am unbelastendsten ist. 
+Beim Vergleich der Antworten von Runde 1-3 mit Runde 4 wird jedoch deutlich, dass bei allen Fragen die Runde mit Rennspiel als belastender gewertet wurde als die Runde ohne Rennspiel. Dieses Ergebnis bestätigt dass Ergebnis aus Versuch 1 und bestärkt die Aussage, dass hier ein Unterschied in der Belastung empfunden worder ist.  
 
 \paragraph{Strategien}
 ~\\
@@ -1525,7 +1537,9 @@ Auch in diesem Versuch sind die Antworten der einzelnen Strategien nicht signifi
 \hline
 \end{longtable}
 
-Im Gegensatz zum ersten Verusch kann man durch die ersten vier Fragen keine Strategie erkennen, die eindeutig am besten bewertet wurde. Die vierte Frage, welche den Dialog insgesamt bewertet lies, stimmt jedoch mit dem Ergebnis der letzten Frage überein. Der Dialog mit Strategie 3 wurde in Frage vier am besten bewertet und auch am häufigsten als Favorit in der letzten Frage gewählt. Parallel gilt dies für Strategie 1, welche am schlechtesten bewertet wurde und auch am seltensten bei der letzten Frage gewählt wurde. Die vorletzte Frage zeigt auch in diesem Versuch, dass es leichter fiel, den Dialog ohne Rennspiel zu führen und bestätigt damit das Ergebnis des Nasa-TLX-Tests.
+Im Gegensatz zum ersten Verusch kann keine Strategie erkannt werden, die eindeutig am besten bewertet wurde. Bei den ersten drei Fragen wurde Strategie 2 am besten bewertet. Die Meinung der Versuchspersonen aus Frage 4 zeigt allerdings, dass ihnen Strategie 3 am besten gefiel, was durch das Ergebnis der letzen Frage bestätigt wird. Parallel gilt dies für Strategie 1, welche am wenigsten gut gefiel und auch am seltensten bei der letzten Frage gewählt wurde. \\
+
+Die vorletzte Frage zeigt, dass es leichter fiel, den Dialog ohne Rennspiel zu führen und bestätigt damit auch hier das Ergebnis des Nasa-TLX-Tests.
 
 \subsubsection{Task Completion}
 Für jede Strategie wird ebenfalls die Task Completion ausgewertet, welche besagt, mit welchem Erfolg der Anruf ausgeführt wurde. Folgenden Punktzahlen sind für jede Strategie möglich:
@@ -1586,11 +1600,11 @@ Außerdem stimmen hier ebenfalls die Antwortmöglichkeiten bei hoher Belastung m
 
 
 \subsection{Resultat}
-Aus den Resultaten aus Kapitel \ref{auswertung1} wird die effizienteste Strategie ermittelt. \newline
+Aus den Resultaten aus Kapitel \ref{auswertung2} wird die effizienteste Strategie ermittelt. \newline
 
-Durch die Dialogzeiten wird klar, dass Strategie 1 sowohl in den Runde mit als auch ohne Rennspiel den kürzesten Dialog ermöglicht. Aus den Antworten des Nasa-TLX Teil des Fragebogens wird deutlich, dass Strategie 1 von den Benutzern am wenigsten belastend gewertet wurde.  In allen Fragen des zweiten Teil des Fragebogens wurde ebenfalls Strategie 1 am besten bewertet und durch die letzten Frage deutlich als beliebteste Strategie gewertet. Laut Task Completion ist Strategie 2 auf allen Runden am erfolgreichsten, Strategie 1 und 2 in den Runden mit Rennstrecke jedoch gleich gut.
-Durch diese Erkenntnisse kommt man klar zu dem Entschluss, das Strategie 1 eindeutig die beliebteste und effizienteste Strategie ist. \newline \newline
-Da dieses Resultat bereits nach wenigen Versuchspersonen zu erwarten war und die Frage aufkam, ob die erste Strategie auch bei einer längeren Disambiguierung am geeignetsten ist, hat man den Versuch bereits nach 12 Versuchspersonen abgebrochen und einen zweiten Versuch gestartet. Der zweite Versuch ist identisch mit dem ersten Versuch, unterscheidet sich jedoch in der Anzahl der in der Disambiguierung vorgeschlagenen Slotfüller.
+Durch die Dialogzeiten wird klar, dass Strategie 1 sowohl in den Runden mit, sowie ohne Rennspiel den kürzesten Dialog ermöglicht. Aus den Ergebnissen des Nasa-TLX Teil des Fragebogens und den Rennzeiten kann keinen Rückschluss auf die effizienteste Strategie gezogen werden. Der zweite Teil des Fragebogens zeigt, dass Strategie 2 weniger ablenkt, einfacher aufzubauen ist und man den Zeitpunkt der Spracheingaben einfacher erkennt. Strategie 3 gefiel den Versuchspersonen allerdings am besten. Die Task Completion zeigt jedoch, dass Strategie 3 insgesamt am schlechtesten und Stratgie 1 am besten abschnitt. \newline
+Durch dieses Ergebnis wird Strategie 1 aufgrund der kürzesten Dialogzeit und der besten Task Completion als effizienteste Stratgie gewertet wird. Strategie 3 ist jedoch eindeutig die beliebteste. 
+
 \begin{comment}
 \subsubsection{Zeiten}
 \paragraph{Rennzeiten}
@@ -1805,14 +1819,22 @@ wie kann man auswerten?
 \section{Ergebnisse}
 \label{Ergebnisse}
 
-\subsection{Rennzeiten}
-\subsection{Dialogzeiten}
-\subsection{Fragebogen}
-\subsection{Task Completion}
-\subsection{Dialogverhalten}
+Die Ergebnisse der beiden Versuche zeigen, dass die Disambiguierungslänge bei der Bewertung der Strategien eine Rolle spielt. Bei der Formulierung einer Disambiguierung im Dialogsystem für das Auto, sollte der Dialogdesigner die Anzahl der möglichen Slotfüller beachten. Der erste Versuch zeigt deutlich, dass bei einer Disambiguierung über wenige Slotfüller eine Rückfrage in Stratgie 1 am geeignetsten ist. Je nach dem ob auf Effizienz oder Beliebtheit unter den Benutzern wert gelegt wird, sollte sich bei längere Disambiguierung für Strategie 1 oder Strategie 3 entschieden werden. 
+
 
 \section{Diskussion}
 \label{discussion}
+In dieser Arbeit wurden zwei Vesuche durchgeführt um drei Strategien auf Effizienz und Beliebtheit in einem Dialogsystem, das speziell für das Auto erstellt wird, zu testen. Um eine möglichst realistiche Fahrsimulation zu erreichen, spielten die Versuchspersonen parellel zum Testszenario in jeder Strategie ein Rennspiel und füllten anschließend einen Fragebogen aus, der sich auf die subjektiv wahrgenommene kognitive Belastung und einer Bewertung der aktuellen Strategie bezog.
+Die Ergebnisse zeigen, dass sich bei einer Disambiguierung mit wenigern Slotfüllern die Strategie \texttt{Aggregierte Auswahl ohne Pause} besonders eignet. Besteht die Disambiguierung aus mehreren Slotfüllern zeigte sich die Strategie \texttt{Aggregierte Auswahl ohne Pause} als effizient und die Strategie \texttt{Sequentielle Auswahl} als beliebt unter den Benutzern. \newline \newline
+In einer vierten Runde wurde das Testszenario in einer zufällig gewählten Strategie ohne Rennspiel gefahren. Es zeigte sich, dass die Versuchperson in dieser Runde eine geringe kognitive Belastung empfunden haben, sodass gesagt werden kann, dass das Rennspiel kognitiv belastend wirkte. Da die Dialogzeiten in der vierten Runde am kürzesten sind kommt man hier zu dem Entschluss, dass die Reaktionszeit bei geringer kognitiver Belastung entsprechend kleiner ist als bei kognitv belastenden Personen. Ein ähnliches Verhalten konnte in \cite{DbCL} festgestellt werden. In \cite{eCLDS} hat man herausgefunden, dass die Anzahl der Barge-Ins bei großer Belastung höher ist. Ein Unterschied im Dialogverhalten konnte in diesem Experiment nicht erkannt werden. Eine Erklärung hierfür ist, dass die Versuchspersonen die Möglichkeit zum Barge-In nicht erkannten. In \cite{eCLDS} wurde weiter erforscht, dass Dialogabläufe mit einfach Spracheingaben wie \texttt{ja} oder \texttt{nein} bevorzugt werden. Dies wurde durch das Ergebis von Versuch 2 bestätigt. Dies lässt außerdem vermuten, dass die Versuchspersonen in Versuch 1 weniger belastend waren als die Versuchspersonen in Versuch 2. Die Ergebnisse des Nasa-TLX Teil des Fragebogen zeigen, dass die eingeschätzte Belastung für Versuch 2 in vier von sechs Fragen im Durchschnitt ( \texttt{Geistige Anforderung}, \texttt{Zeitliche Anforderung}, \texttt{Anstrengung} und \texttt{Frustration}) höher gewertet wurde. Dadurch wurde diese Vermutung bestärkt. \newline \newline
+Die Task Completion beider Versuche zeigt, dass die Systeminteraktion ohne Rennspiel erfolgreicher ablief als die Systeminteraktion mit Rennspiel. Gleiche Ergebnisse wurden in \cite{eCLDS} festgestellt. Im ersten Versuch ist die Strategie \texttt{Aggregierte Auswahl mit Pause} am erfolgreichsten und im zweiten Versuch die Strategie \texttt{Aggregierte Auswahl ohne Pause}. An dieser Stelle stellt sich die Frage, ob die Task Completion in einer echten Systeminteraktion bei ähnlichem Testszenario genauso ausfällt. Die Task Completion kommt in diesr Studie dadurch zustande, in dem die richtig gefüllten Slots gewertet werden. Welche Slots gefüllt werden sollen, wird den Benutzern über ein Personenprofil angezeigt. In einer realen Situation entscheiden die Benutzer selbst, welche Slots gefüllt werden, was vermutlich zu einer geringeren Fehlerquote führt. Die Erkenntnis, dass im zweiten Versuch die Strategie \texttt{Sequentielle Auswahl} die meisten Fehler aufwies und parallel als beliebteste Strategie bewertet wurde, bestärkt diesen Verdacht. 
+\newline
+\newline
+Diese Studie fokusiert sich auf die geeignetste Disambiguierungsstrategie unter kognitiver Belastung. Dabei wurde die beliebteste Strategie bei keiner bzw. geringer kognitiver Belastung vernachlässig. In einer zukünftigen Arbeit könnte man den Fokus umkehren und mehr Ergebnisse für das Testszenario ohne Rennspiel sammeln. 
+Desweiten steht die Frage offen, ob ein Rennspiel eine reale Autofahrt simulieren kann. Die Rennzeiten konnten in diesem Experiment keinen Aufschluss darauf geben, welche Strategie am wenigestens bzw. am meisten ablenkt. Dies könnte daran liegen, dass die Rennstrecken zu lang gewählt wurden. In einem zukünftigen Experiment könnte überprüft werden, ob das Experiment in einer realen Autofahrt ähnliche Resultate bringt und ob das Rennspiel eine Autofahrt annähernd simulieren kann.
+\begin{comment}
+Rennspiel Autosimulation? --> Richtige Autofahrt. --> FW\\
+
 was habe ich gemacht\\
 wie waren die überlegungen\\
 warum wurden welche Entscheidungen getroffen\\
@@ -1830,9 +1852,8 @@ VP in Gruppen mit unterschiedlichen DisStrat aufteilen\\
 andere DisSrat.\\
 Unterschiede VP versch. Alters\\
 
-
 \section{Schlusswort}
-
+\end{comment}
 
 
 
@@ -1871,5 +1892,49 @@ Seoul, South Korea, (July 2012).
 
 \end{thebibliography}
 
+
+\begin{appendix}
+\pagenumbering{roman}
+
+\section{Anhang}
+
+\end{appendix}
+\cleardoublepage
+
+\section*{Danksagung}
+An dieser Stelle möchte ich mich bei allen bedanken, die mich während der Anfertigung dieser Bachelorarbeit fachlich und persönlich unterstürzt haben.\\
+
+
+
+Ich möchte mich zunächst bei Herrn Prof. Dietrich Klakow für die Überlassung des interessanten Themas bedanken.\\
+\\
+Mein Dank gilt ganz besonders der Semvox GmbH und ihren Mitarbeitern, ohne die diese Arbeit nicht möglich gewesen wäre. Insbesondere danke ich Pia Kuznik, Dr.-Ing. Markus Löckelt und Jan Schehl für die Bereitstellung dieses interessanten Themas, die ständig freundliche Hilfsbereitschaft und für all die nützlichen Tipps zur Anfertigung dieser Arbeit. 
+Pia Kuznik möchte ich außerdem ganz herzlich für die nette und engagierte Betreuung meiner Bachelorarbeit bedanken.\\
+\\
+Ein ganz besonderer Dank gilt allen Personen, die sich mir als Versuchsperson und Korrekturleser zur Verfügung
+gestellt haben.\\
+\\
+Ganz besonders möchte ich mich bei Christine Braun bedanken, die mir durch kritisches Hinterfragen und konstruktive Kritik immer wieder wertvolle Hinweise gab. Weiter möchte ich mich für die nützlichen Tipps zur Gestaltung meiner Arbeit bedanken.\\
+\\
+Bei Tobias Aggintus möchte ich mich herzlich für die stetige Aufmunterung, alltägliche Unterstützung, 
+und Hilfe während der gesamten Studienzeit bedanken. \\
+\\
+Mein ganz besonderer Dank gilt abschließend meiner Familie, insbesondere meiner Mutter, meiner Schwester, Vitter und Katja für die moralische Unterstützung während meines gesamten Studiums. \\
+\cfoot{}
+%\markboth{Danksagung}{Danksagung}
+\cleardoublepage
+
+\section*{Eidesstattliche Erklärung}
+
+\cfoot{}
+\markboth{Eidesstattliche Erklärung}{Eidesstattliche Erklärung}
+Ich versichere, die Bachelorarbeit selbstständig und lediglich unter Benutzung der angegebenen Quellen und Hilfsmittel verfasst zu haben.
+\newline
+\newline
+Ich erkläre weiterhin, dass die vorliegende Arbeit noch nicht im Rahmen eines anderen Prüfungsverfahrens eingereicht wurde.
+\newline
+\newline
+
+Bachem, \today
 
 \end{document}
