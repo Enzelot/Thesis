@@ -3,46 +3,45 @@
 \contentsline {section}{Tabellenverzeichnis}{VI}{section*.2}
 \contentsline {section}{\numberline {1}Einleitung}{2}{section.1}
 \contentsline {section}{\numberline {2}Related Work}{5}{section.2}
-\contentsline {section}{\numberline {3}Cognitive Load}{6}{section.3}
-\contentsline {section}{\numberline {4}Disambiguierungsstrategien}{7}{section.4}
-\contentsline {subsection}{\numberline {4.1}Disambiguierung}{7}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Disambiguierung in der Sprachverarbeitung}{7}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}1. Strategie: Aggregierte Auswahl ohne Pause}{8}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}2. Strategie: Aggregierte Auswahl mit Pause}{9}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}3. Strategie: Sequentielle Auswahl}{10}{subsection.4.5}
-\contentsline {section}{\numberline {5}Versuch 1}{11}{section.5}
-\contentsline {subsection}{\numberline {5.1}Testszenario}{11}{subsection.5.1}
-\contentsline {subsection}{\numberline {5.2}Versuchsaufbau}{13}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Versuchsdesign}{14}{subsection.5.3}
-\contentsline {subsection}{\numberline {5.4}Control Panel}{16}{subsection.5.4}
-\contentsline {subsection}{\numberline {5.5}Versuchspersonen}{18}{subsection.5.5}
-\contentsline {subsection}{\numberline {5.6}Auswertung}{19}{subsection.5.6}
-\contentsline {subsubsection}{\numberline {5.6.1}gemessene Zeiten}{19}{subsubsection.5.6.1}
+\contentsline {section}{\numberline {3}Disambiguierungsstrategien}{6}{section.3}
+\contentsline {subsection}{\numberline {3.1}Disambiguierung}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Disambiguierung in der Sprachverarbeitung}{7}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}1. Strategie: Aggregierte Auswahl ohne Pause}{8}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.4}2. Strategie: Aggregierte Auswahl mit Pause}{8}{subsection.3.4}
+\contentsline {subsection}{\numberline {3.5}3. Strategie: Sequentielle Auswahl}{10}{subsection.3.5}
+\contentsline {section}{\numberline {4}Versuch 1}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Testszenario}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Versuchsaufbau}{13}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Versuchsdesign}{14}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Control Panel}{16}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}Versuchspersonen}{17}{subsection.4.5}
+\contentsline {subsection}{\numberline {4.6}Auswertung}{19}{subsection.4.6}
+\contentsline {subsubsection}{\numberline {4.6.1}gemessene Zeiten}{19}{subsubsection.4.6.1}
 \contentsline {paragraph}{\nonumberline Rennzeiten}{19}{section*.5}
 \contentsline {paragraph}{\nonumberline Dialogzeiten}{21}{section*.6}
-\contentsline {subsubsection}{\numberline {5.6.2}Fragebogen}{22}{subsubsection.5.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2}Fragebogen}{22}{subsubsection.4.6.2}
 \contentsline {paragraph}{\nonumberline Nasa-TLX}{23}{section*.7}
 \contentsline {paragraph}{\nonumberline Strategien}{26}{section*.8}
 \contentsline {paragraph}{\nonumberline Person}{27}{section*.9}
-\contentsline {subsubsection}{\numberline {5.6.3}Task Completion}{30}{subsubsection.5.6.3}
-\contentsline {subsubsection}{\numberline {5.6.4}Dialoverhalten}{31}{subsubsection.5.6.4}
-\contentsline {subsection}{\numberline {5.7}Resultat}{33}{subsection.5.7}
-\contentsline {section}{\numberline {6}Versuch 2}{33}{section.6}
-\contentsline {subsection}{\numberline {6.1}Testszenario}{34}{subsection.6.1}
-\contentsline {subsection}{\numberline {6.2}Versuchsaufbau}{35}{subsection.6.2}
-\contentsline {subsection}{\numberline {6.3}Versuchsdesign}{35}{subsection.6.3}
-\contentsline {subsection}{\numberline {6.4}Control Panel}{37}{subsection.6.4}
-\contentsline {subsection}{\numberline {6.5}Versuchspersonen}{37}{subsection.6.5}
-\contentsline {subsection}{\numberline {6.6}Auswertung}{39}{subsection.6.6}
-\contentsline {subsubsection}{\numberline {6.6.1}gemessene Zeiten}{39}{subsubsection.6.6.1}
+\contentsline {subsubsection}{\numberline {4.6.3}Task Completion}{30}{subsubsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.4}Dialoverhalten}{31}{subsubsection.4.6.4}
+\contentsline {subsection}{\numberline {4.7}Resultat}{33}{subsection.4.7}
+\contentsline {section}{\numberline {5}Versuch 2}{33}{section.5}
+\contentsline {subsection}{\numberline {5.1}Testszenario}{34}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Versuchsaufbau}{35}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Versuchsdesign}{35}{subsection.5.3}
+\contentsline {subsection}{\numberline {5.4}Control Panel}{37}{subsection.5.4}
+\contentsline {subsection}{\numberline {5.5}Versuchspersonen}{37}{subsection.5.5}
+\contentsline {subsection}{\numberline {5.6}Auswertung}{39}{subsection.5.6}
+\contentsline {subsubsection}{\numberline {5.6.1}gemessene Zeiten}{39}{subsubsection.5.6.1}
 \contentsline {paragraph}{\nonumberline Rennzeiten}{39}{section*.10}
 \contentsline {paragraph}{\nonumberline Dialogzeiten}{40}{section*.11}
-\contentsline {subsubsection}{\numberline {6.6.2}Fragebogen}{41}{subsubsection.6.6.2}
+\contentsline {subsubsection}{\numberline {5.6.2}Fragebogen}{41}{subsubsection.5.6.2}
 \contentsline {paragraph}{\nonumberline Nasa-TLX}{42}{section*.12}
 \contentsline {paragraph}{\nonumberline Strategien}{43}{section*.13}
-\contentsline {subsubsection}{\numberline {6.6.3}Task Completion}{45}{subsubsection.6.6.3}
-\contentsline {subsubsection}{\numberline {6.6.4}Dialoverhalten}{46}{subsubsection.6.6.4}
-\contentsline {subsection}{\numberline {6.7}Resultat}{47}{subsection.6.7}
-\contentsline {section}{\numberline {7}Ergebnisse}{47}{section.7}
-\contentsline {section}{\numberline {8}Diskussion}{48}{section.8}
+\contentsline {subsubsection}{\numberline {5.6.3}Task Completion}{45}{subsubsection.5.6.3}
+\contentsline {subsubsection}{\numberline {5.6.4}Dialoverhalten}{46}{subsubsection.5.6.4}
+\contentsline {subsection}{\numberline {5.7}Resultat}{47}{subsection.5.7}
+\contentsline {section}{\numberline {6}Ergebnisse}{47}{section.6}
+\contentsline {section}{\numberline {7}Diskussion}{48}{section.7}
 \contentsline {section}{\numberline {A}Anhang}{ii}{appendix.A}
