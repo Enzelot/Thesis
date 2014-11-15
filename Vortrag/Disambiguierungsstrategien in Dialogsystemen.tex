@@ -1,0 +1,620 @@
+
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+\usepackage{multicol}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{paralist}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage[mediumspace,mediumqspace,squaren]{SIunits} %SI-Einheiten
+\usepackage[version=3]{mhchem} %chemische Formeln
+\usepackage{tabularx, calc} %Tabellen
+\usepackage{multirow} %Tabelle: mehrere Spalten vereinigen
+\usepackage{booktabs} %Verbesserung der Tabellenqualität
+\usepackage{caption} %Abbildungs- und Tabellenbeschriftung
+\usepackage{array} %Matheumgebung ähnlich tabular
+\usepackage{pgf}
+\usepackage{dcolumn}
+\usepackage{beamerthemeshadow}
+\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+\begin{document}
+\title{Bachelorarbeit}
+\subtitle{Disambiguierungsstrategien in Dialogsystemen }  
+%\title{Disambiguierungsstrategien in Dialogsystemen }
+%\subtitle{Bachelorarbeit}
+\author{Lena Enzweiler}
+\institute{Universität des Saarlandes}
+\date{\today} 
+
+\beamertemplatenavigationsymbolsempty
+
+\setbeamertemplate{footline}[frame number]
+
+\frame{\titlepage} 
+
+\section{Einleitung}
+\subsection{Vorahnung}
+\frame{\frametitle{Vorahnung}
+\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
+\newline
+
+Vorahnung ist lebenswichtig
+\begin{itemize}
+\item kein Halten von gef\"ahrlichen Tieren als Haustiere
+\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+\item Reflexe aus\"uben
+\end{itemize} 
+}
+
+\frame{\frametitle{Vorahnung in der Sprache}
+
+Gibt es Vorahnungen auch in der Sprache?
+\begin{block}{1. Beispiel}
+Der Einbrecher konnte den Familiensafe direkt finden.\\
+Dieser befand sich nat\"urlich hinter einem ...  
+\end{block}
+
+Erwartet man hier ein bestimmtes Wort?\\
+$\Rightarrow$ 83\% der Befragten erahnten \textbf{Bild/Gem\"alde}
+
+\begin{block}{2. Beispiel}
+Der Einbrecher konnte den Familiensafe direkt finden.\\
+Dieser befand sich nat\"urlich hinter einer großen ...  
+\end{block}
+
+Die Befragten sind hier überrascht über das Auftreten der Wörter \textbf{einer} und \textbf{großen}
+da diese nicht im Genus mit dem erwarteten Wort \textbf{Bild} übereinstimmt\\
+$\Rightarrow$ Reaktionen am EEG und an der Lesezeit erkennbar
+}
+
+\subsection{Vorahnung in der Sprache}
+\frame{\frametitle{Vorahnung in der Sprache}
+
+Vorahnung spielt auch in der Sprache eine wichtige Rolle
+\newline
+\begin{itemize}
+\item Einsatz in Konversationen
+\item Satz des Gespr\"achspartners beenden
+\item Priming
+\item Holzwegeffekt
+\end{itemize} 
+}
+
+\frame{\frametitle{Inhaltsverzeichnis}\tableofcontents}
+
+\subsection{Fokus der Studie}
+\frame{\frametitle{Fokus der Studie}
+Nutzen Leser und Hörer zum Vorahnen von auftretenden W\"ortern Informationen aus dem Diskurs?
+\newline
+\begin{block}{1. Beispiel}
+Der Einbrecher konnte den Familiensafe direkt finden.\\
+Dieser befand sich nat\"urlich hinter einem ...  
+\end{block}
+
+Kann man hier ein bestimmtes Wort erwarten?\\
+$\Rightarrow$ 83\% der Befragten erahnten \textbf{Bild/Gem\"alde}
+}
+
+\frame{\frametitle{Fokus der Studie}
+\begin{itemize}
+\item Leser und H\"orer m\"ussen zur Vorahnung bestimmter W\"orter entsprechende Situationen erkennen. \\
+\item Dabei wird das Wissen  \"uber die Welt, den Sprecher, die Kommunikation und der Sprache vorausgesetzt
+\end{itemize}
+\begin{block}{2. Beispiel}
+Der Ehemann war so w\"utend, dass er ihre Lieblingsvase gegen die Wand warf. \\
+Sp\"ater tat es ihm leid, dass die Vase ... 
+\end{block}
+Erkennt man hier die Situation wei{\ss} man, dass die Vase zerbrochen sein muss und erwartet ein entsprechendes Wort
+}
+
+\frame{\frametitle{Fokus der Studie}
+
+Wie wirken sich solche durch Vorahnungen verursachten Reaktionen im EEG und auf Lesezeiten aus?
+\newline
+\newline
+Zur Analyse wurden drei verschiedene Experimente durchgeführt:
+
+\begin{itemize}
+\item Experiment 1: Hören mit Diskurs
+\item Experiment 2: Hören ohne Diskurs
+\item Experiment 3: Lesen mit Diskurs
+\end{itemize}
+
+}
+
+
+
+\section{Experimente} 
+\subsection{Experiment 1}
+\frame{\frametitle{Experiment 1}
+\begin{block}{Forschungsfrage}
+Nutzen Hörer Informationen aus dem Kontext um bestimmte Wörter vorauszuahnen?
+ \end{block}
+\begin{itemize}
+
+\item getestet an Hand von Ministorys\\
+\textit{Der Einbrecher konnte den Familiensafe direkt finden.}\\
+\textit{Dieser befand sich nat\"urlich hinter einem großen Bild.}
+\item diese wurden mit bestimmten Adjektiven modifiziert
+		\begin{itemize}
+		\item Adjektive die im Genus mit dem zu erwartenden Nomen übereinstimmen
+		\item Adjektive die nicht im Genus mit dem zu erwartenden Nomen übereinstimmen
+		\end{itemize}
+\item Reaktionen der Hörer am EEG gemessen
+\end{itemize} 
+} 
+
+\frame{\frametitle{Was wurde erwartet}
+\begin{itemize}
+\item Übereinstimmung mit der Vorahnung
+$\Rightarrow$ Kein Effekt erwartet
+\item keine Übereinstimmung mit der Vorahnung
+$\Rightarrow$ Effekt auf dem Adjektivsuffix und dem Nomen erwartet
+\end{itemize}
+}
+
+
+
+
+\frame{\frametitle{Versuchspersonen}
+\begin{itemize}
+\item 24 Rechtshänder mit niederländischer Muttersprache
+\item 18 Frauen, 6 Männer
+\item vom Max Planck Institute für Psycholingusitik in Nijmege
+\item keine neurologischen Beeinträchtigungen oder Einnahme von Neuroleptika
+\end{itemize}
+}
+
+\frame{\frametitle{Adjektive im Niederländischen}
+Jedes niederländische Nomen bestimmt in einem unbestimmten Satz das Suffix des Adjektivs\\
+\begin{itemize}
+\item en \textbf{groot}$_{neut}$ schilderij = ein großes Bild ( neutrales Null Suffix )
+\item en \textbf{grote}$_{gel}$ boekenkast = ein großes Bücherregal ( geläufiges -e Suffix)
+\end{itemize}
+}
+
+\frame{\frametitle{Materialien}
+\begin{itemize}
+\item 74 kritische Ministorys (mit hoher Vorahnung) mit 56 normalen Ministories (mit geringer Vorahnung)  gemischt
+\item bestehend aus einem Kontext- und einem kritischen Zielsatz 
+\item Der Einbrecher konnte den Familiensafe direkt finden. (Kontext)\\
+\textbf{Dieser befand sich nat\"urlich hinter einem großen Bild} (Ziel)
+\item Ministories wurden mit einem normalen Tempo und einer normalen Intonation aufgezeichnet und abgespielt
+\item Auf jedes Adjektiv folgte ein grammatikalisch korrektes Nomen
+	\begin{itemize}
+	\item en groot$_{neut}$ \textbf{schilderij}
+	\item en grote$_{gel}$ \textbf{boekenkast}
+	\end{itemize}
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ablauf}
+\begin{itemize}
+\item Versuchspersonen saßen in schalldämpfender Kabine und bekamen Stimuli über Kopfhörer
+\item Kurzes Training
+\item 5 Blöcke von je 15 Minuten präsentiert
+\item Präsentation: 
+	\begin{itemize}
+	\item 300ms Ankündigung
+	\item 700ms Pause
+	\item Kontextsatz
+	\item 1000ms Pause
+	\item Zielsatz
+	\end{itemize}
+\item 500ms vor dem Zielsatz wurde die Aufnahme des EEGs angekündigt (Bewegungen vermeiden)
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ergebnis}
+\begin{itemize}
+\item 3 kritische Reize betrachtet:
+	\begin{itemize}
+	\item Adjektiv
+	\item Adjektivflexion
+	\item Nomen
+	\end{itemize}
+\item durchschnittlicher Kurvenverlauf pro Versuchsperson für den jeweiligen Reiz berechnet
+\item anschließend durchschnittlicher Kurvenverlauf aller Versuchspersonen berechnet
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ergebnis: Adjektiv}
+\begin{itemize}
+\item Durchschnitt der ereigniskorrelierten Potentiale für das akustische Einsetzen des kritischen Adjektiv
+\item übereinstimmend mit der Vorahnung des Nomens $\rightarrow$ durchgezogene Linie
+\item nicht übereinstimmend mit der Vorahnung des Nomens $\rightarrow$ punktierte Linie
+\item Beispielzielsatz: \textit{Dieser befand sich nat\"urlich hinter einem großen Bild.}
+
+%\begin{figure}[h]
+%	\centering
+%        \fbox{\includegraphics[scale=0.25]{adjectiv}}
+%\end{figure}
+\end{itemize}
+}
+
+\frame{\frametitle{Ergebnis: Adjektiv}
+
+
+\begin{itemize}
+\item kein klarer Effekt erkennbar, der durch das Adjektiv hervorgerufen wird
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ergebnis: Adjektivflexion}
+\begin{itemize}
+\item Durchschnitt der ereigniskorrelierten Potentiale für das akustische Einsetzen der kritischen Adjektivflexion
+\item übereinstimmend mit der Vorahnung des Nomens $\rightarrow$ durchgezogene Linie
+\item nicht übereinstimmend mit der Vorahnung des Nomens $\rightarrow$ punktierte Linie
+\item Beispielzielsatz: \textit{Dieser befand sich nat\"urlich hinter einem großen Bild.}
+
+\end{itemize}
+}
+
+\frame{\frametitle{Ergebnis: Adjektivflexion}
+
+
+\begin{itemize}
+\item Positivierung bei ca. 50ms von Flexion ausgelöst, die nicht mit der Vorahnung übereinstimmt
+\end{itemize}
+
+}
+
+\frame{\frametitle{Ergebnis: Nomen}
+\begin{itemize}
+\item Durchschnitt der ereigniskorrelierten Potentiale für das akustische Einsetzen des Nomens
+\item vorgeahntes Nomen $\rightarrow$ durchgezogene Linie
+\item nicht vorgeahntes Nomen (Alternativnomen)  $\rightarrow$ punktierte Linie
+\item Beispielzielsatz: \textit{Dieser befand sich nat\"urlich hinter einem großen Bild.}
+
+\end{itemize}
+}
+
+\frame{\frametitle{Ergebnis: Nomen}
+
+
+\begin{itemize}
+\item nicht vorgeahnte Alternativnomen lösen großen N400 Effekt bei ca. 350-400ms aus
+\end{itemize}
+
+}
+
+
+\frame{\frametitle{Zusammenfassung Experiment 1}
+\begin{itemize}
+\item Effekt durch Adjektivflexion ausgelöst bevor das Nomen präsentiert wurde\\
+\item N400 Effekt bei unerwarteten Nomen ausgelöst
+\item$\Rightarrow$ Diskurs Informationen lassen Hörer tatsächlich bestimmtes Wort im entfaltenden Satz erwarten
+\item Versuchspersonen haben keine Manipulation der Daten bemerkt
+$\Rightarrow$ Vorahnungen, sowie das Widerrufen dieser nach Auftreten unpassender Adjektive geschieht unbewusst und routinemäßig
+\end{itemize}
+
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%Experiment 1 fertig%%%%%%%%%%%%%%%%%
+%%%%%%% To go: Experiment 2%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Experiment 2}
+\frame{\frametitle{Experiment 2}
+\begin{block}{Forschungsfrage}
+Erwarten Hörer bestimmte Wörter in einem Satz ohne weiteren Kontext?
+ \end{block}
+\begin{itemize}
+\item getestet mit den Zielsätzen aus Experiment 1 \\
+$\Rightarrow$ Diskurs fehlt
+
+\item Reaktionen der Hörer am EEG gemessen
+\end{itemize} 
+} 
+
+%\frame{\frametitle{Was erwartet wurde}
+%\begin{itemize}
+%\item Stimmt das vorgeahnte Nomen mit dem Adjektiv im Genus überein
+%$\Rightarrow$ Kein besonderer Effekt erwartet
+%\item Stimmt das vorgeahnte Nomen nicht mit dem Adjektiv im Genus überein
+%$\Rightarrow$ N400 Effekt in Höhe des Adjektivs erwartet
+%\end{itemize}
+%}
+
+
+
+
+\frame{\frametitle{Versuchspersonen}
+\begin{itemize}
+\item 24 Rechtshänder mit niederländischer Muttersprache
+\item 18 Frauen, 6 Männer
+\item vom Max Planck Institute für Psycholingusitik in Nijmege
+\item keine neurologischen Beeinträchtigungen oder Einnahme von Neuroleptika
+\item keine Person hat an Experiment 1 teilgenommen
+\end{itemize}
+}
+
+
+%\frame{\frametitle{Materialien}
+%\begin{itemize}
+%\item Insgesamt 120 Zielsätze aus Experiment 1\\
+%$\Rightarrow$ Diskurs fehlt
+%\end{itemize}
+%}
+
+
+\frame{\frametitle{Ablauf}
+\begin{itemize}
+\item Versuchspersonen saßen in schalldämpfender Kabine und bekamen Stimuli über Kopfhörer
+\item Kurzes Training
+\item 5 Blöcke von je 15 Minuten präsentiert
+\item Präsentation: 
+	\begin{itemize}
+	\item 300ms Ankündigung
+	\item 1200ms Pause
+	\item Zielsatz
+	\end{itemize}
+\item 1000ms vor dem Zielsatz wurde die Aufnahme des EEGs angekündigt (Bewegungen vermeiden)
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ergebnis}
+\begin{itemize}
+\item 2 kritische Reize betrachtet:
+	\begin{itemize}
+	\item Adjektivflexion
+	\item Nomen
+	\end{itemize}
+\item durchschnittlicher Kurvenverlauf pro Versuchsperson für den jeweiligen Reiz berechnet
+\item anschließend durchschnittlicher Kurvenverlauf aller Versuchspersonen berechnet
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ergebnis: Adjektivflexion}
+\begin{itemize}
+\item Durchschnitt der ereigniskorrelierten Potentiale für das akustische Einsetzen der kritischen Adjektivflexion
+\item übereinstimmend mit der vorherigen Vorahnung des Nomens $\rightarrow$ durchgezogene Linie
+\item nicht übereinstimmend mit der vorherigen Vorahnung des Nomens $\rightarrow$ punktierte Linie
+\item Beispielzielsatz: \textit{Dieser befand sich nat\"urlich hinter einem großen Bild.}
+
+\end{itemize}
+}
+
+\frame{\frametitle{Ergebnis: Adjektivflexion}
+
+%\begin{figure}[htbp]
+%	\begin{center}
+%		\begin{minipage}[t]{0.4\linewidth}
+%			\centering
+%			\includegraphics[width=\linewidth]{adjectivflexion}
+%			\caption{mit Kontext}
+%		\end{minipage}
+%		\qquad
+%%		\begin{minipage}[t]{0.4\linewidth}
+	%		\centering
+	%		\includegraphics[width=\linewidth]{adjektivflexion2}
+	%		\caption{ohne Kontext}
+	%	\end{minipage}
+	%\end{center}
+%\end{figure}
+
+\begin{itemize}
+\item mit Kontext: positiver Effekt bei der Adjektivflexion, die nicht mir dem vorherigen vorgeahnten Wort übereinstimmt
+\item ohne Kontext: Effekt bleibt aus
+\end{itemize}
+
+}
+
+\frame{\frametitle{Ergebnis: Nomen}
+\begin{itemize}
+\item Durchschnitt der ereigniskorrelierten Potentiale für das akustische Einsetzen des Nomens
+\item vorheriges vorgeahntes Nomen $\rightarrow$ durchgezogene Linie
+\item nicht vorheriges vorgeahntes Nomen (Alternativnomen)  $\rightarrow$ punktierte Linie
+\item Beispielzielsatz: \textit{Dieser befand sich nat\"urlich hinter einem großen Bild.}
+
+\end{itemize}
+}
+
+\frame{\frametitle{Ergebnis: Nomen}
+
+
+
+\begin{itemize}
+\item mit Kontext: N400 Effekt bei nicht vorgeahnten Nomen
+\item ohne Kontext: N400 Effekt bleibt aus (Abschweifung zu spät)
+\end{itemize}
+
+
+}
+
+
+\frame{\frametitle{Zusammenfassung Experiment 2}
+\begin{itemize}
+\item (vorheriges) überraschendes Adjketivsuffix:
+	\begin{itemize}
+	\item mit Kontext: Positivierung bei ca. 50 ms von Flexion ausgelöst
+	\item ohne Kontext: kein Effekt\\
+	\item $\Rightarrow$ Positivierung vom Kontext abhängig
+	\end{itemize}
+	
+\item (vorheriges) nicht vorgeahntes Nomen
+\begin{itemize}
+\item mit Kontext: N400 Effekt
+\item ohne Kontext: kein N400 Effekt
+\item $\Rightarrow$ N400 Effekt vom Kontext abhängig
+
+
+\end{itemize}
+\end{itemize}
+
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% Experiment 1 fertig %%%%%%%%%%%%%%%
+%%%%%%% To go: Experiment 3 %%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Experiment 3}
+\frame{\frametitle{Experiment 3}
+\begin{block}{Forschungsfrage}
+Nutzen Leser Informationen aus dem Kontext um bestimmte Wörter vorauszuahnen?
+ \end{block}
+\begin{itemize}
+\item getestet an Hand von Ministorys
+\item diese wurden mit bestimmten Adjektiven modifiziert
+		\begin{itemize}
+		\item Adjektive die im Genus mit dem zu erwartenden Nomen übereinstimmen
+		\item Adjektive die nicht im Genus mit dem zu erwartenden Nomen übereinstimmen
+		\end{itemize}
+\item Reaktionen der Leser an Lesezeit bewertet
+\end{itemize} 
+} 
+
+\frame{\frametitle{Was wurde erwartet}
+\begin{itemize}
+\item Übereinstimmung mit der Vorahnung
+$\Rightarrow$ Normale Lesezeit
+\item keine Übereinstimmung mit der Vorahnung
+$\Rightarrow$ Verzögerte Lesezeit
+\end{itemize}
+}
+
+
+
+
+
+\frame{\frametitle{Versuchspersonen}
+\begin{itemize}
+\item 24 Rechtshänder mit niederländischer Muttersprache
+\item 21 Frauen, 3 Männer
+\item von der Universität Amsterdam
+\item keine hat am Experiment 1 oder Experiment 2 teilgenommen
+\end{itemize}
+}
+
+
+\frame{\frametitle{Materialien}
+\begin{itemize}
+\item 40 Ministories mit 56 normalen Ministories gemischt
+\item drei Wörter zwischen kritischen Adjektiv und Nomen
+\item Der Einbrecher konnte den Familiensafe direkt finden. (Kontext)\\
+Dieser befand sich nat\"urlich hinter einem großen aber eher unauffälligen Bild (Ziel)
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ablauf}
+\begin{itemize}
+\item Präsentation Wort für Wort
+\item Nächstes Wort durch Klicken erschienen
+\item Position des Wortes im Satz angezeigt
+\item 4 Blöcke, jeweils durch Pausen getrennt
+\end{itemize}
+}
+
+
+\frame{\frametitle{Analyse der Lesezeit}
+\begin{itemize}
+\item Insgesamt neun Wortpositionen betrachtet
+ \begin{table}
+	\tiny
+		\begin{tabular}{p{0,6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.5cm}>{\centering\arraybackslash}p{0.9cm}>{\centering\arraybackslash}p{0.5cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.9cm}}
+	 Position & cw-4 & cw-3  & cw-2 &  cw-1 & Adjektiv & cw+1 & cw+2 & cw+3 & Nomen\\
+	\midrule
+	 Beispiel & ...was & situated  & behind &  a & big-Suffix & but & rather & unobtru-sive & painting/ bookcase\\
+	\end{tabular}
+	\end{table}
+\item Für jede Position wurde pro Person und Satz die durchschnittliche Lesezeit berechnet
+\end{itemize}
+}
+
+
+\frame{\frametitle{Ergebnis: Lesezeiten}
+\begin{table}
+	\tiny
+		\begin{tabular}{p{1cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.5cm}>{\centering\arraybackslash}p{0.9cm}>{\centering\arraybackslash}p{0.5cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.6cm}>{\centering\arraybackslash}p{0.9cm}}
+	\toprule
+	 Positionen & cw-4 & cw-3  & cw-2 &  cw-1 & Adjektiv & cw+1 & cw+2 & cw+3 & Nomen\\
+	\midrule
+	 Beispiel & ...was & situated  & behind &  a & big-Suffix & but & rather & unobtru-sive & painting/ bookcase\\
+	konsistent & 408 & 365  & 360 & 327 & 342 & 350 & 373 & 407 & 498\\
+	inkonsistent  & 402 & 364 & 363 & 336 & 351 & 352 & 374 & 425 & 598\\
+	Effektgröße & -6 &  -1 & 3 & 9 & 9 & 2 & 1 & 18 & 100\\
+	\bottomrule
+	\end{tabular}
+	\end{table}
+\begin{itemize}
+\item kein Effekt vor dem kritischen Adjektiv zu erkennen
+\item großer Effekt auf dem Nomen zu erkennen
+\item Unerwartet: Kein Effekt auf dem kritischen Adjektiv
+\item Aber 18ms Unterschied bei cw+3
+	\begin{itemize}
+	\item alle Wörter an dieser Stelle waren Adjektive\\
+	 $\Rightarrow$ Verlangsamte Lesezeit auf dem zweiten flektierten Adjektiv
+	\item ausgelöst durch Übertragungseffekt vom kritischen Adjektiv?
+	\end{itemize}
+\end{itemize}}
+
+
+
+\frame{\frametitle{Zusammenfassung Experiment 3}
+\begin{itemize}
+\item Effekt durch kritisches Adjektivsuffix, das nicht im Genus mit dem vorgeahnten Nomen übereinstimmt, konnte hier nicht beobachtet werden
+\item Dieser Effekt kann allerdings etwas später beim letzten flektierten Adjektiv beobachtet werden
+\item großer Effekt bei nicht erwarteten Nomen zu erkennen\\
+\end{itemize}
+$\Rightarrow$ Leser benutzen ebenfalls Informationen aus dem Kontext um bestimmte Wörter vorauszuahnen 
+}
+
+\frame{\frametitle{Zusammenfassung Experiment 3}
+\begin{itemize}
+\item Versuchspersonen haben keine Manipulation der Daten bemerkt\\
+$\Rightarrow$ Vorahnungen, sowie das widerrufen dieser nach Auftreten unpassender Adjektive geschieht unbewusst und routinemäßig
+\end{itemize}
+}
+
+
+
+\subsection{Zusammenfassung der Experimente}
+\frame{\frametitle{Zusammenfassung der Experimente}
+\begin{itemize}
+\item  Experiment 1 und Experiment 3:\\
+Mit Kontext Effekte erkennbar, dass Leser und Hörer diesen nutzen um Wörter im Satz vorauszuahnen
+\item Experiment 2:\\
+Ohne weiteren Kontext keine Effekte erkennbar, dass Hörer diesen nutzen um Wörter im Satz vorauszuahnen
+\end{itemize} 
+}
+
+\section{Fazit}
+\frame{\frametitle{Fazit}
+\begin{itemize}
+\item Vorahnung spielt beim Sprachverständnis eine große Rolle
+\item Leser und Hörer ahnen bestimmte Wörter im Diskurs voraus
+\item Leser und Hörer reagieren auf Adjektivsuffixe und Nomen, die nicht mir der Vorahnung übereinstimmen\\
+$\Rightarrow$ Sprachverständnissystem funktioniert quasi wie ein Parser
+	
+\end{itemize}
+}
+
+\frame{\frametitle{Vielen Dank}
+\centering
+\Large{Vielen Dank für Ihre Aufmerksamkeit!}
+}
+
+\end{document}
+
