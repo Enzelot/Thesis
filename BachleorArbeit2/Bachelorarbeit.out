@@ -1,41 +1,39 @@
-\BOOKMARK [1][-]{section*.3}{Abbildungsverzeichnis}{}% 1
-\BOOKMARK [1][-]{section*.4}{Tabellenverzeichnis}{}% 2
-\BOOKMARK [1][-]{section*.5}{Abk\374rzungsverzeichnis}{}% 3
-\BOOKMARK [1][-]{section.1}{Einleitung}{}% 4
-\BOOKMARK [1][-]{section.2}{Related Work}{}% 5
-\BOOKMARK [1][-]{section.3}{Tools}{}% 6
-\BOOKMARK [1][-]{section.4}{Disambiguierungsstrategien}{}% 7
-\BOOKMARK [2][-]{subsection.4.1}{Disambiguierung}{section.4}% 8
-\BOOKMARK [2][-]{subsection.4.2}{Disambiguierung in der Sprachverarbeitung}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.3}{1. Strategie: Aggregierte Auswahl ohne Pause}{section.4}% 10
-\BOOKMARK [2][-]{subsection.4.4}{2. Strategie: Aggregierte Auswahl mit Pause}{section.4}% 11
-\BOOKMARK [2][-]{subsection.4.5}{3. Strategie: Sequentielle Auswahl}{section.4}% 12
-\BOOKMARK [1][-]{section.5}{Versuch 1}{}% 13
-\BOOKMARK [2][-]{subsection.5.1}{Testszenario}{section.5}% 14
-\BOOKMARK [2][-]{subsection.5.2}{Versuchsaufbau}{section.5}% 15
-\BOOKMARK [2][-]{subsection.5.3}{Versuchsdesign}{section.5}% 16
-\BOOKMARK [2][-]{subsection.5.4}{Control Panel}{section.5}% 17
-\BOOKMARK [2][-]{subsection.5.5}{Versuchspersonen}{section.5}% 18
-\BOOKMARK [2][-]{subsection.5.6}{Auswertung}{section.5}% 19
-\BOOKMARK [3][-]{subsubsection.5.6.1}{gemessene Zeiten}{subsection.5.6}% 20
-\BOOKMARK [3][-]{subsubsection.5.6.2}{Fragebogen}{subsection.5.6}% 21
-\BOOKMARK [3][-]{subsubsection.5.6.3}{Task Completion}{subsection.5.6}% 22
-\BOOKMARK [3][-]{subsubsection.5.6.4}{Dialoverhalten}{subsection.5.6}% 23
-\BOOKMARK [2][-]{subsection.5.7}{Resultat}{section.5}% 24
-\BOOKMARK [1][-]{section.6}{Versuch 2}{}% 25
-\BOOKMARK [2][-]{subsection.6.1}{Testszenario}{section.6}% 26
-\BOOKMARK [2][-]{subsection.6.2}{Versuchsaufbau}{section.6}% 27
-\BOOKMARK [2][-]{subsection.6.3}{Versuchsdesign}{section.6}% 28
-\BOOKMARK [2][-]{subsection.6.4}{Control Panel}{section.6}% 29
-\BOOKMARK [2][-]{subsection.6.5}{Versuchspersonen}{section.6}% 30
-\BOOKMARK [2][-]{subsection.6.6}{Auswertung}{section.6}% 31
-\BOOKMARK [3][-]{subsubsection.6.6.1}{gemessene Zeiten}{subsection.6.6}% 32
-\BOOKMARK [3][-]{subsubsection.6.6.2}{Fragebogen}{subsection.6.6}% 33
-\BOOKMARK [3][-]{subsubsection.6.6.3}{Task Completion}{subsection.6.6}% 34
-\BOOKMARK [3][-]{subsubsection.6.6.4}{Dialoverhalten}{subsection.6.6}% 35
-\BOOKMARK [2][-]{subsection.6.7}{Resultat}{section.6}% 36
-\BOOKMARK [1][-]{section.7}{Ergebnisse}{}% 37
-\BOOKMARK [1][-]{section.8}{Diskussion}{}% 38
-\BOOKMARK [1][-]{appendix.A}{Anhang}{}% 39
-\BOOKMARK [1][-]{appendix.A}{Abbildungsverzeichnis}{}% 40
-\BOOKMARK [1][-]{section*.18}{Tabellenverzeichnis}{}% 41
+\BOOKMARK [1][-]{section*.3}{Abk\374rzungsverzeichnis}{}% 1
+\BOOKMARK [1][-]{section.1}{Einleitung}{}% 2
+\BOOKMARK [1][-]{section.2}{Related Work}{}% 3
+\BOOKMARK [1][-]{section.3}{Tools}{}% 4
+\BOOKMARK [1][-]{section.4}{Disambiguierungsstrategien}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Disambiguierung}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Disambiguierung in der Sprachverarbeitung}{section.4}% 7
+\BOOKMARK [2][-]{subsection.4.3}{1. Strategie: Aggregierte Auswahl ohne Pause}{section.4}% 8
+\BOOKMARK [2][-]{subsection.4.4}{2. Strategie: Aggregierte Auswahl mit Pause}{section.4}% 9
+\BOOKMARK [2][-]{subsection.4.5}{3. Strategie: Sequentielle Auswahl}{section.4}% 10
+\BOOKMARK [1][-]{section.5}{Versuch 1}{}% 11
+\BOOKMARK [2][-]{subsection.5.1}{Testszenario}{section.5}% 12
+\BOOKMARK [2][-]{subsection.5.2}{Versuchsaufbau}{section.5}% 13
+\BOOKMARK [2][-]{subsection.5.3}{Versuchsdesign}{section.5}% 14
+\BOOKMARK [2][-]{subsection.5.4}{Control Panel}{section.5}% 15
+\BOOKMARK [2][-]{subsection.5.5}{Versuchspersonen}{section.5}% 16
+\BOOKMARK [2][-]{subsection.5.6}{Auswertung}{section.5}% 17
+\BOOKMARK [3][-]{subsubsection.5.6.1}{gemessene Zeiten}{subsection.5.6}% 18
+\BOOKMARK [3][-]{subsubsection.5.6.2}{Fragebogen}{subsection.5.6}% 19
+\BOOKMARK [3][-]{subsubsection.5.6.3}{Task Completion}{subsection.5.6}% 20
+\BOOKMARK [3][-]{subsubsection.5.6.4}{Dialoverhalten}{subsection.5.6}% 21
+\BOOKMARK [2][-]{subsection.5.7}{Resultat}{section.5}% 22
+\BOOKMARK [1][-]{section.6}{Versuch 2}{}% 23
+\BOOKMARK [2][-]{subsection.6.1}{Testszenario}{section.6}% 24
+\BOOKMARK [2][-]{subsection.6.2}{Versuchsaufbau}{section.6}% 25
+\BOOKMARK [2][-]{subsection.6.3}{Versuchsdesign}{section.6}% 26
+\BOOKMARK [2][-]{subsection.6.4}{Control Panel}{section.6}% 27
+\BOOKMARK [2][-]{subsection.6.5}{Versuchspersonen}{section.6}% 28
+\BOOKMARK [2][-]{subsection.6.6}{Auswertung}{section.6}% 29
+\BOOKMARK [3][-]{subsubsection.6.6.1}{gemessene Zeiten}{subsection.6.6}% 30
+\BOOKMARK [3][-]{subsubsection.6.6.2}{Fragebogen}{subsection.6.6}% 31
+\BOOKMARK [3][-]{subsubsection.6.6.3}{Task Completion}{subsection.6.6}% 32
+\BOOKMARK [3][-]{subsubsection.6.6.4}{Dialoverhalten}{subsection.6.6}% 33
+\BOOKMARK [2][-]{subsection.6.7}{Resultat}{section.6}% 34
+\BOOKMARK [1][-]{section.7}{Ergebnisse}{}% 35
+\BOOKMARK [1][-]{section.8}{Diskussion}{}% 36
+\BOOKMARK [1][-]{appendix.A}{Anhang}{}% 37
+\BOOKMARK [1][-]{appendix.A}{Abbildungsverzeichnis}{}% 38
+\BOOKMARK [1][-]{section*.16}{Tabellenverzeichnis}{}% 39
