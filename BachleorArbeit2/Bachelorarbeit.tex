@@ -371,7 +371,7 @@ Mit dem Rennspiel \texttt{Need for Speed: SHIFT}\footnote{\label{foot:nfs}\url{h
 
 \section{Disambiguierungsstrategien}
 \label{disambiguierungsstrategien}
-Insgesamt werden 3 Disambiguierungsstrategien auf Effizienz und Beliebtheit unter kognitiver Belastung getestet.
+Insgesamt werden in dieser Studie b3 Disambiguierungsstrategien auf Effizienz und Beliebtheit unter kognitiver Belastung getestet.
 \begin{itemize}
 \item Aggregierte Auswahl \textbf{ohne} Pause
 \item Aggregierte Auswahl \textbf{mit} Pause
@@ -386,10 +386,10 @@ In den folgenden Unterkapiteln wird zunächst kurz auf das Prinzip der Disambigu
 \subsection{Disambiguierung}
 Bei einer Disambiguierung werden verschiedene Begriffsbedeutungen voneinander abgegrenzt bzw. differenziert. Dies gilt zum Beispiel für Nomen, welche den gleichen Begriff beschreiben aber ein anderes Konzept darstellen. Das Nomen \texttt{Bank} zum Beispiel kann sowohl ein Geldinstitut als auch eine Sitzmöglichkeit darstellen. Die Disambiguierung spielt bei der Sprachverarbeitung eine zentrale Rolle, da Spracheingaben nicht immer eindeutig formuliert werden und die dadurch entstehenden Mehrdeutigkeiten aufgelöst werden müssen. 
 \subsection{Disambiguierung in der Sprachverarbeitung}
-Äußert ein Benutzer eines Dialogsystems eine ambige Spracheingabe, so muss das System diese disambiguieren. Diese Disambiguierung kann durch direkte Nachfrage der gewünschten Interpretation beim Benutzer erfolgen. 
-Möchte der User zum Beispiel einen Kontakt aus einem Adressbuch anrufen, dessen Vorname mehrfach vorkommt, so wird eine Disambiguierung notwendig sein, wenn der Benutzer bei seiner Spracheingaben lediglich den Vornamen angibt. Um den gewollten Kontakt vom User zu erfragen, kann das System eine der in dieser Arbeit behandelten Disambiguierungsstrategien verwenden. 
+Äußert ein Benutzer (im Folgendem auch User genannt) eines Dialogsystems eine ambige Spracheingabe, so muss das System diese disambiguieren. Diese Disambiguierung kann durch direkte Nachfrage der gewünschten Interpretation beim Benutzer erfolgen. 
+Möchte der User zum Beispiel einen Kontakt aus seinem Adressbuch anrufen, dessen Vorname mehrfach vorkommt, so wird eine Disambiguierung notwendig sein, wenn der Benutzer bei seiner Spracheingaben lediglich den Vornamen angibt. Um den gewollten Kontakt vom User zu erfragen, kann das System eine der in dieser Arbeit behandelten Disambiguierungsstrategien verwenden. 
 \subsection{1. Strategie: Aggregierte Auswahl ohne Pause}
-Bei dieser Strategie werden alle möglichen Interpretationen der ambigen Spracheingabe ausgegeben und auf eine Auswahl des Benutzers gewartet. In der folgenden  Beispielinteraktion muss das System über den Nachnamen des von dem Benutzer adressierten Kontaktes disambiguieren. In der Sprachausgabe werden so alle möglichen Nachnamen (hier Meier und Müller) für den genannten Vornamen (hier Peter) zum Auswählen zur Verfügung gestellt. Der Benutzer kann während der Ausgabe mittels Barge-Ins antworten oder am Ende der Ausgabe mit dem gewünschten Nachnamen antworten. 
+Bei dieser Strategie werden alle möglichen Interpretationen der ambigen Spracheingabe in einer Sprachausgabe ohne Pause ausgegeben und auf eine Auswahl des Benutzers gewartet. In der folgenden  Beispielinteraktion muss das System über den Nachnamen des von dem Benutzer adressierten Kontaktes disambiguieren. In der Sprachausgabe werden so alle möglichen Nachnamen (hier Meier und Müller) für den genannten Vornamen (hier Peter) zum Auswählen zur Verfügung gestellt. Der Benutzer kann während der Ausgabe mittels Barge-Ins antworten oder am Ende der Ausgabe mit dem gewünschten Nachnamen antworten. 
 
 
 \begin{longtable}{p{6cm}p{8cm}}
@@ -412,11 +412,11 @@ System & Ok, ich werde Peter Müller jetzt anrufen.\\
 \end{longtable}
 	
 
-Da diese Strategie einfach aufgebaut ist, sollte es für den Benutzer intuitiv klar sein, welche Antwort das System erwartet um die Interaktion weiter zu führen. Problematisch wird es wahrscheinlich bei einer hohen Anzahl an Disambiguierungsvorschlägen, da die Sprachausgabe entsprechend lang wird und der Benutzer sich möglicherweise die komplette Sprachausgabe anhört, da die Möglichkeit zum Barge-In hier nicht auffällig ist. 
+Da diese Strategie einfach aufgebaut ist, sollte es für den Benutzer intuitiv klar sein, welche Antwort das System erwartet um die Interaktion weiter zu führen. Problematisch wird es bei einer hohen Anzahl an Disambiguierungsvorschlägen, da die Sprachausgabe entsprechend lang wird. Der Benutzer wird sich möglicherweise die komplette Sprachausgabe anhören, da die Möglichkeit zum Barge-In hier nicht auffällig ist. 
   
 
 \subsection{2. Strategie: Aggregierte Auswahl mit Pause}
-Diese Strategie funktioniert im Prinzip wie die 1. Strategie. Der Unterschied liegt darin, dass diese Strategie die einzelnen Vorschläge durchnummeriert präsentiert und eine kurze Pause zwischen den Vorschlägen einlegt. Die Beispielinteraktionen zeigen die gleiche Situation wie in Strategie 1, allerdings antwortet der Benutzer im ersten Beispiel mit der Zahl, die der gewünschten Interpretation voran gestellt ist und im zweiten Beispiel mit Hilfe eines Barge-Ins.\\
+Diese Strategie funktioniert im Prinzip wie die 1. Strategie. Der Unterschied liegt darin, dass diese Strategie die einzelnen Vorschläge durchnummeriert präsentiert und eine kurze Pause zwischen den Vorschlägen einlegt. Die Beispielinteraktionen zeigen die gleiche Situation wie zuvor. Allerdings antwortet der Benutzer im ersten Beispiel mit der Zahl, die der gewünschten Interpretation voran gestellt ist und im zweiten Beispiel mit Hilfe eines Barge-Ins.\\
 
 \begin{longtable}{p{6cm}p{8cm}}
 %	\label{ads}\\
@@ -431,7 +431,7 @@ Diese Strategie funktioniert im Prinzip wie die 1. Strategie. Der Unterschied li
 	\endhead
 Benutzer & Rufe Peter an!\\
 System & Meinst du [Pause] 1. Peter Müller [Pause] oder 2. Peter Meier?\\
-Benutzer & den ersten.\\
+Benutzer & Den ersten.\\
 System & Ok, ich werde Peter Müller jetzt anrufen.\\
 
 \hline
@@ -456,10 +456,10 @@ System & Ok, ich werde Peter Müller jetzt anrufen.\\
 \hline
 \end{longtable}
 
-Bei dieser Strategie ist die Möglichkeit zum Barge-In durch die Pausen auffälliger und der Benutzer muss sich damit nicht die komplette Sprachausgabe zu Ende anhören. Allerdings könnte die Sprachausgabe bei einer kleinen Anzahl an Disambiguierungsvorschlägen durch die Pausen und die Nummerierung unnötig lang auf den Benutzer wirken. Daher bevorzugt der Benutzer vermutlich die 1. Strategie bei einer kleinen Anzahl an Interpretation und entsprechend die 2. Strategie bei einer hohen Anzahl an Disambiguierungssvorschlägen.
+Bei dieser Strategie ist die Möglichkeit zum Barge-In durch die Pausen auffälliger und der Benutzer muss dadurch nicht das Ende der komplette Sprachausgabe abwarten, bevor er antwortet. Allerdings könnte die Sprachausgabe bei einer kleinen Anzahl an Disambiguierungsvorschlägen durch die Pausen und die Nummerierung unnötig lang auf den Benutzer wirken. Daher bevorzugt der Benutzer vermutlich die 1. Strategie bei einer kleinen Anzahl an Interpretation und entsprechend die 2. Strategie bei einer hohen Anzahl an Disambiguierungssvorschlägen.
 
 \subsection{3. Strategie: Sequentielle Auswahl}
-Die Sequentielle Auswahl packt jeden Disambiguierungsvorschlag in eine separate Sprachausgabe und verlangt anschließend ein Bestätigung bzw. eine Ablehnung des angegebenen Vorschlages. Die ambige Spracheingabe wird dann mit der ersten Bestätigung des Benutzers aufgelöst.
+Bei der Sequentiellen Auswahl steht jeder Disambiguierungsvorschlag in einer separaten Sprachausgabe und verlangt anschließend ein Bestätigung bzw. eine Ablehnung des angegebenen Vorschlages. Die ambige Spracheingabe wird dann mit der ersten Bestätigung des Benutzers aufgelöst. Das nachfolgende Beispiel entspricht der Interaktion aus Strategie 1 und 2 unter der Berücksichtigung der Disambiguierungsstrategie 3. 
 
 \begin{longtable}{p{6cm}p{8cm}}
 %	\label{ads}\\
