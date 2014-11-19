@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  19 NOV 2014 15:23
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  19 NOV 2014 23:18
 entering extended mode
 **Bachelorarbeit.tex
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.tex
@@ -950,6 +950,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux
 
+LaTeX Warning: Label `fbperson1' multiply defined.
+
+
 LaTeX Warning: Label `Dialogverhalten12' multiply defined.
 
 )
@@ -1608,7 +1611,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.900 \newpage
                <C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/fbperson.png>]
-<person1.png, id=532, 309.40594pt x 615.80063pt>
+<person1.png, id=533, 309.40594pt x 615.80063pt>
 File: person1.png Graphic file (type png)
  <use person1.png>
 Package pdftex.def Info: person1.png used on input line 909.
@@ -1644,32 +1647,17 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 995--997
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 995--997
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 995--997
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1001--1001
+Underfull \hbox (badness 10000) in paragraph at lines 1007--1007
 []|\T1/lmr/bx/n/12 Antwort-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1020--1020
+Underfull \hbox (badness 10000) in paragraph at lines 1026--1026
 []|\T1/lmr/bx/n/12 Antwort-
  []
 
 
-Overfull \hbox (44.70302pt too wide) in paragraph at lines 1024--1024
+Overfull \hbox (44.70302pt too wide) in paragraph at lines 1030--1030
 []|\T1/lmr/bx/n/12 Antwortmöglichkeiten| 
  []
 
@@ -1678,12 +1666,12 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1094--1095
+Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1096--1345
+Underfull \hbox (badness 10000) in paragraph at lines 1103--1352
 
  []
 
@@ -1696,22 +1684,26 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [39]
-Overfull \hbox (4.0849pt too wide) in alignment at lines 1358--1364
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[40]
+Overfull \hbox (4.0849pt too wide) in alignment at lines 1367--1373
  [] [] 
  []
 
 
-Overfull \hbox (4.0849pt too wide) in alignment at lines 1364--1368
+Overfull \hbox (4.0849pt too wide) in alignment at lines 1373--1377
  [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
+Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
 []|\T1/lmr/m/n/12 Kohlpharma, Mö-bel Mar-tin, Glo-bus, Spar-kas-se,
  []
 
 
-Overfull \hbox (4.0849pt too wide) in alignment at lines 1368--1374
+Overfull \hbox (4.0849pt too wide) in alignment at lines 1377--1383
  [] [] 
  []
 
@@ -1719,16 +1711,12 @@ Overfull \hbox (4.0849pt too wide) in alignment at lines 1368--1374
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[40] <Anke2.pdf, id=581, 597.55246pt x 845.07718pt>
+[41] <Anke2.pdf, id=585, 597.55246pt x 845.07718pt>
 File: Anke2.pdf Graphic file (type pdf)
  <use Anke2.pdf>
-Package pdftex.def Info: Anke2.pdf used on input line 1380.
+Package pdftex.def Info: Anke2.pdf used on input line 1390.
 (pdftex.def)             Requested size: 341.43306pt x 482.87242pt.
 
-Overfull \vbox (4.97491pt too high) has occurred while \output is active []
-
-
-[41]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1737,63 +1725,37 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1447 \end{longtable}
-                       <C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/Anke2.pdf
->] <controlpanel2.png, id=622, 468.24937pt x 328.22626pt>
+l.1398 
+        <C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/Anke2.pdf>]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[43] <controlpanel2.png, id=627, 468.24937pt x 328.22626pt>
 File: controlpanel2.png Graphic file (type png)
 
 <use controlpanel2.png>
-Package pdftex.def Info: controlpanel2.png used on input line 1452.
+Package pdftex.def Info: controlpanel2.png used on input line 1464.
 (pdftex.def)             Requested size: 369.88582pt x 259.29088pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[43]
+[44]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[44pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
  has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1478 \subsection
-                  {Auswertung} <C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/c
-ontrolpanel2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 1485--1487
-
- []
-
-
-Overfull \vbox (4.97491pt too high) has occurred while \output is active []
-
-
-[45]
+l.1480 \item S
+              trecke C fahren + Fritz anrufen <C:/Users/L/Desktop/GIT/Thesis/Ba
+chleorArbeit2/controlpanel2.png>]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [46]
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1565--1565
-[]|\T1/lmr/bx/n/12 Strategien| 
- []
-
-
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1570--1570
-[]|\T1/lmr/bx/n/12 Strategien| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1570--1570
-[]|\T1/lmr/bx/n/12 Runden
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1570--1570
-[]|\T1/lmr/bx/n/12 Runden
- []
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1802,57 +1764,27 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [48]
-Underfull \hbox (badness 10000) in paragraph at lines 1615--1616
-
- []
-
-
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1618--1618
-[]|\T1/lmr/bx/n/12 Strategien| 
- []
-
-
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1623--1623
-[]|\T1/lmr/bx/n/12 Strategien| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1623--1623
-[]|\T1/lmr/bx/n/12 Runden
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1623--1623
-[]|\T1/lmr/bx/n/12 Runden
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1628--1628
-[]|[]| 
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1628--1629
-[]|[]| 
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1652--1652
-[]|[]| 
- []
-
-
-Overfull \hbox (14.22638pt too wide) in paragraph at lines 1652--1652
-[]|[]| 
- []
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [49]
-Underfull \hbox (badness 10000) in paragraph at lines 1664--1665
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1579--1579
+[]|\T1/lmr/bx/n/12 Strategien| 
+ []
 
+
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1584--1584
+[]|\T1/lmr/bx/n/12 Strategien| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1584--1584
+[]|\T1/lmr/bx/n/12 Runden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1584--1584
+[]|\T1/lmr/bx/n/12 Runden
  []
 
 
@@ -1860,26 +1792,31 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [50]
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1685
-[]|\T1/lmr/bx/n/12 ØTC ins-ge-
- []
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 1708--1708
-[]|\T1/lmr/bx/n/12 Antwort-
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1634--1634
+[]|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (44.70302pt too wide) in paragraph at lines 1712--1712
-[]|\T1/lmr/bx/n/12 Antwortmöglichkeiten| 
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1639--1639
+[]|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1727--1728
+Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+[]|\T1/lmr/bx/n/12 Runden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1639--1639
+[]|\T1/lmr/bx/n/12 Runden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1680--1683
 
  []
 
@@ -1888,20 +1825,15 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [52]
-Underfull \hbox (badness 10000) in paragraph at lines 1951--1981
+Underfull \hbox (badness 10000) in paragraph at lines 1688--1690
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 1951--1981
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1951--1981
-
- []
-
+<person2.png, id=698, 397.485pt x 729.47531pt>
+File: person2.png Graphic file (type png)
+ <use person2.png>
+Package pdftex.def Info: person2.png used on input line 1697.
+(pdftex.def)             Requested size: 284.52756pt x 522.18309pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
@@ -1910,54 +1842,128 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[54]
+[54pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1702 \newpage
+                <C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/person2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1725--1725
+[]|\T1/lmr/bx/n/12 ØTC ins-ge-
+ []
+
+
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [55]
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1749
+[]|\T1/lmr/bx/n/12 Antwort-
+ []
+
+
+Overfull \hbox (44.70302pt too wide) in paragraph at lines 1753--1753
+[]|\T1/lmr/bx/n/12 Antwortmöglichkeiten| 
+ []
+
+
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[1] (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lof)
-\tf@lof=\write5
+[56]
+Underfull \hbox (badness 10000) in paragraph at lines 1768--1769
 
+ []
+
+
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[57]
+Underfull \hbox (badness 10000) in paragraph at lines 1992--2022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1992--2022
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1992--2022
+
+ []
+
+
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[58]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[59]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[60]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[1]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[2]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2032 \cleardoublepage
-                        [1]
+l.2070 \newpage
+                [1]
+(C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lof)
+\tf@lof=\write5
+
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.2073 \cleardoublepage
+                        [2]
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lot)
 \tf@lot=\write6
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[2
+[3
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2078.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2078.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2119.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2119.
  (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2078.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2078.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2119.
 
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: 767B7225DECFF63E7BC2207F15AF48AF;2583.
+(rerunfilecheck)             Checksum: F126FB2E7C9983DE5EE5590D29D4A4C9;2584.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2078.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2119.
  ) 
 Here is how much of TeX's memory you used:
- 10792 strings out of 493921
- 160070 string characters out of 3144888
- 313078 words of memory out of 3000000
- 13656 multiletter control sequences out of 15000+200000
+ 10808 strings out of 493921
+ 160231 string characters out of 3144888
+ 309228 words of memory out of 3000000
+ 13663 multiletter control sequences out of 15000+200000
  86610 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,12n,51p,2329b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1972,9 +1978,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files
 eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmtt12.pfb>
-Output written on Bachelorarbeit.pdf (66 pages, 1213209 bytes).
+Output written on Bachelorarbeit.pdf (73 pages, 1253809 bytes).
 PDF statistics:
- 845 PDF objects out of 1000 (max. 8388607)
- 191 named destinations out of 1000 (max. 500000)
- 376 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 885 PDF objects out of 1000 (max. 8388607)
+ 199 named destinations out of 1000 (max. 500000)
+ 381 words of extra memory for PDF output out of 10000 (max. 10000000)
 
