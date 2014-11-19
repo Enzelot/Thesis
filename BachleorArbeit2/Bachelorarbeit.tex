@@ -34,7 +34,8 @@
 \usepackage{lmodern} %modernisierte Schriftart
 \usepackage{booktabs}
 \usepackage{multirow}
-\usepackage{ragged2e} 
+\usepackage{ragged2e}
+\usepackage{float} % erwzingt Bildposition wo man will z.B H = here
 
 \deffootnote{1.7em}{2.7em}{{\scriptsize\thefootnotemark~~}} 
 \addtokomafont{footnote}{\RaggedRight}
@@ -545,7 +546,7 @@ Telefontyp & Telefontyp & & Telefontyp \\
 
 
 \subsection{Versuchsaufbau}
-Um eine möglichst realistische Fahrsimulation mit hoher kognitiver Belastung darzustellen, werden die Versuchspersonen ein Rennspiel mit einem Racing Wheel und den dazugehörigen Pedalen spielen. Bei dem Rennspiel handelt es sich um \texttt{Need for Speed: Shift}, welches im Einzelrennen - Modus mit jeweils fünf Gegnern gefahren wird. Die Versuchspersonen sollen neben der Interaktion mit dem Dialogsystem auch eine möglichst hohe Platzierung erreichen. Dies soll die Konzentration und damit die kognitive Belastung während dem Rennspiel steigern. Zu Beginn des Versuchs fahren die Probanden zunächst eine Testrunde. Das Ergebnis dieser Runde bietet eine Einschätzung darüber, wie schwer bzw. einfach das Rennspiel einer Testperson fiel. In den nächsten drei Runden werden die Versuchspersonen parallel zum Rennspiel das Testszenario durchgehen und dabei drei Personen anrufen. 
+Um eine möglichst realistische Fahrsimulation mit hoher kognitiver Belastung darzustellen, werden die Versuchspersonen ein Rennspiel spielen. Durch die Nutzung eines extra für Rennspiele konzipierten Lenkrads, inklusive Gas- und Bremspedal, entsteht ein realitätsgetreues Fahrgefühl. Bei dem Rennspiel handelt es sich um \texttt{Need for Speed: Shift}, welches im Einzelrennen - Modus mit jeweils fünf Gegnern gefahren wird. Die Versuchspersonen sollen neben der Interaktion mit dem Dialogsystem auch eine möglichst hohe Platzierung erreichen. Dies soll die Konzentration und damit die kognitive Belastung während dem Rennspiel steigern. Zu Beginn des Versuchs fahren die Probanden zunächst eine Testrunde. Das Ergebnis dieser Runde bietet eine Einschätzung darüber, wie schwer bzw. einfach das Rennspiel einer Testperson fiel. In den nächsten drei Runden werden die Versuchspersonen parallel zum Rennspiel das Testszenario durchgehen und dabei drei Personen anrufen. 
 
  Der Anruf gilt nur dann als erfolgreich, wenn alle Slots korrekt gefüllt werden. 
 In der letzten Runde findet nur eine Systeminteraktion statt, ohne paralleles Rennspiel und die dadurch verursachte kognitive Belastung. 
@@ -626,7 +627,7 @@ Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt e
 \end{figure}
 
 \subsection{Versuchspersonen}
-Es wurden 12 Versuchspersonen getestet. Davon sind sieben in der Altersgruppe 18-29, zwei in der Altersgruppe 30-41 und drei in der Altersgruppe 42-53. Alle Versuchspersonen sind deutsche Muttersprachler. Unter diesen Personen haben zwei Erfahrung mit Dialogsystemen, zwei spielen öfter Rennspiele und fünf fiel die Einführungsrunde einfach. Zu Beginn wurden die Versuchspersonen gleichmäßig aber zufällig einer Gruppe zugeteilt, durch die bestimmt wird, welche Strategie auf welcher Strecke gefahren wird (siehe Tabelle \ref{verteilung1}).
+Es wurden 12 deutsche Muttersprachler in einer Alterspanne von 18-53 Jahren getestet. Zu Beginn wurden die Versuchspersonen gleichmäßig aber zufällig einer Gruppe zugeteilt, durch die bestimmt wird, welche Strategie auf welcher Strecke gefahren wird (siehe Tabelle \ref{verteilung1}).
 Der Versuchsablauf für die Versuchsperson sah folgendermaßen aus:
 \begin{enumerate}
 \item Testrunde fahren
@@ -647,7 +648,8 @@ Den Versuchspersonen wurde mitgeteilt, dass sie mit einem echten System interagi
 \label{auswertung1}
 Um herauszufinden, welche Disambiguierungsstrategie am effizientesten ist, werden verschiedene Auswertungen vorgenommen. 
 Zunächst werden die Zeiten gemessen, die die Versuchsperson zum einen für das absolvieren der Strecke und zum anderen für das erfolgreiche abschließen des Testszenarios benötigt (\ref{messwerte1} Gemessene Zeiten).
-Außerdem werden die Fragebögen ausgewertet, die von den Versuchsperson nach jeder Runde ausgefüllt werden. Diese beziehen sich auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien (\ref{fragebogen1} Fragebogen). Des Weiteren wird die Task Completion ausgewertet um zu erforschen, wie erfolgreich ein Dialog geführt wurde (\ref{tcausw1} Task Completion). Schließlich wird überprüft, wie die Versuchspersonen auf Rückfragen geantwortet haben und ob es dabei einen Unterschied zwischen hoch und niedrig belastenden Personen gibt (\ref{disverh1} Dialogverhalten). 
+Außerdem werden die Fragebögen ausgewertet, die von den Versuchsperson nach jeder Runde ausgefüllt werden. Diese beziehen sich auf die subjektiv wahrgenommene kognitive Belastung und auf Merkmale der Disambiguierungsstrategien (\ref{fragebogen1} Fragebogen). Des Weiteren wird die Task Completion ausgewertet um zu erforschen, wie erfolgreich ein Dialog geführt wurde (\ref{tcausw1} Task Completion). Schließlich wird überprüft, wie die Versuchspersonen auf Rückfragen geantwortet haben und ob es dabei einen Unterschied zwischen hoch und niedrig belastenden Personen gibt (\ref{disverh1} Dialogverhalten). \\
+Um die Aussagekraft der Ergebnisse zu ermitteln, wird zusätzlich die statistische Signifikanz ermittelt. 
 \subsubsection{Gemessene Zeiten}
 \label{messwerte1}
 \paragraph{Rennzeiten} 
@@ -748,20 +750,23 @@ ohne Strecke &  14,9 sek & 18,8 sek & 17,59 sek \\
 Die Unterschiede aus Strategie 1 sind statistisch signifikant gegenüber den Unterschieden aus Strategie 2 und 3. Die Unterschiede aus Strategie 2 und 3 sind nicht signifikant. Das Ergebnis zeigt, dass die Strategie 1 den kürzesten Dialog sowohl mit Rennspiel, als auch ohne Rennspiel ermöglicht. Die letzten beiden Zeilen der Tabelle zeigen, dass die Versuchspersonen einen kürzeren Dialog in jeder Strategie ohne Rennspiel ablegen. Die Ergebnisse aus dem Unterkapitel \ref{disverh1} lassen ausschließen, dass die Unterschiede aufgrund eines unterschiedlichen Dialogverhaltens zu erklären sind. Dies lässt vermuten, dass die Reaktionszeiten bei geringer Belastung schneller sind als bei hoher Belastung und die zeitlichen Unterschiede dadurch zu Stande kommen. 
 \subsubsection{Fragebogen}
 \label{fragebogen1}
-Neben den Zeiten wird der Fragebogen jeder Runde ausgewertet. Dieser besteht im ersten Teil aus einem Ausschnitt des NASA-TLX Testes zur subjektiven Einschätzung der empfundenen kognitiven Belastung\footnote{\label{foot:nasatlx1}\url{http://www.keithv.com/software/nasatlx/nasatlx_german.html}} . Im zweiten Teil werden Fragen über die zuletzt gehörte Strategie gestellt und es wird die Möglichkeit gegeben positives oder negatives Feedback über den Dialog der letzten Runde zu geben. Zu Beginn des Versuchs wird ein allgemeiner Fragebogen ausgefüllt, der Informationen zur Versuchsperson liefert. 
+Neben den Zeiten wird der Fragebogen jeder Runde ausgewertet. Dieser besteht im ersten Teil aus einem Ausschnitt des NASA-TLX Testes zur subjektiven Einschätzung der empfundenen kognitiven Belastung\footnote{\label{foot:nasatlx1}\url{http://www.keithv.com/software/nasatlx/nasatlx_german.html}} . Im zweiten Teil werden Fragen über die zuletzt verwendete Dialogstrategie gestellt und es wird die Möglichkeit gegeben positives oder negatives Feedback über den Dialog der letzten Runde zu geben. Zu Beginn des Versuchs wird ein allgemeiner Fragebogen ausgefüllt, der Informationen zur Versuchsperson liefert. 
 \paragraph{Nasa-TLX}
 ~\\
-Abbildung \ref{fbnasatlx1} zeigt den NASA-TLX Teil des Fragebogens. 
-\begin{figure}[htbp]
+Abbildung \ref{fbnasatlx1} zeigt den NASA-TLX Fragebogen. 
+Die Ergebnisse dieses Testes werden zum einen dafür genutzt um zu erforschen, bei welcher Strategie die Versuchspersonen eine höhere kognitive Belastung empfunden haben. Zum anderen kann man sehen, wie die Versuchspersonen ihre kognitive Belastung während einer Runde mit Rennspiel im Vergleich zur Runde ohne Rennspiel einschätzen. 
+
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=12cm]{nasa.png}
 \caption{Fragebogen: NASA-TLX}
 \label{fbnasatlx1}
 \end{center}
 \end{figure}
-Die Ergebnisse dieses Testes werden zum einen dafür genutzt um zu erforschen, bei welcher Strategie die Versuchspersonen eine höhere kognitive Belastung empfunden haben. Zum anderen kann man sehen, wie die Versuchspersonen ihre kognitive Belastung während einer Runde mit Rennspiel im Vergleich zur Runde ohne Rennspiel einschätzen. 
-Die nachfolgende Tabelle zeigt die Ergebnisse jeder Frage pro Strategie. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und nur der Runde ohne Rennspiel (4) aufgelistet. 
-\newline
+
+Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) aufgelistet und für jede Strategie einzeln gewertet. \newpage
+
+
 \begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 	\hline
 		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
@@ -810,22 +815,23 @@ Die nachfolgende Tabelle zeigt die Ergebnisse jeder Frage pro Strategie. Dabei w
 \hline
 \end{longtable}
 
-Die Unterschiede der Antworten einzelner Strategien sind nicht signifikant, sodass nicht eindeutig gesagt werden kann, welche Strategie die Versuchsperson am meisten bzw. am wenigsten belastet. Betrachtet man jedoch die Ergebnisse aller Fragen fällt auf, dass die Ergebnisse für die geistige Anforderung, die Anstrengung und die Frustration zeigen, dass die erste Strategie als am wenigsten belastend und die dritte Strategie am belastendsten gewertet wurde. Dies deckt sich auch mit den Ergebnissen aus dem zweiten Teil des Fragebogens, in welchem die erste Strategie als Favorit und die dritte Strategie als unbeliebteste Strategie gewertet wurde. \newline \newline Vergleicht man die Werte für Runde 1-3 mit den Werten von Runde 4 fällt auf, dass die Dialoge parallel zum Rennspiel durchweg, mit Ausnahme der Frage nach der Leistung, als belastender gewertet wurden als die Dialoge ohne Rennspiel. Dies zeigt, dass die Versuchspersonen einen Unterschied in der kognitiven Belastung gespürt haben.   
+Die Unterschiede der Antworten einzelner Strategien sind nicht signifikant, sodass nicht eindeutig gesagt werden kann, welche Strategie die Versuchsperson am meisten bzw. am wenigsten belastet. Betrachtet man jedoch die Ergebnisse aller Fragen fällt auf, dass die Antworten im Bezug auf geistige Anforderung, die Anstrengung und die Frustration zeigen, dass die erste Strategie als am wenigsten belastend und die dritte Strategie als am belastendsten empfunden wurde. Dies deckt sich auch mit den Ergebnissen aus dem zweiten Teil des Fragebogens, in welchem die erste Strategie als Favorit und die dritte Strategie als unbeliebteste Strategie gewertet wurde. \newline \newline Vergleicht man die Werte für Runde 1-3 mit den Werten von Runde 4 fällt auf, dass die Dialoge parallel zum Rennspiel durchweg, mit Ausnahme der Frage nach der Leistung, als belastender gewertet wurden als die Dialoge ohne Rennspiel. Dies zeigt, dass die Versuchspersonen einen Unterschied in der kognitiven Belastung gespürt haben.   
 \paragraph{Strategien}
 ~\\
 Der zweite Teil des Fragebogens ist in Abbildung \ref{fbstrategien1} zu sehen. 
-\newline
-\begin{figure}[htbp]
+Mit diesem Fragebogen werden die einzelnen Strategien anhand verschiedener Kategorien bewertet.
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=12cm]{fbdialog.png}
 \caption{Fragebogen: Dialogstrategien}
 \label{fbstrategien1}
 \end{center}
 \end{figure}
-
-In diesem Teil geht es darum, die einzelnen Strategien anhand verschiedener Kategorien zu bewerten.
-Die nachfolgende Tabelle zeigt die Ergebnisse jeder Frage pro Strategie. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und nur der Runde ohne Rennspiel (4) aufgelistet. 
-\newline
+Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) aufgelistet und für jede Strategie einzeln gewertet.
+\newline \newline
+Da die Interaktion mit dem Dialogsystem in Runde 4 ohne Rennspiel erfolgt, wird die Frage \texttt{"Der Dialog lenkte mich vom Rennspiel ab"} für diese Runde nicht beantwortet. Entsprechend wird die Frage \texttt{"Fiel es Ihnen einfacher, den Dialog ohne Rennspiel zu führen?"} nur für die 4. Runde beantwortet.
+Die Frage \texttt{"Welcher Anruf gefiel Ihnen insgesamt am besten?"} wird zum Schluss beantwortet.
+\newpage
 
 \begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
 	\hline
@@ -839,9 +845,9 @@ Die nachfolgende Tabelle zeigt die Ergebnisse jeder Frage pro Strategie. Dabei w
 	\endhead
 		\multicolumn{5}{l}{\textbf{Der Dialog lenkte mich vom Rennspiel ab}}\\
 		\hline
-\multirow{3}{4cm}{1: kaum \newline 6: stark} & Strategie 1 & \multirow{3}{2,5cm}{in Runde 4 nicht beantwortet} & 2,25  & \multirow{3}{2,5cm}{nicht beantwortet} \\
- & Strategie 2 & & 2,58 & \\
- & Strategie 3 & & 2,58 & \\
+\multirow{3}{4cm}{1: kaum \newline 6: stark} & Strategie 1 & - & 2,25  & - \\
+ & Strategie 2 & - & 2,58 & - \\
+ & Strategie 3 & - & 2,58 & -\\
 \hline
 		\multicolumn{5}{l}{\textbf{Die Nachfragen erleichterten es mir, den Anruf korrekt aufzubauen}}\\
 		\hline
@@ -863,32 +869,91 @@ Die nachfolgende Tabelle zeigt die Ergebnisse jeder Frage pro Strategie. Dabei w
 \hline
 		\multicolumn{5}{l}{\textbf{Fiel es Ihnen einfacher, den Dialog ohne Rennspiel zu führen?}}\\
 		\hline
-\multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 & \multirow{3}{2,5cm}{in Runden 1-3 nicht beantwortet} & \multirow{3}{2,5cm}{nicht beantwortet} & 2 \\
- & Strategie 2 & & & 3,75 \\
- & Strategie 3 & & & 2,25\\
+\multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 &  - & - & 2 \\
+ & Strategie 2 & - & - & 3,75 \\
+ & Strategie 3 & - & - & 2,25\\
 \hline
 		\multicolumn{5}{l}{\textbf{Welcher Anruf gefiel Ihnen insgesamt am besten?}}\\
 		\hline
-\multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 75\% & & \\
- & Strategie 2 & 16,6\% && \\
- & Strategie 3 & 8,3\% && \\
+\multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 75\% & - & - \\
+ & Strategie 2 & 16,6\% & - & - \\
+ & Strategie 3 & 8,3\% & - & - \\
 \hline
 \end{longtable}
 
-Die ersten vier Antworten dieses Fragebogens zeigen, dass die erste Strategie am Positivsten und die dritte Strategie am Negativsten gewertet wurde. Dies stimmt mit dem Ergebnis der letzten Frage überein, welche konkret nach der beliebtesten Strategie nachfragt. \newline \newline Die vorletzte Frage zeigt, dass es dem Durchschnitt der Versuchspersonen einfacher fiel, den Dialog ohne Rennspiel zu führen. Dies bestätigt das Ergebnis aus dem NASA-TLX Fragebogen, welches besagt, dass die Versuchspersonen einen Unterschied in der kognitiven Belastung zwischen Dialog mit Rennspiel und ohne Rennspiel gemerkt haben.  
+Die ersten vier Antworten dieses Fragebogens zeigen, dass die erste Strategie am Positivsten und die dritte Strategie am Negativsten gewertet wurde. Dies stimmt mit dem Ergebnis der letzten Frage überein, welche konkret nach der beliebtesten Strategie fragt. \newline \newline Die vorletzte Frage zeigt, dass es dem Durchschnitt der Versuchspersonen einfacher fiel, den Dialog ohne Rennspiel zu führen. Dies bestätigt das Ergebnis aus dem NASA-TLX Fragebogen, welches besagt, dass die Versuchspersonen einen Unterschied in der kognitiven Belastung zwischen Dialog mit Rennspiel und ohne Rennspiel gemerkt haben.  
 
 \paragraph{Person}
 \label{fbperson1}
 ~\\
 In Abbildung \ref{fbperson} sind die Fragen dieses Fragebogens abgebildet. Dieser Fragebogen dient dazu, um Informationen über die Versuchsperson zu erhalten.
-Die Fragen nach der Rennspiel- und Dialogerfahrung können für die spätere Auswertung der Zeiten interessant sein und eine mögliche Erklärung für stark abweichende Rennspiel- Und Dialogzeiten liefern. 
-\begin{figure}[htbp]
+Die Fragen nach der Rennspiel- und Dialogerfahrung können für die spätere Auswertung der Zeiten interessant sein und eine mögliche Erklärung für stark abweichende Rennspiel- und Dialogzeiten liefern. \newline \newline
+Jeder Person wird eine ID zugeteilt. Diese wird zu Beginn jedes Fragebogens eingetragen, damit jeder Versuchsperson alle abgegebenen Antworten zugeordnet werden können. 
+
+\begin{figure}[H]
 \begin{center}
 \includegraphics[width=12cm]{fbperson.png}
 \caption{Fragebogen: Person}
 \label{fbperson}
 \end{center}
 \end{figure}
+\newpage
+
+
+58\% der Probanten sind in einer Altersgruppe von 18-29, 17 \% in einer Altersgruppe von 30-41 und 25\% in einer Altersgruppe von 42-53. Alle Versuchspersonen sind deutsche Muttersprachler. 
+Eine Zusammenfassung der restlichen Antworten steht in Abbildung \ref{fbpersonaus}.
+
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=10cm]{person1.png}
+\caption{Fragebogen: Person}
+\label{fbpersonaus}
+\end{center}
+\end{figure}
+\newpage
+
+Das Ergebnis zeigt, dass 75\% der Testpersonen keine bzw. wenig Erfahrung mit Dialogsystemen haben. Aus den Antworten lässt sich weiter schließen, dass 83\% der Befragten selten Rennspiele spielen und die Einführungsrunde 58\% schwer fiel. Daraus wird klar, dass die Mehrheit der Versuchspersonen unerfahren im Umgang mit Dialogsystemen und Rennspielen ist. In einer zukünftigen Arbeit könnte untersucht werden, ob das Ergebnisse des Versuchs abhängig von der Erfahrung der Versuchspersonen mit Dialogsystemen und Rennspielen ist. Dazu könnten die Testpersonen je nach Erfahrung in zwei Gruppen aufgeteilt und die Resultate miteinander vergleichen werden. 
+
+\begin{comment}
+\begin{longtable}{|p{4cm}|p{4cm}|p{4cm}|}
+	\hline
+	\textbf{Antwortenintervall}&\textbf{Antwort}&\textbf{Antworten in \%}\\
+	\hline
+	\endhead
+		\multicolumn{3}{l}{\textbf{Wie alt sind Sie}}\\
+		\hline
+ & 18-29 &  58 \\
+ & 30-41 &  17 \\
+ & 41-53 &  25\\
+\hline
+		\multicolumn{3}{l}{\textbf{Haben Sie Erfahrung mit Dialogsystemen}}\\
+		\hline
+\multirow{2}{4cm}{1: gar keine \newline  6: viel } & 1-3 &  58 \\
+ & 4-6 &  17 \\
+
+\hline
+		\multicolumn{3}{l}{\textbf{Spielen Sie oft Rennspiele}}\\
+		\hline
+\multirow{2}{4cm}{1: sehr oft \newline  6: nie } & 1-3 &  58 \\
+ & 4-6 &  17 \\
+
+\hline
+		\multicolumn{3}{l}{\textbf{Wie technikaffin sind Sie}}\\
+		\hline
+\multirow{2}{4cm}{1: sehr \newline  6: gar nicht} & 1-3 &  58 \\
+ & 4-6 &  17 \\
+
+\hline
+		\multicolumn{3}{l}{\textbf{Wie schwer fiel Ihnen die Einführungsrunde}}\\
+		\hline
+\multirow{2}{4cm}{1: sehr schwer\newline  6: sehr einfach} & 1-3 &  58 \\
+ & 4-6 &  17 \\
+
+\hline
+\end{longtable}
+\end{comment}
+
 
 \subsubsection{Task Completion}
 \label{tcausw1}
@@ -896,10 +961,10 @@ Für jede Strategie wird die Task Completion ausgewertet, welche besagt, mit wel
 \begin{itemize}
 \item 0 Punkte, wenn kein Slot richtig gefüllt wird
 \item 1 Punkt, wenn ein Slot richtig gefüllt wird
-\item 2 Punkte, wenn alle Slots richtig gefüllt wird
+\item 2 Punkte, wenn alle Slots richtig gefüllt werden
 \end{itemize}
-Zur Auswertung wird pro Strategie eine Durchschnittspunktzahl berechnet. 
-Diese finden sich in Tabelle \ref{TCV1}.
+Zur Auswertung wird pro Strategie eine Durchschnittspunktzahl berechnet. Die Durchschnittspunktzahlen für alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) finden sich in Tabelle \ref{TCV1}.
+\newpage
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{TCV1}\\
@@ -920,9 +985,9 @@ Insgesamt & & 1,78 & 1,83 \\
 \hline
 \end{longtable}
 
-Im Durchschnitt wurde in der Runde ohne Rennspiel eine höhere Task Completion erreicht. Das besagt, dass die Dialoge der vierten Runde am erfolgreichsten sind. Der Unterschied ist jedoch sehr gering, sodass man für ein eindeutiges Ergebnis mehr Ergebnisse zur Auswertung benötigt. Das Ergebnis zeigt weiter, dass die zweite Strategie insgesamt am erfolgreichsten ist. Die erfolgloseste Strategie ist nach diesem Ergebnis die dritte Strategie. Dies passt zum Ergebnis, dass diese Strategie im 2. Teil des Fragebogens am schlechtesten gewertet wurde. Strategie 1, welche als beliebteste Strategie der Runde 1-3 ausgewählt wurde, liefert für diese Runden die gleiche Task Completion wie Strategie 2. Hier fehlen weitere Ergebnisse um eine konkrete Verbindung zwischen beliebteste Strategie und Strategie mit höchster Task Completion herzustellen. Dabei muss auch der Fall betrachtet werden, dass die Versuchsperson ihre Fehler möglicherweise gar nicht bemerken. Diese Verbindung könnte in einem umfangreichen Experiment in späteren Arbeiten überprüft werden. 
+Im Durchschnitt wurde in Runde 4 eine höhere Task Completion erreicht. Das besagt, dass die Dialoge der vierten Runde am erfolgreichsten durchgeführt wurden. Der Unterschied ist jedoch sehr gering, sodass man für ein eindeutiges Resultat mehr Ergebnisse zur Auswertung benötigt. Die Durchschnittspunktzahlen zeigen weiter, dass die zweite Strategie insgesamt am erfolgreichsten abgeschlossen wurde. Die erfolgloseste Strategie ist nach diesem Ergebnis die dritte Strategie. Dies passt zum Ergebnis, dass diese Dialogstrategie im Fragebogen über die Strategien (vgl. \ref{fragebogen1} Unterkapitel Strategien) am schlechtesten gewertet wurde. Strategie 1, welche als beliebteste Strategie der Runde 1-3 ausgewählt wurde, liefert für diese Runden die gleiche Task Completion wie Strategie 2. Hier fehlen weitere Ergebnisse um eine konkrete Verbindung zwischen beliebteste Strategie und Strategie mit höchster Task Completion herzustellen. Dabei muss auch der Fall betrachtet werden, dass die Versuchsperson ihre Fehler möglicherweise gar nicht bemerken. Diese Verbindung könnte in einem umfangreichen Experiment in späteren Arbeiten überprüft werden. 
 Grundsätzlich kann man an diesem Ergebnis sehen, dass insgesamt der Anruf am häufigsten korrekt mit Strategie 2 und am seltensten korrekt mit Strategie 3 ausgeführt werden konnte. \newline
-Es ist jedoch fraglich, ob die hier entstandenen Fehler auch in einem realen Dialog aufkommen, bei dem die Versuchsperson selbst entscheidet wer auf welcher Nummer angerufen werden soll. Deshalb gibt diese Auswertung nur ein Indiz darauf, welche Strategie möglicherweise am kompliziertesten ist. 
+Es ist jedoch fraglich, ob die hier entstandenen Fehler auch in einem realen Dialog aufkommen, bei dem die Versuchsperson die Anrufattribute selbst bestimmen. Deshalb gibt diese Auswertung nur ein Indiz darauf, welche Strategie möglicherweise am kompliziertesten ist. 
 
 
 \subsubsection{Dialogverhalten}
