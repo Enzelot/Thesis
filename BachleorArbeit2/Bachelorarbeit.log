@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  20 NOV 2014 22:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  21 NOV 2014 00:41
 entering extended mode
 **Bachelorarbeit.tex
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.tex
@@ -1912,17 +1912,37 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2027--2057
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2027--2057
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2027--2057
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2022--2040
 
  []
 
@@ -1935,10 +1955,37 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [61]
+Underfull \hbox (badness 10000) in paragraph at lines 2044--2074
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2044--2074
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2044--2074
+
+ []
+
+
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [62]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[63]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[64]
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[65]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1953,7 +2000,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2114 \newpage
+l.2131 \newpage
                 [1]
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lof)
 \tf@lof=\write5
@@ -1964,7 +2011,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2117 \cleardoublepage
+l.2134 \cleardoublepage
                         [2]
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lot)
 \tf@lot=\write6
@@ -1976,11 +2023,11 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2163.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2163.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2180.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2180.
  (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2163.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2163.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2180.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2180.
 
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: F126FB2E7C9983DE5EE5590D29D4A4C9;2584.
@@ -1988,11 +2035,11 @@ Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2163.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2180.
  ) 
 Here is how much of TeX's memory you used:
- 10825 strings out of 493921
- 160390 string characters out of 3144888
+ 10828 strings out of 493921
+ 160411 string characters out of 3144888
  309430 words of memory out of 3000000
  13672 multiletter control sequences out of 15000+200000
  86610 words of font info for 80 fonts, out of 3000000 for 9000
@@ -2009,9 +2056,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files
 eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmtt12.pfb>
-Output written on Bachelorarbeit.pdf (75 pages, 3530723 bytes).
+Output written on Bachelorarbeit.pdf (78 pages, 3536227 bytes).
 PDF statistics:
- 917 PDF objects out of 1000 (max. 8388607)
- 206 named destinations out of 1000 (max. 500000)
+ 929 PDF objects out of 1000 (max. 8388607)
+ 209 named destinations out of 1000 (max. 500000)
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 

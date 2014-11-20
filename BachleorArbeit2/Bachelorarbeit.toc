@@ -44,8 +44,8 @@
 \contentsline {subsubsection}{\numberline {6.6.3}Task Completion}{57}{subsubsection.6.6.3}
 \contentsline {subsubsection}{\numberline {6.6.4}Dialogverhalten}{58}{subsubsection.6.6.4}
 \contentsline {subsection}{\numberline {6.7}Resultat}{59}{subsection.6.7}
-\contentsline {section}{\numberline {7}Ergebnisse}{59}{section.7}
-\contentsline {section}{\numberline {8}Diskussion}{60}{section.8}
+\contentsline {section}{\numberline {7}Ergebnisse}{60}{section.7}
+\contentsline {section}{\numberline {8}Diskussion}{63}{section.8}
 \contentsline {section}{\numberline {A}Anhang}{i}{appendix.A}
 \contentsline {section}{Abbildungsverzeichnis}{ii}{appendix.A}
 \contentsline {section}{Tabellenverzeichnis}{iii}{section*.17}
