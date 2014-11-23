@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  23 NOV 2014 18:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  23 NOV 2014 18:27
 entering extended mode
 **Bachelorarbeit.tex
 (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.tex
@@ -948,7 +948,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks30
 \@floatcapt=\box37
 )
-(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
+(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux
+
+LaTeX Warning: Label `foot:googelforms' multiply defined.
+
+
+LaTeX Warning: Label `Dialogverhalten12' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
@@ -965,8 +972,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
 LaTeX Font Info:    ... okay on input line 78.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 78.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 78.
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 78.
@@ -1193,12 +1199,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 [5
 
 
-]
-
-Package hyperref Warning: old toc file detected, not used; run LaTeX again.
-
-\tf@toc=\write4
-
+] (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.toc
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1207,7 +1208,13 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 
-]
+])
+\tf@toc=\write4
+
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[7]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1215,12 +1222,9 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 ]
-
-LaTeX Warning: Reference `odps3' on page 2 undefined on input line 201.
-
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 201.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
@@ -1228,10 +1232,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 201.
 
-
-LaTeX Warning: Citation `BNFref' on page 2 undefined on input line 202.
-
-<odps3.png, id=204, 574.39594pt x 350.05782pt>
+<odps3.png, id=249, 574.39594pt x 350.05782pt>
 File: odps3.png Graphic file (type png)
  <use odps3.png>
 Package pdftex.def Info: odps3.png used on input line 205.
@@ -1241,23 +1242,6 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [2]
-
-LaTeX Warning: Reference `disambiguierungsstrategien' on page 3 undefined on in
-put line 212.
-
-
-LaTeX Warning: Reference `WOZ' on page 3 undefined on input line 212.
-
-
-LaTeX Warning: Reference `versuch1' on page 3 undefined on input line 212.
-
-
-LaTeX Warning: Reference `Verusch2' on page 3 undefined on input line 212.
-
-
-LaTeX Warning: Reference `Ergebnisse' on page 3 undefined on input line 212.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1272,19 +1256,6 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [4]
-
-LaTeX Warning: Citation `DbCL' on page 5 undefined on input line 262.
-
-
-LaTeX Warning: Citation `eCLDS' on page 5 undefined on input line 263.
-
-
-LaTeX Warning: Citation `eCLDS' on page 5 undefined on input line 264.
-
-
-LaTeX Warning: Citation `Wozhcd' on page 5 undefined on input line 266.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 259--268
 
  []
@@ -1294,10 +1265,6 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [5]
-
-LaTeX Warning: Reference `ControlPanel' on page 6 undefined on input line 382.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 383--383
 [][][][][]$\T1/lmtt/m/n/10 http : / / www . oracle . com / technetwork / java /
  javase / downloads /$ 
@@ -1318,9 +1285,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 388--389
  []
 
 
-LaTeX Warning: Reference `fragebogen1' on page 7 undefined on input line 390.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 390--392
 
  []
@@ -1334,13 +1298,6 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [7]
-
-LaTeX Warning: Citation `SaLP' on page 8 undefined on input line 412.
-
-
-LaTeX Warning: Citation `SaLP' on page 8 undefined on input line 412.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1422,28 +1379,11 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [11]
-
-LaTeX Warning: Citation `InDe' on page 12 undefined on input line 517.
-
-
-LaTeX Warning: Citation `SaLP' on page 12 undefined on input line 517.
-
-
-LaTeX Warning: Citation `SaLP' on page 12 undefined on input line 517.
-
-
-LaTeX Warning: Reference `ControlPanel' on page 12 undefined on input line 518.
-
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
-
-LaTeX Warning: Reference `anke' on page 12 undefined on input line 521.
-
-<Anke.pdf, id=281, 597.55246pt x 845.07718pt>
+<Anke.pdf, id=350, 597.55246pt x 845.07718pt>
 File: Anke.pdf Graphic file (type pdf)
  <use Anke.pdf>
 Package pdftex.def Info: Anke.pdf used on input line 524.
@@ -1453,10 +1393,6 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [12]
-
-LaTeX Warning: Reference `slots' on page 13 undefined on input line 529.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1485,14 +1421,7 @@ Overfull \hbox (4.08488pt too wide) in alignment at lines 541--549
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[14]
-
-LaTeX Warning: Reference `slotsPerson' on page 15 undefined on input line 551.
-
-
-LaTeX Warning: Reference `nfsss' on page 15 undefined on input line 575.
-
-<nfs.png, id=333, 1445.4pt x 813.0375pt>
+[14] <nfs.png, id=407, 1445.4pt x 813.0375pt>
 File: nfs.png Graphic file (type png)
  <use nfs.png>
 Package pdftex.def Info: nfs.png used on input line 579.
@@ -1502,10 +1431,6 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [15]
-
-LaTeX Warning: Reference `ablauf1' on page 16 undefined on input line 589.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1517,50 +1442,24 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 l.605 \end{longtable}
                       <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/nfs.png
 >]
-
-LaTeX Warning: Reference `messwerte1' on page 17 undefined on input line 609.
-
-
-LaTeX Warning: Reference `verteilung1' on page 17 undefined on input line 610.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [17]
-
-LaTeX Warning: Reference `anrufstrecke1' on page 18 undefined on input line 630
-.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[18]
-
-LaTeX Warning: Reference `cp1' on page 19 undefined on input line 658.
-
-<controlpanel.png, id=354, 466.74374pt x 324.46219pt>
+[18] <controlpanel.png, id=435, 466.74374pt x 324.46219pt>
 File: controlpanel.png Graphic file (type png)
- <use controlpanel.png>
+
+<use controlpanel.png>
 Package pdftex.def Info: controlpanel.png used on input line 660.
 (pdftex.def)             Requested size: 369.88582pt x 257.1392pt.
-
-
-LaTeX Warning: Reference `verteilung1' on page 19 undefined on input line 666.
-
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [19]
-
-LaTeX Warning: Reference `fragebogen1' on page 20 undefined on input line 670.
-
-
-LaTeX Warning: Reference `fragebogen1' on page 20 undefined on input line 672.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1572,56 +1471,22 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 l.674 \item F
              ragebogen Ã¼ber kognitive Belastung und letzten Dialog ausfÃ¼llen 
 <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/controlpanel.png>]
-
-LaTeX Warning: Reference `messwerte1' on page 21 undefined on input line 686.
-
-
-LaTeX Warning: Reference `fragebogen1' on page 21 undefined on input line 687.
-
-
-LaTeX Warning: Reference `tcausw1' on page 21 undefined on input line 687.
-
-
-LaTeX Warning: Reference `disverh1' on page 21 undefined on input line 687.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [21]
-
-LaTeX Warning: Reference `RZ3SV1' on page 22 undefined on input line 694.
-
-
-LaTeX Warning: Reference `RennZeitenDis1' on page 22 undefined on input line 71
-6.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [22]
-
-LaTeX Warning: Reference `Durchschnittsdialogzeiten1' on page 23 undefined on i
-nput line 762.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [23]
-
-LaTeX Warning: Reference `disverh1' on page 24 undefined on input line 786.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[24]
-
-LaTeX Warning: Reference `fbnasatlx1' on page 25 undefined on input line 792.
-
-<nasa.png, id=400, 356.0803pt x 516.42938pt>
+[24] <nasa.png, id=492, 356.0803pt x 516.42938pt>
 File: nasa.png Graphic file (type png)
  <use nasa.png>
 Package pdftex.def Info: nasa.png used on input line 797.
@@ -1645,54 +1510,50 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [27]
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 812--812
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 810--810
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 817--817
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 815--815
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--817
+Underfull \hbox (badness 10000) in paragraph at lines 815--815
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 817--817
+Underfull \hbox (badness 10000) in paragraph at lines 815--815
 []|\T1/lmr/bx/n/12 Runden
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 857--858
+
  []
 
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[28]
-Underfull \hbox (badness 10000) in paragraph at lines 859--860
-
- []
-
-
-LaTeX Warning: Reference `fbstrategien1' on page 29 undefined on input line 862
-.
-
-<fbdialog.png, id=423, 324.46219pt x 505.13719pt>
+[28] <fbdialog.png, id=515, 324.46219pt x 505.13719pt>
 File: fbdialog.png Graphic file (type png)
  <use fbdialog.png>
-Package pdftex.def Info: fbdialog.png used on input line 866.
+Package pdftex.def Info: fbdialog.png used on input line 864.
 (pdftex.def)             Requested size: 341.43306pt x 531.5967pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 871--875
+Underfull \hbox (badness 10000) in paragraph at lines 869--873
 
  []
 
 
-Overfull \hbox (4.39803pt too wide) in paragraph at lines 871--875
+Overfull \hbox (4.39803pt too wide) in paragraph at lines 869--873
 \T1/lmr/m/n/12 Fra-ge \T1/lmtt/m/n/12 "Welcher Anruf gefiel Ihnen insgesamt am 
 besten?" \T1/lmr/m/n/12 wird zum Schluss
  []
@@ -1706,38 +1567,34 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.875 \newpage
+l.873 \newpage
                <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/fbdialog.png>]
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [31]
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 879--879
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 877--877
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 884--884
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 882--882
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 882--882
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 884--884
+Underfull \hbox (badness 10000) in paragraph at lines 882--882
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table 14 on input line 923.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 925--926
+Underfull \hbox (badness 10000) in paragraph at lines 923--924
 
  []
 
@@ -1746,18 +1603,14 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [32]
-
-LaTeX Warning: Reference `fbperson' on page 33 undefined on input line 930.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 929--933
+Underfull \hbox (badness 10000) in paragraph at lines 927--931
 
  []
 
-<fbperson.png, id=445, 491.58656pt x 624.08156pt>
+<fbperson.png, id=538, 491.58656pt x 624.08156pt>
 File: fbperson.png Graphic file (type png)
  <use fbperson.png>
-Package pdftex.def Info: fbperson.png used on input line 936.
+Package pdftex.def Info: fbperson.png used on input line 934.
 (pdftex.def)             Requested size: 341.43306pt x 433.47356pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
@@ -1772,15 +1625,12 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.941 \newpage
+l.939 \newpage
                <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/fbperson.png>]
-
-LaTeX Warning: Reference `fbpersonaus' on page 35 undefined on input line 945.
-
-<person1.png, id=457, 309.40594pt x 615.80063pt>
+<person1.png, id=551, 309.40594pt x 615.80063pt>
 File: person1.png Graphic file (type png)
  <use person1.png>
-Package pdftex.def Info: person1.png used on input line 950.
+Package pdftex.def Info: person1.png used on input line 948.
 (pdftex.def)             Requested size: 284.52756pt x 566.33673pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
@@ -1798,49 +1648,32 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.955 \newpage
+l.953 \newpage
                <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/person1.png>]
-
-LaTeX Warning: Reference `slotsPerson' on page 37 undefined on input line 1001.
-
-
-
-LaTeX Warning: Reference `TCV1' on page 37 undefined on input line 1007.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1018--1018
+Underfull \hbox (badness 10000) in paragraph at lines 1016--1016
 []|\T1/lmr/bx/n/12 ØTC ins-ge-
  []
-
-
-LaTeX Warning: Reference `fragebogen1' on page 38 undefined on input line 1029.
-
 
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [38]
-
-LaTeX Warning: Reference `Dialogverhalten11' on page 39 undefined on input line
- 1036.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1048--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1046--1046
 []|\T1/lmr/bx/n/12 Antwort-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1067--1067
+Underfull \hbox (badness 10000) in paragraph at lines 1065--1065
 []|\T1/lmr/bx/n/12 Antwort-
  []
 
 
-Overfull \hbox (44.70302pt too wide) in paragraph at lines 1071--1071
+Overfull \hbox (44.70302pt too wide) in paragraph at lines 1069--1069
 []|\T1/lmr/bx/n/12 Antwortmöglichkeiten| 
  []
 
@@ -1849,17 +1682,12 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [39]
-
-LaTeX Warning: Reference `auswertung1' on page 40 undefined on input line 1142.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1144--1393
+Underfull \hbox (badness 10000) in paragraph at lines 1142--1391
 
  []
 
@@ -1872,30 +1700,26 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [41]
-
-LaTeX Warning: Reference `slots2' on page 42 undefined on input line 1404.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [42]
-Overfull \hbox (4.0849pt too wide) in alignment at lines 1408--1414
+Overfull \hbox (4.0849pt too wide) in alignment at lines 1406--1412
  [] [] 
  []
 
 
-Overfull \hbox (4.0849pt too wide) in alignment at lines 1414--1418
+Overfull \hbox (4.0849pt too wide) in alignment at lines 1412--1416
  [] [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1420--1421
+Underfull \hbox (badness 10000) in paragraph at lines 1418--1419
 []|\T1/lmr/m/n/12 Kohlpharma, Mö-bel Mar-tin, Glo-bus, Spar-kas-se,
  []
 
 
-Overfull \hbox (4.0849pt too wide) in alignment at lines 1418--1424
+Overfull \hbox (4.0849pt too wide) in alignment at lines 1416--1422
  [] [] 
  []
 
@@ -1903,20 +1727,11 @@ Overfull \hbox (4.0849pt too wide) in alignment at lines 1418--1424
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[43]
-
-LaTeX Warning: Reference `anke2' on page 44 undefined on input line 1427.
-
-<Anke2.pdf, id=502, 597.55246pt x 845.07718pt>
+[43] <Anke2.pdf, id=603, 597.55246pt x 845.07718pt>
 File: Anke2.pdf Graphic file (type pdf)
  <use Anke2.pdf>
-Package pdftex.def Info: Anke2.pdf used on input line 1431.
+Package pdftex.def Info: Anke2.pdf used on input line 1429.
 (pdftex.def)             Requested size: 341.43306pt x 482.87242pt.
-
-
-LaTeX Warning: Reference `slotsPerson2' on page 44 undefined on input line 1437
-.
-
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
@@ -1926,41 +1741,22 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1439 
+l.1437 
         <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/Anke2.pdf>]
-
-LaTeX Warning: Reference `ablauf' on page 45 undefined on input line 1462.
-
-
-LaTeX Warning: Reference `verteilung' on page 45 undefined on input line 1482.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[45]
-
-LaTeX Warning: Reference `cp2' on page 46 undefined on input line 1503.
-
-<controlpanel2.png, id=540, 468.24937pt x 328.22626pt>
+[45] <controlpanel2.png, id=645, 468.24937pt x 328.22626pt>
 File: controlpanel2.png Graphic file (type png)
- <use controlpanel2.png>
-Package pdftex.def Info: controlpanel2.png used on input line 1505.
+
+<use controlpanel2.png>
+Package pdftex.def Info: controlpanel2.png used on input line 1503.
 (pdftex.def)             Requested size: 369.88582pt x 259.29088pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [46]
-
-LaTeX Warning: Reference `fragebogen2' on page 47 undefined on input line 1516.
-
-
-
-LaTeX Warning: Reference `fragebogen2' on page 47 undefined on input line 1518.
-
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -1969,39 +1765,13 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1521 \item S
+l.1519 \item S
               trecke C fahren + Fritz anrufen <C:/Users/Lenz/Desktop/GIT/Thesis
 /BachleorArbeit2/controlpanel2.png>]
-
-LaTeX Warning: Reference `messwerte1' on page 48 undefined on input line 1533.
-
-
-LaTeX Warning: Reference `fragebogen2' on page 48 undefined on input line 1534.
-
-
-
-LaTeX Warning: Reference `TC2' on page 48 undefined on input line 1534.
-
-
-LaTeX Warning: Reference `DV2' on page 48 undefined on input line 1534.
-
-
-LaTeX Warning: Reference `RZ3SV2' on page 48 undefined on input line 1542.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [48]
-
-LaTeX Warning: Reference `RennZeitenDis2' on page 49 undefined on input line 15
-61.
-
-
-LaTeX Warning: Reference `Durchschnittsdialogzeiten2' on page 49 undefined on i
-nput line 1584.
-
-
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -2014,22 +1784,22 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [51]
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1621--1621
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1619--1619
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1626--1626
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1624--1624
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1624
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1626--1626
+Underfull \hbox (badness 10000) in paragraph at lines 1624--1624
 []|\T1/lmr/bx/n/12 Runden
  []
 
@@ -2042,31 +1812,27 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [53]
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1676--1676
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1674--1674
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Overfull \hbox (3.52429pt too wide) in paragraph at lines 1681--1681
+Overfull \hbox (3.52429pt too wide) in paragraph at lines 1679--1679
 []|\T1/lmr/bx/n/12 Strategien| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1681
+Underfull \hbox (badness 10000) in paragraph at lines 1679--1679
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1681--1681
+Underfull \hbox (badness 10000) in paragraph at lines 1679--1679
 []|\T1/lmr/bx/n/12 Runden
  []
 
 
-Package longtable Warning: Column widths have changed
-(longtable)                in table 26 on input line 1720.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1722--1725
+Underfull \hbox (badness 10000) in paragraph at lines 1720--1723
 
  []
 
@@ -2075,22 +1841,14 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [54]
-
-LaTeX Warning: Reference `fbperson' on page 55 undefined on input line 1731.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1732
+Underfull \hbox (badness 10000) in paragraph at lines 1728--1730
 
  []
 
-
-LaTeX Warning: Reference `fbpersonaus2' on page 55 undefined on input line 1734
-.
-
-<person2.png, id=600, 397.485pt x 729.47531pt>
+<person2.png, id=717, 397.485pt x 729.47531pt>
 File: person2.png Graphic file (type png)
  <use person2.png>
-Package pdftex.def Info: person2.png used on input line 1739.
+Package pdftex.def Info: person2.png used on input line 1737.
 (pdftex.def)             Requested size: 284.52756pt x 522.18309pt.
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
@@ -2105,13 +1863,10 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1744 \newpage
+l.1742 \newpage
                 <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/person2.png>]
 
-LaTeX Warning: Reference `TCV2' on page 57 undefined on input line 1757.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1767--1767
+Underfull \hbox (badness 10000) in paragraph at lines 1765--1765
 []|\T1/lmr/bx/n/12 ØTC ins-ge-
  []
 
@@ -2120,17 +1875,12 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [57]
-
-LaTeX Warning: Reference `Dialogverhalten11' on page 58 undefined on input line
- 1783.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1791--1791
+Underfull \hbox (badness 10000) in paragraph at lines 1789--1789
 []|\T1/lmr/bx/n/12 Antwort-
  []
 
 
-Overfull \hbox (44.70302pt too wide) in paragraph at lines 1795--1795
+Overfull \hbox (44.70302pt too wide) in paragraph at lines 1793--1793
 []|\T1/lmr/bx/n/12 Antwortmöglichkeiten| 
  []
 
@@ -2139,12 +1889,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [58]
-
-LaTeX Warning: Reference `auswertung2' on page 59 undefined on input line 1810.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1810--1811
+Underfull \hbox (badness 10000) in paragraph at lines 1808--1809
 
  []
 
@@ -2153,37 +1898,37 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [59]
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2029--2047
+Underfull \hbox (badness 10000) in paragraph at lines 2027--2045
 
  []
 
@@ -2196,30 +1941,17 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 [61]
-
-LaTeX Warning: Citation `DbCL' on page 62 undefined on input line 2053.
-
-
-LaTeX Warning: Citation `eCLDS' on page 62 undefined on input line 2053.
-
-
-LaTeX Warning: Citation `eCLDS' on page 62 undefined on input line 2053.
-
-
-LaTeX Warning: Citation `eCLDS' on page 62 undefined on input line 2054.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 2051--2081
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2079
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2051--2081
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2079
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2051--2081
+Underfull \hbox (badness 10000) in paragraph at lines 2049--2079
 
  []
 
@@ -2254,11 +1986,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2138 \newpage
+l.2136 \newpage
                 [1]
-
-Package hyperref Warning: old lof file detected, not used; run LaTeX again.
-
+(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lof)
 \tf@lof=\write5
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
@@ -2267,11 +1997,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
  been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.2141 \cleardoublepage
+l.2139 \cleardoublepage
                         [2]
-
-Package hyperref Warning: old lot file detected, not used; run LaTeX again.
-
+(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lot)
 \tf@lot=\write6
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
@@ -2281,34 +2009,28 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
 ]
-
-Package longtable Warning: Table widths have changed. Rerun LaTeX.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2187.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2187.
-(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2187.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2187.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2185.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2185.
+ (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2185.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2185.
 
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
 (rerunfilecheck)             Checksum: C06AC8E259E3C435CB941B14A7B6218F;2522.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2187.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2185.
  ) 
 Here is how much of TeX's memory you used:
- 10819 strings out of 493921
- 160169 string characters out of 3144878
- 305000 words of memory out of 3000000
+ 10826 strings out of 493921
+ 160579 string characters out of 3144878
+ 309465 words of memory out of 3000000
  13672 multiletter control sequences out of 15000+200000
  86610 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 40i,12n,51p,2817b,453s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,12n,51p,2817b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
 iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files (x86)/MiK
 TeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
@@ -2320,9 +2042,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files
 eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmtt12.pfb>
-Output written on Bachelorarbeit.pdf (76 pages, 3505535 bytes).
+Output written on Bachelorarbeit.pdf (77 pages, 3534365 bytes).
 PDF statistics:
- 765 PDF objects out of 1000 (max. 8388607)
- 206 named destinations out of 1000 (max. 500000)
+ 919 PDF objects out of 1000 (max. 8388607)
+ 207 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 
