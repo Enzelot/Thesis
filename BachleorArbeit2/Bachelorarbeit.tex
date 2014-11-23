@@ -800,10 +800,14 @@ Die Ergebnisse dieses Testes werden zum einen dafür genutzt, um zu erforschen, 
 \end{center}
 \end{figure}
 
-Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) aufgelistet und für jede Strategie einzeln gewertet. \newpage
+Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) aufgelistet und für jede Strategie einzeln gewertet. 
+
+Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jeweils die durchschnittlichen Antworten für alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) aufgelistet und für jede Strategie einzeln gewertet.  alle Runden (1-4), der Runden mit Rennspiel (1-3) und der Runde ohne Rennspiel (4) aufgelistet und für jede Strategie einzeln gewert
+\newpage
 
 
 \begin{longtable}{|p{4cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|}
+	\caption[Interaktionsbeispiel \texttt{Aggregierte Auswahl ohne Pause}]{Interaktionsbeispiel \texttt{Aggregierte Auswahl ohne Pause}}\\
 	\hline
 		\textbf{Antwortenintervall}&\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
 	&&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
@@ -831,6 +835,7 @@ Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jewe
  & Strategie 2 & 1,75 & 2 & 1 \\
  & Strategie 3 & 2,31 & 2,67 & 1,25 \\
 \hline
+	%\newpage
 		\multicolumn{5}{l}{\textbf{Leistung}}\\
 		\hline
 \multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 4,25 & 4,5 & 3,5 \\
@@ -993,7 +998,7 @@ Das Ergebnis zeigt, dass 75\% der Testpersonen keine bzw. wenig Erfahrung mit Di
 
 \subsubsection{Task Completion}
 \label{tcausw1}
-Für jede Strategie wird die Task Completion ausgewertet, welche besagt, mit welchem Erfolg das Testszenario ausgeführt wurde. Sie wird bemessen, in dem man für jeden richtig gefüllten Slot (siehe Tabelle \ref{slotsPerson}) einen Punkt verteilt. Folgenden Punktzahlen sind also für jede Strategie möglich:
+Für jede Strategie wird die Task Completion ausgewertet, welche besagt, mit welchem Erfolg das Testszenario ausgeführt wurde. Sie wird bemessen, indem man für jeden richtig gefüllten Slot (siehe Tabelle \ref{slotsPerson}) einen Punkt verteilt. Folgenden Punktzahlen sind also für jede Strategie möglich:
 \begin{itemize}
 \item 0 Punkte, wenn kein Slot richtig gefüllt wird
 \item 1 Punkt, wenn ein Slot richtig gefüllt wird
@@ -2045,12 +2050,12 @@ Zusammenfassend zeigen die Ergebnisse der beiden Versuche insgesamt, dass die Di
 \label{discussion}
 In dieser Arbeit wurden zwei Versuche durchgeführt um drei Strategien auf Effizienz und Beliebtheit in einem Dialogsystem, das speziell im Rahmen einer automobilen Anwendung erstellt wird, zu testen. Um eine möglichst realistische Fahrsimulation zu erreichen, spielten die Versuchspersonen parallel zum Testszenario ein Rennspiel und füllten anschließend einen Fragebogen aus, der sich auf die subjektiv wahrgenommene kognitive Belastung und einer Bewertung der aktuellen Strategie bezog.
 Die Ergebnisse zeigen, dass sich bei einer Disambiguierung mit wenigen Slotfüllern die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1) besonders eignet. Besteht die Disambiguierung aus mehreren Slotfüllern zeigte sich die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1) als effizient und die \texttt{Sequentielle Auswahl} (Strategie 3) als beliebt unter den Benutzern. \newline \newline
-In einer vierten Runde wurde das Testszenario in einer zufällig gewählten Strategie ohne Rennspiel durchgeführt. Es zeigte sich, dass die Versuchspersonen in dieser Runde eine geringere kognitive Belastung empfunden haben als in den Runden zuvor, sodass gesagt werden kann, dass das Rennspiel kognitiv belastend wirkte. Da die Dialogzeiten in der vierten Runde am Kürzesten sind, kommt man hier zu dem Schluss, dass die Reaktionszeit bei geringer kognitiver Belastung besser ist als bei kognitiv belasteten Personen. Ein ähnliches Verhalten konnte in \cite{DbCL} festgestellt werden. In \cite{eCLDS} hat man herausgefunden, dass die Anzahl der Barge-Ins bei großer Belastung höher ist. Ein Unterschied im Dialogverhalten konnte in diesem Experiment nicht erkannt werden. Eine Erklärung hierfür ist, dass die Versuchspersonen die Möglichkeit zum Barge-In nicht erkannten. In \cite{eCLDS} wurde weiter erforscht, dass Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} bevorzugt werden. Das wurde durch das Ergebnis aus Versuch 2 bestätigt. Außerdem wird vermuten, dass die Versuchspersonen in Versuch 1 weniger belastet waren als die Versuchspersonen in Versuch 2. Die Ergebnisse des NASA-TLX Teils des Fragebogens zeigen, dass die eingeschätzte Belastung in Versuch 2 in vier von sechs Fragen im Durchschnitt ( \texttt{Geistige Anforderung}, \texttt{Zeitliche Anforderung}, \texttt{Anstrengung} und \texttt{Frustration}) höher gewertet wurde. Dadurch wurde diese Vermutung bestärkt. \newline \newline
+In einer vierten Runde wurde das Testszenario in einer zufällig gewählten Strategie ohne Rennspiel durchgeführt. Es zeigte sich, dass die Versuchspersonen in dieser Runde eine geringere kognitive Belastung empfunden haben als in den Runden zuvor, sodass gesagt werden kann, dass das Rennspiel kognitiv belastend wirkte. Da die Dialogzeiten in der vierten Runde am Kürzesten sind, kommt man hier zu dem Schluss, dass die Reaktionszeit bei geringer kognitiver Belastung besser ist als bei kognitiv belasteten Personen. Ein ähnliches Verhalten konnte in \cite{DbCL} festgestellt werden. In \cite{eCLDS} hat man herausgefunden, dass die Anzahl der Barge-Ins bei großer Belastung höher ist. Ein Unterschied im Dialogverhalten konnte in diesem Experiment nicht erkannt werden. Eine Erklärung hierfür ist, dass die Versuchspersonen die Möglichkeit zum Barge-In nicht erkannten. In \cite{eCLDS} wurde weiter erforscht, dass Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} bevorzugt werden. Das wurde durch das Ergebnis aus Versuch 2 bestätigt. Außerdem wird vermutet, dass die Versuchspersonen in Versuch 1 weniger belastet waren als die Versuchspersonen in Versuch 2. Die Ergebnisse des NASA-TLX Teils des Fragebogens zeigen, dass die eingeschätzte Belastung in Versuch 2 in vier von sechs Fragen im Durchschnitt ( \texttt{Geistige Anforderung}, \texttt{Zeitliche Anforderung}, \texttt{Anstrengung} und \texttt{Frustration}) höher gewertet wurde. Dadurch wurde diese Vermutung bestärkt. \newline \newline
 Die Task Completion beider Versuche zeigt, dass die Systeminteraktion ohne Rennspiel erfolgreicher ablief als die Systeminteraktion mit. Gleiche Ergebnisse wurden in \cite{eCLDS} festgestellt. Im ersten Versuch ist die Strategie \texttt{Aggregierte Auswahl mit Pause} (Strategie 2) am Erfolgreichsten und im zweiten Versuch die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1). An dieser Stelle stellt sich die Frage, ob die Task Completion in einer echten Systeminteraktion bei ähnlichem Testszenario genauso ausfällt. Die Task Completion kommt in dieser Studie dadurch zustande, in dem die Anzahl der richtig gefüllten Slots gewertet werden. Welche Slots gefüllt werden sollen, wird den Benutzern über ein Personenprofil angezeigt. In einer realen Situation entscheiden die Benutzer selbst, welche Slots gefüllt werden, was vermutlich zu einer geringeren Fehlerquote führt. Die Erkenntnis, dass im zweiten Versuch die Strategie \texttt{Sequentielle Auswahl} die meisten Fehler aufwies und parallel als beliebteste Strategie bewertet wurde, bestärkt diesen Verdacht. 
 \newline
 \newline
 Diese Studie fokussiert sich auf die geeignetste Disambiguierungsstrategie unter kognitiver Belastung. Dabei wurde die beliebteste Strategie bei keiner bzw. geringer kognitiver Belastung vernachlässigt. In einer zukünftigen Arbeit könnte man den Fokus umkehren und mehr Ergebnisse für das Testszenario ohne Rennspiel sammeln. 
-Des Weiteren steht die Frage offen, ob ein Rennspiel eine reale Autofahrt simulieren kann. Die Rennzeiten konnten in diesem Experiment keinen Aufschluss darauf geben, welche Strategie am wenigsten bzw. am meisten ablenkt. Dies könnte daran liegen, dass die Rennstrecken zu lang gewählt wurden. In einem zukünftigen Experiment könnte überprüft werden, ob das Experiment in einer realen Autofahrt ähnliche Resultate bringt und ob das Rennspiel eine Autofahrt annähernd simulieren kann.
+Des Weiteren steht die Frage offen, ob ein Rennspiel eine reale Autofahrt simulieren kann. Die Rennzeiten konnten in diesem Experiment keinen Aufschluss darüber geben, welche Strategie am wenigsten bzw. am meisten ablenkt. Dies könnte daran liegen, dass die Rennstrecken zu lang gewählt wurden. In einem zukünftigen Experiment könnte überprüft werden, ob das Experiment in einer realen Autofahrt ähnliche Resultate bringt und ob das Rennspiel eine Autofahrt annähernd simulieren kann.
 \begin{comment}
 Rennspiel Autosimulation? --> Richtige Autofahrt. --> FW\\
 

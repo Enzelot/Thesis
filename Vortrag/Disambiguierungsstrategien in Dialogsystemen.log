@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  15 NOV 2014 14:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  22 NOV 2014 21:58
 entering extended mode
 **Disambiguierungsstrategien*in*Dialogsystemen.tex
 
@@ -1793,74 +1793,74 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 ] [36
 
 ]
-Overfull \hbox (4.27844pt too wide) in paragraph at lines 544--544
+Overfull \hbox (4.27844pt too wide) in paragraph at lines 543--543
 []|\T1/lmss/m/n/6 Position| 
  []
 
 
-Overfull \hbox (1.10698pt too wide) in paragraph at lines 544--544
+Overfull \hbox (1.10698pt too wide) in paragraph at lines 543--543
  []|\T1/lmss/m/n/6 cw+1| 
  []
 
 
-Overfull \hbox (3.1435pt too wide) in paragraph at lines 544--544
+Overfull \hbox (3.1435pt too wide) in paragraph at lines 543--543
 []|\T1/lmss/m/n/6 Beispiel| 
  []
 
 
-Overfull \hbox (3.97655pt too wide) in paragraph at lines 544--544
+Overfull \hbox (3.97655pt too wide) in paragraph at lines 543--543
  []|\T1/lmss/m/n/6 situated| 
  []
 
 
-Overfull \hbox (0.62659pt too wide) in paragraph at lines 544--544
+Overfull \hbox (0.62659pt too wide) in paragraph at lines 543--543
  []|\T1/lmss/m/n/6 behind| 
  []
 
 
-Overfull \hbox (5.88687pt too wide) in paragraph at lines 544--544
+Overfull \hbox (5.88687pt too wide) in paragraph at lines 543--543
  []|\T1/lmss/m/n/6 unobtru- 
  []
 
 
-Overfull \hbox (16.70845pt too wide) in paragraph at lines 544--544
+Overfull \hbox (16.70845pt too wide) in paragraph at lines 543--543
  [] 
  []
 
 [37
 
 ]
-Overfull \hbox (1.10698pt too wide) in paragraph at lines 571--571
+Overfull \hbox (1.10698pt too wide) in paragraph at lines 570--570
  []|\T1/lmss/m/n/6 cw+1| 
  []
 
 
-Overfull \hbox (3.97655pt too wide) in paragraph at lines 571--571
+Overfull \hbox (3.97655pt too wide) in paragraph at lines 570--570
  []|\T1/lmss/m/n/6 situated| 
  []
 
 
-Overfull \hbox (0.62659pt too wide) in paragraph at lines 571--571
+Overfull \hbox (0.62659pt too wide) in paragraph at lines 570--570
  []|\T1/lmss/m/n/6 behind| 
  []
 
 
-Overfull \hbox (5.88687pt too wide) in paragraph at lines 571--571
+Overfull \hbox (5.88687pt too wide) in paragraph at lines 570--570
  []|\T1/lmss/m/n/6 unobtru- 
  []
 
 
-Overfull \hbox (2.91469pt too wide) in paragraph at lines 571--571
+Overfull \hbox (2.91469pt too wide) in paragraph at lines 570--570
 []|\T1/lmss/m/n/6 inkonsistent| 
  []
 
 
-Overfull \hbox (1.78757pt too wide) in paragraph at lines 571--571
+Overfull \hbox (1.78757pt too wide) in paragraph at lines 570--570
 []|\T1/lmss/m/n/6 Effektgröÿe| 
  []
 
 
-Overfull \hbox (6.18932pt too wide) in paragraph at lines 571--571
+Overfull \hbox (6.18932pt too wide) in paragraph at lines 570--570
  [] 
  []
 
@@ -1880,17 +1880,17 @@ Overfull \hbox (6.18932pt too wide) in paragraph at lines 571--571
 \tf@nav=\write6
 \tf@toc=\write7
 \tf@snm=\write8
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 619.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 619.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 618.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 618.
 
 ("C:\Users\Lenz\Desktop\GIT\Thesis\Vortrag\Disambiguierungsstrategien in Dialog
 systemen.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 619.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 619.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 618.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 618.
 Package rerunfilecheck Info: File `Disambiguierungsstrategien*in*Dialogsystemen
 .out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 619.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 618.
  ) 
 Here is how much of TeX's memory you used:
  25905 strings out of 493921
@@ -1909,7 +1909,7 @@ mssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pf
 b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Progr
 am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
 Output written on "Disambiguierungsstrategien in Dialogsystemen.pdf" (43 pages,
- 287237 bytes).
+ 287236 bytes).
 PDF statistics:
  646 PDF objects out of 1000 (max. 8388607)
  97 named destinations out of 1000 (max. 500000)
