@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  23 NOV 2014 18:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  26 NOV 2014 13:14
 entering extended mode
 **Bachelorarbeit.tex
 (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.tex
@@ -1058,13 +1058,13 @@ Package scrpage2 Warning: seems you are using a very small headheight.
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 78.
 
-<euletext.png, id=158, 449.88075pt x 180.675pt>
+<euletext.png, id=159, 449.88075pt x 180.675pt>
 File: euletext.png Graphic file (type png)
  <use euletext.png>
 Package pdftex.def Info: euletext.png used on input line 84.
 (pdftex.def)             Requested size: 142.26378pt x 57.13347pt.
 
-<semvox2.png, id=160, 481.8pt x 124.66576pt>
+<semvox2.png, id=161, 481.8pt x 124.66576pt>
 File: semvox2.png Graphic file (type png)
  <use semvox2.png>
 Package pdftex.def Info: semvox2.png used on input line 84.
@@ -1232,7 +1232,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 201.
 
-<odps3.png, id=249, 574.39594pt x 350.05782pt>
+<odps3.png, id=250, 574.39594pt x 350.05782pt>
 File: odps3.png Graphic file (type png)
  <use odps3.png>
 Package pdftex.def Info: odps3.png used on input line 205.
@@ -1383,7 +1383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--519
 
  []
 
-<Anke.pdf, id=350, 597.55246pt x 845.07718pt>
+<Anke.pdf, id=351, 597.55246pt x 845.07718pt>
 File: Anke.pdf Graphic file (type pdf)
  <use Anke.pdf>
 Package pdftex.def Info: Anke.pdf used on input line 524.
@@ -1421,7 +1421,7 @@ Overfull \hbox (4.08488pt too wide) in alignment at lines 541--549
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[14] <nfs.png, id=407, 1445.4pt x 813.0375pt>
+[14] <nfs.png, id=408, 1445.4pt x 813.0375pt>
 File: nfs.png Graphic file (type png)
  <use nfs.png>
 Package pdftex.def Info: nfs.png used on input line 579.
@@ -1449,7 +1449,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[18] <controlpanel.png, id=435, 466.74374pt x 324.46219pt>
+[18] <controlpanel.png, id=436, 466.74374pt x 324.46219pt>
 File: controlpanel.png Graphic file (type png)
 
 <use controlpanel.png>
@@ -1486,7 +1486,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[24] <nasa.png, id=492, 356.0803pt x 516.42938pt>
+[24] <nasa.png, id=493, 356.0803pt x 516.42938pt>
 File: nasa.png Graphic file (type png)
  <use nasa.png>
 Package pdftex.def Info: nasa.png used on input line 797.
@@ -1538,7 +1538,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 857--858
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[28] <fbdialog.png, id=515, 324.46219pt x 505.13719pt>
+[28] <fbdialog.png, id=516, 324.46219pt x 505.13719pt>
 File: fbdialog.png Graphic file (type png)
  <use fbdialog.png>
 Package pdftex.def Info: fbdialog.png used on input line 864.
@@ -1607,7 +1607,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 927--931
 
  []
 
-<fbperson.png, id=538, 491.58656pt x 624.08156pt>
+<fbperson.png, id=539, 491.58656pt x 624.08156pt>
 File: fbperson.png Graphic file (type png)
  <use fbperson.png>
 Package pdftex.def Info: fbperson.png used on input line 934.
@@ -1627,7 +1627,7 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
                                                   \fi \fi 
 l.939 \newpage
                <C:/Users/Lenz/Desktop/GIT/Thesis/BachleorArbeit2/fbperson.png>]
-<person1.png, id=551, 309.40594pt x 615.80063pt>
+<person1.png, id=552, 309.40594pt x 615.80063pt>
 File: person1.png Graphic file (type png)
  <use person1.png>
 Package pdftex.def Info: person1.png used on input line 948.
@@ -1727,7 +1727,7 @@ Overfull \hbox (4.0849pt too wide) in alignment at lines 1416--1422
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[43] <Anke2.pdf, id=603, 597.55246pt x 845.07718pt>
+[43] <Anke2.pdf, id=604, 597.55246pt x 845.07718pt>
 File: Anke2.pdf Graphic file (type pdf)
  <use Anke2.pdf>
 Package pdftex.def Info: Anke2.pdf used on input line 1429.
@@ -1746,7 +1746,7 @@ l.1437
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[45] <controlpanel2.png, id=645, 468.24937pt x 328.22626pt>
+[45] <controlpanel2.png, id=646, 468.24937pt x 328.22626pt>
 File: controlpanel2.png Graphic file (type png)
 
 <use controlpanel2.png>
@@ -1845,7 +1845,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1728--1730
 
  []
 
-<person2.png, id=717, 397.485pt x 729.47531pt>
+<person2.png, id=718, 397.485pt x 729.47531pt>
 File: person2.png Graphic file (type png)
  <use person2.png>
 Package pdftex.def Info: person2.png used on input line 1737.
@@ -1979,55 +1979,48 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[2]
-Overfull \vbox (4.97491pt too high) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.i}) has 
-been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2136 \newpage
-                [1]
-(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lof)
+[2] (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lof)
 \tf@lof=\write5
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.ii}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.2139 \cleardoublepage
-                        [2]
-(C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lot)
+
+[3] (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.lot)
 \tf@lot=\write6
 
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
-[3
+[4
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2185.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2185.
+Overfull \vbox (4.97491pt too high) has occurred while \output is active []
+
+
+[5
+
+
+]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2187.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2187.
  (C:\Users\Lenz\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2185.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2185.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2187.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2187.
 
 Package rerunfilecheck Info: File `Bachelorarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: C06AC8E259E3C435CB941B14A7B6218F;2522.
+(rerunfilecheck)             Checksum: 407FD058ADA5B96E92547C323A5A05B7;2523.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2185.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2187.
  ) 
 Here is how much of TeX's memory you used:
- 10826 strings out of 493921
- 160579 string characters out of 3144878
+ 10829 strings out of 493921
+ 160605 string characters out of 3144878
  309465 words of memory out of 3000000
- 13672 multiletter control sequences out of 15000+200000
+ 13673 multiletter control sequences out of 15000+200000
  86610 words of font info for 80 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  40i,12n,51p,2817b,537s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2042,9 +2035,9 @@ ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files
 eX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/public/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/p
 ublic/lm/lmtt12.pfb>
-Output written on Bachelorarbeit.pdf (77 pages, 3534365 bytes).
+Output written on Bachelorarbeit.pdf (77 pages, 3534453 bytes).
 PDF statistics:
- 919 PDF objects out of 1000 (max. 8388607)
- 207 named destinations out of 1000 (max. 500000)
+ 920 PDF objects out of 1000 (max. 8388607)
+ 209 named destinations out of 1000 (max. 500000)
  378 words of extra memory for PDF output out of 10000 (max. 10000000)
 
