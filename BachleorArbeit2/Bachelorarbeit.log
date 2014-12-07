@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  7 DEC 2014 21:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  7 DEC 2014 22:00
 entering extended mode
 **Bachelorarbeit.tex
 (C:\Users\L\Desktop\GIT\Thesis\BachleorArbeit2\Bachelorarbeit.tex
@@ -1511,9 +1511,9 @@ Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.689 \item F
-             ragebogen über kognitive Belastung und letzten Dialog ausfüllen 
-<C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/controlpanel.png>]
+l.692 \item K
+             im anrufen <C:/Users/L/Desktop/GIT/Thesis/BachleorArbeit2/controlp
+anel.png>]
 Overfull \vbox (4.97491pt too high) has occurred while \output is active []
 
 
@@ -2971,7 +2971,7 @@ am Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x
 /type1/public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
 ic/lm/lmtt10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
 2.pfb>
-Output written on Bachelorarbeit.pdf (100 pages, 3660207 bytes).
+Output written on Bachelorarbeit.pdf (100 pages, 3660194 bytes).
 PDF statistics:
  1095 PDF objects out of 1200 (max. 8388607)
  259 named destinations out of 1000 (max. 500000)
