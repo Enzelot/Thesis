@@ -195,13 +195,13 @@ Meine Bachelorarbeit entstand im Zeitraum vom September 2014 bis Dezember 2014 b
 \markboth{Abstract}{abstract}
 \subsection*{\centering {Abstract}}  
 \begin{abstract}
-Die vorliegende Arbeit beschäftigt sich mit der Frage, welche Disambiguierungsstrategien in Sprachdialogsystemen für Benutzer bei hoher kognitiver Belastung am geeignetsten sind. Man fokussiert sich dabei auf Sprachdialogsysteme, welche speziell für die Bedienung während der Autofahrt konzipiert werden. Um der Frage der besten Disambiguierungsstrategie nachzugehen, werden in einem Wizard-of-Oz-Experiment Fahrszenarien simuliert, bei denen die Versuchspersonen mit einem Dialogsystem sprachlich interagieren. Dabei werden ambige Eingaben des Benutzers simuliert, worauf das System mit Disambiguierungsstrategien in Form von Nachfragen reagiert. Diese verlangen eine entsprechende Benutzerreaktion. Anhand der Versuchsergebnisse wird analysiert, welche Strategien für den Benutzer am einfachsten zu benutzen und effektivsten waren. Insgesamt werden drei Disambiguierungsstrategien verfolgt. Aggregierte Auswahl ohne Pause, aggregierte Auswahl mit Pause, sowie die sequentielle Auswahl. Bei der aggregierten Auswahl ohne Pause werden alle möglichen Interpretationen einer ambigen Spracheingabe nacheinander in einer Sprachausgabe ausgegeben. Die aggregierte Auswahl mit Pause gibt alle möglichen Interpretationen durchnummeriert und durch Pausen getrennt in einer Sprachausgabe aus. In der sequentiellen Ausgabe wird jede Interpretation in einer separaten Sprachausgabe formuliert.   
+Die vorliegende Arbeit beschäftigt sich mit der Frage, welche Disambiguierungsstrategien in Sprachdialogsystemen für Benutzer bei hoher kognitiver Belastung am geeignetsten sind. Man fokussiert sich dabei auf Sprachdialogsysteme, welche speziell für die Bedienung während der Autofahrt konzipiert werden. Um der Frage der besten Disambiguierungsstrategie nachzugehen, werden in einem Wizard-of-Oz-Experiment Fahrszenarien simuliert, bei denen die Versuchspersonen mit einem Dialogsystem sprachlich interagieren. Dabei werden ambige Eingaben des Benutzers simuliert, worauf das System mit Disambiguierungsstrategien in Form von Nachfragen reagiert. Diese verlangen eine entsprechende Benutzerreaktion. Anhand der Versuchsergebnisse wird analysiert, welche Strategien für den Benutzer am einfachsten zu benutzen und effektivsten waren. Insgesamt werden drei Disambiguierungsstrategien verfolgt: Aggregierte Auswahl ohne Pause, aggregierte Auswahl mit Pause, sowie die sequentielle Auswahl. Bei der aggregierten Auswahl ohne Pause werden alle möglichen Interpretationen einer ambigen Spracheingabe nacheinander in einer Sprachausgabe ausgegeben. Die aggregierte Auswahl mit Pause gibt alle möglichen Interpretationen durchnummeriert und durch Pausen getrennt in einer Sprachausgabe aus. In der sequentiellen Ausgabe wird jede Interpretation in einer separaten Sprachausgabe formuliert.   
 \end{abstract}
 \newpage
 \section{Einleitung}
 
 Dialogsysteme im automobilen Bereich müssen so gestaltet werden, dass sie den Fahrer so wenig wie möglich vom Fahren ablenken und ihm so gut wie möglich assistieren. Die Herausforderung für einen Entwickler von Sprachdialogsystemen (Dialogdesigner) besteht daher darin, Sprachäußerungen raffiniert zu gestalten. Dabei müssen dem Benutzer alle relevanten Informationen in verständlicher Weise geliefert werden. Auf die Sprachausgaben sollte möglichst einfach geantwortet und Anfragen und Wünsche effizient übermitteln werden können. Die Funktionsweise eines Dialogsystems hängt von mehreren Komponenten ab, welche anhand der in Abbildung \ref{odps3} dargestellten Funktionsweise der Semvox GmbH eigenen ODP S3 Plattform \footnote{\label{foot:odps3}\url{http://www.semvox.de/de/technologie/odp-s3.html}} kurz erläutert werden. \\
-Die ODP S3 Plattform ermöglicht die Umsetzung komplexer Sprachdialoge, in denen Spracheingaben eines Benutzers als semantische Objekte behandelt werden. Dabei wird eine Spracheingabe mit einer Backus-Naur-Form (BNF) Grammatik interpretiert, welche alle möglichen Spracheingaben des Benutzers listet und semantischen Objekten zuweist. BNF ist eine Metasprache, mit welcher bestimmt werden kann, ob eine Spracheingabe valide ist (\cite{BNFref}). Semantische Objekte werden von einem Backend-Server verarbeitet, woraufhin eine passende Sprachausgabe generiert wird. 
+Die ODP S3 Plattform ermöglicht die Umsetzung komplexer Sprachdialoge, in denen Spracheingaben eines Benutzers als semantische Objekte behandelt werden. Dabei wird eine Spracheingabe mit einer Backus-Naur-Form (BNF) Grammatik interpretiert, welche alle möglichen Spracheingaben des Benutzers listet und semantischen Objekten zuweist. BNF ist eine Metasprache, mit welcher bestimmt werden kann, ob eine Spracheingabe valide ist \cite{BNFref}. Semantische Objekte werden von einem Backend-Server verarbeitet, woraufhin eine passende Sprachausgabe generiert wird. 
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=14cm]{odps3.png}
@@ -211,7 +211,7 @@ Die ODP S3 Plattform ermöglicht die Umsetzung komplexer Sprachdialoge, in denen
 \end{figure}
 %\newline
 %\newline
-In dieser Arbeit konzentriert man sich allein auf die Sprachgenerierung. Ein komplexer Dialog zwischen System und Benutzer führt häufig dazu, dass der Benutzer eine Eingabe macht, die das System nicht eindeutig zuordnen kann und somit mehrere Optionen für die Interpretation der vom Benutzer geäußerten Eingabe bestehen. Es muss an dieser Stelle vom System eine Rückfrage beim Benutzer erfolgen, sodass dieser seine vorherige Eingabe eindeutig übermitteln kann. Wenn der Benutzer zum Beispiel den Wunsch äußert, einen Kontakt aus dem im System gespeicherten Adressbuch anzurufen, es allerdings zwei Kontakte mit diesem Namen gibt, muss das System eine Rückfrage stellen, um zu ermitteln, welcher dieser beiden Kontakte gemeint ist. Der Dialogdesigner spricht in diesem Fall von Disambiguierung.  Es wird in der vorliegenden Arbeit der Frage nachgegangen wie man konkret die Sprachausgabe einer solchen Disambiguierung innerhalb eines Dialogsystems, das speziell im Rahmen einer automobilen Anwendung konzipiert wird, gestaltet. Dabei werden drei verschiedene Strategien in einem Experiment auf Effizienz und Beliebtheit unter den Versuchspersonen getestet. Diese Strategien werden im Kapitel \ref{disambiguierungsstrategien} (Disambiguierungsstrategien) näher erläutert. Da für diesen Versuch kein Dialogsystem implementiert und lediglich ein Control Panel entwickelt wurde, welches die Sprachausgaben eines Systems simuliert, handelt es sich bei dem Versuch um ein Wizard-of-Oz Experiment. Dabei wird den Versuchspersonen mitgeteilt, dass sie mit einem echten Dialogsystem interagieren und sie wissen nicht, dass die Sprachausgaben vom Versuchsleiter gesteuert werden (siehe \ref{WOZ} Wizard-of-Oz). Der Versuch in Kapitel \ref{versuch1}  (Versuch1) zeigt klar, dass bei einer Disambiguierung über wenige mögliche Slotfüller die Strategie \texttt{Aggregierte Auswahl ohne Pause} am beliebtesten unter den Versuchsperson ist. Es wurde sich daher für einen zweiten Versuch entschieden, welcher sich lediglich in der Länge der Disambiguierung unterscheidet. Dieser in Kapitel \ref{Verusch2} (Versuch2) durchgeführte Versuch zeigt, dass bei einer Disambiguierung über mehrere mögliche Slotfüller die Strategie \texttt{Sequentielle Auswahl} die beliebteste Strategie ist. Neben der Beliebtheit unter den Versuchspersonen wurden bei beiden Versuchen weitere Faktoren, wie Dialogzeit, erfolgreiches Abschließen des Dialoges (Task Completion) oder Unterschiede des Dialogverhaltens zwischen hoher und geringer kognitiver Belastung erforscht. Ein zusammenfassendes Ergebnis beider Versuche findet sich in Kapitel \ref{Ergebnisse} (Ergebnisse). Daran schließt sich eine Diskussion über die ermittelten Daten an, mit einem Ausblick für zukünftige Arbeiten. 
+In dieser Arbeit konzentriert man sich allein auf die Sprachgenerierung. Ein komplexer Dialog zwischen System und Benutzer führt häufig dazu, dass der Benutzer eine Eingabe macht, die das System nicht eindeutig zuordnen kann und somit mehrere Optionen für die Interpretation der vom Benutzer geäußerten Eingabe bestehen. Es muss an dieser Stelle vom System eine Rückfrage beim Benutzer erfolgen, sodass dieser seine vorherige Eingabe eindeutig übermitteln kann. Wenn der Benutzer zum Beispiel den Wunsch äußert, einen Kontakt aus dem im System gespeicherten Adressbuch anzurufen, es allerdings zwei Kontakte mit diesem Namen gibt, muss das System eine Rückfrage stellen, um zu ermitteln, welcher dieser beiden Kontakte gemeint ist. Der Dialogdesigner spricht in diesem Fall von Disambiguierung.  Es wird in der vorliegenden Arbeit der Frage nachgegangen wie man konkret die Sprachausgabe einer solchen Disambiguierung innerhalb eines Dialogsystems, das speziell im Rahmen einer automobilen Anwendung konzipiert wird, gestaltet. Dabei werden drei verschiedene Strategien in einem Experiment auf Effizienz und Beliebtheit unter den Versuchspersonen getestet. Diese Strategien werden im Kapitel \ref{disambiguierungsstrategien} (Disambiguierungsstrategien) näher erläutert. Da für diesen Versuch kein Dialogsystem implementiert und lediglich ein Control Panel entwickelt wurde, welches die Sprachausgaben eines Systems simuliert, handelt es sich bei dem Versuch um ein Wizard-of-Oz Experiment. Dabei wird den Versuchspersonen mitgeteilt, dass sie mit einem echten Dialogsystem interagieren und sie wissen nicht, dass die Sprachausgaben vom Versuchsleiter gesteuert werden (siehe \ref{WOZ} Wizard-of-Oz). Der Versuch in Kapitel \ref{versuch1}  (Versuch 1) zeigt klar, dass bei einer Disambiguierung über wenige mögliche Slotfüller die Strategie \texttt{Aggregierte Auswahl ohne Pause} am beliebtesten unter den Versuchsperson ist. Es wurde sich daher für einen zweiten Versuch entschieden, welcher sich lediglich in der Länge der Disambiguierung unterscheidet. Dieser in Kapitel \ref{Verusch2} (Versuch 2) durchgeführte Versuch zeigt, dass bei einer Disambiguierung über mehrere mögliche Slotfüller die Strategie \texttt{Sequentielle Auswahl} die beliebteste Strategie ist. Neben der Beliebtheit unter den Versuchspersonen wurden bei beiden Versuchen weitere Faktoren, wie Dialogzeit, erfolgreiches Abschließen des Dialoges (Task Completion) oder Unterschiede des Dialogverhaltens zwischen hoher und geringer kognitiver Belastung erforscht. Ein zusammenfassendes Ergebnis beider Versuche findet sich in Kapitel \ref{Ergebnisse} (Ergebnisse). Daran schließt sich eine Diskussion über die ermittelten Daten an, mit einem Ausblick für zukünftige Arbeiten. 
 
 \begin{comment}
 Bei Autofahrt effektive Sprachsteuerung wichtig \\
@@ -261,11 +261,11 @@ in-car tasks which may occur in human-human interactions. (Mishra et al. )\\
 Dialogsysteme, Disambiguierungsstrategien in Interaktionen, sowie kognitive Belastung von Videospielen in Verbindung mit Dialogsystemen sind Themen, die im Bereich der Computerlinguistik in diversen Arbeiten untersucht werden. Im Folgenden werden einige dieser Arbeiten vorgestellt. \\
 \\
 Minker et al. untersuchten in einer Studie von 2012 eine Disambiguierungsstrategie für Dialogsysteme. Übermittelt der Benutzer zum Beispiel bei der Navigation eine ambige Stadt als Zielort, fragt das System bei dieser Strategie nach der Postleitzahl, um die Mehrdeutigkeit aufzulösen. \\
-In den Studien von Tsiakoulis et al. von 2012 und Ang et al. von 2006 wurde die kognitive Belastung während Videospielen untersucht. Diese wurde weiter während einer Systeminteraktion von Tsiakoulis et al. 2012 und von Villing 2009 erforscht. Dabei wurde festgestellt, dass eine kognitive Belastung das Dialogverhalten ändert. Die Ergebnisse zeigen, dass während einer hohen kognitiven Belastung vom Benutzer längere Pausen zwischen zwei Sprachäußerungen eingelegt werden und die Anzahl der Sprachäußerungen geringer ist im Vergleich zur Anzahl während einer niedrigen kognitiven Belastung (\cite{DbCL}).
-\cite{eCLDS} kamen zu dem Ergebnis, dass das System während einer hohen kognitiven Belastung öfter durch sprachliche Äußerungen vom Benutzer unterbrochen wurde (Barge-in), als bei niedriger Belastung.
-In \cite{eCLDS} hat man weiter herausgefunden, dass kognitiv belastete Versuchspersonen Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} solchen Dialogabläufen bevorzugen, in denen das System den zu füllenden Slot als Antwort verlangt. Daher wird vermutet, dass die sequentielle Auswahl in dem hier vorgestellten Versuch bei Versuchspersonen mit hoher kognitiver Belastung am effizientesten ist.  In der erwähnten Studie spielten die Versuchspersonen ebenfalls parallel zur Dialoginteraktion ein Rennspiel. Man hat dabei festgestellt, dass die Task Completion des aufgestellten Tasks bei der alleinigen Interaktion mit dem System höher war als bei der Interaktion parallel zum Rennspiel. Des Weiteren wurde herausgefunden, dass die Versuchspersonen einen Unterschied der kognitiven Belastung zwischen dem alleinigen Fahren, der alleinigen Interaktion und des Fahrens während der Interaktion festgestellt haben. Ähnliche Ergebnisse werden für die vorliegende Studie erwartet. \\
+In den Studien von Tsiakoulis et al. von 2012 und Ang et al. von 2006 wurde die kognitive Belastung während Videospielen untersucht. Diese wurde weiter während einer Systeminteraktion von Tsiakoulis et al. 2012 und von Villing 2009 erforscht. Dabei wurde festgestellt, dass eine kognitive Belastung das Dialogverhalten ändert. Die Ergebnisse zeigen, dass während einer hohen kognitiven Belastung vom Benutzer längere Pausen zwischen zwei Sprachäußerungen eingelegt werden und die Anzahl der Sprachäußerungen geringer ist im Vergleich zur Anzahl während einer niedrigen kognitiven Belastung \cite{DbCL}.
+Tsiakoulis et al. kamen 2012 zu dem Ergebnis, dass das System während einer hohen kognitiven Belastung öfter durch sprachliche Äußerungen vom Benutzer unterbrochen wurde (Barge-in), als bei niedriger Belastung.
+In Tsiakoulis et al.  hat man 2012 weiter herausgefunden, dass kognitiv belastete Versuchspersonen Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} solchen Dialogabläufen bevorzugen, in denen das System den zu füllenden Slot als Antwort verlangt. Daher wird vermutet, dass die sequentielle Auswahl in dem hier vorgestellten Versuch bei Versuchspersonen mit hoher kognitiver Belastung am effizientesten ist.  In der erwähnten Studie spielten die Versuchspersonen ebenfalls parallel zur Dialoginteraktion ein Rennspiel. Man hat dabei festgestellt, dass die Task Completion des aufgestellten Tasks bei der alleinigen Interaktion mit dem System höher war als bei der Interaktion parallel zum Rennspiel. Des Weiteren wurde herausgefunden, dass die Versuchspersonen einen Unterschied der kognitiven Belastung zwischen dem alleinigen Fahren, der alleinigen Interaktion und des Fahrens während der Interaktion festgestellt haben. Ähnliche Ergebnisse werden für die vorliegende Studie erwartet. \\
 In Ang et al. von 2006 wurde erforscht, dass eine kognitive Belastung, die durch eine parallele Interaktion mit anderen Spielern in einem Computerspiel ausgelöst wird, die Leistung im Spiel verschlechtert.  Die Kommunikation mit anderen Spielern im Computerspiel kann mit der Systeminteraktion aus dieser Studie verglichen werden. Deshalb wird für diese Studie eine schlechtere Rennspielleistung während des Testszenarios im Vergleich zur Rennspielleistung ohne Systeminteraktion erwartet. Dies könnte in zukünftigen Arbeiten noch näher untersucht werden.\\
- In \cite{Wozhcd} konnte festgestellt werden, dass Benutzer, die sich mehr auf einen anderen Task als auf die Systeminteraktion konzentrieren, eher unflüssige und abgehackte Sprachausgaben produzieren. In einer zukünftigen Arbeit könnte überprüft werden, ob solche Sprachäußerungen die angewendeten Disambiguierungsstrategien in einem echten System negativ beeinflussen.
+ In Mishra et al konnte 2004 festgestellt werden, dass Benutzer, die sich mehr auf einen anderen Task als auf die Systeminteraktion konzentrieren, eher unflüssige und abgehackte Sprachausgaben produzieren. In einer zukünftigen Arbeit könnte überprüft werden, ob solche Sprachäußerungen die angewendeten Disambiguierungsstrategien in einem echten System negativ beeinflussen.
 Des Weiteren kann diese Erkenntnis dazu genutzt werden, um die Stärke der Ablenkung durch das Rennspiel der einzelnen Versuchspersonen zu bewerten. 
 
 \begin{comment}
@@ -394,6 +394,19 @@ http://www.google.com/forms/about}} erstellt. Für die Auswertung der Antworten 
 
 Um zu erforschen, ob die Ergebnisse des Versuchs statistisch signifikant sind, wurde das Programm InStat\footnote{\label{foot:googelforms}\url{
 http://www.graphpad.com/scientific-software/instat}} verwendet. 
+Mit Hilfe dieses Programms wurde durch die einfache Varianzanalyse (one-way ANOVA) zunächst überprüft, ob es Unterschiede in den Ergebnissen für die einzelnen Strategien gibt. Mit dem Tukey Test wurde anschließend analysiert, zwischen welchen Strategien es signifikante Unterschiede gibt \cite{TukeyTest}. Dazu wurde die folgende Formel paarweise auf alle Dialogstrategien angewendet:
+
+\begin{equation*}
+\frac{M_1 - M_2}{\sqrt{MS_{error} (\frac{1}{n})}}
+\end{equation*}
+
+\texttt{$M_1$} und \texttt{$M_2$} enthalten die Mittelwerte der Strategien. \\
+\texttt{$MS_{error}$} beinhaltet den quadratischen Mittelwert.\\
+\texttt{n} ist die Anzahl der Werte pro Strategie.
+
+
+
+
 
 
 \section{Disambiguierungsstrategien}
@@ -516,7 +529,7 @@ Diese Strategie ist wahrscheinlich besonders effizient, wenn der Benutzer einer 
 Um zu untersuchen, welche Disambiguierungsstrategie bei Versuchspersonen unter kognitiver Belastung am effizientesten ist, wird ein Wizard-of-Oz Experiment durchgeführt. Hierbei werden die Probanden ein Rennspiel spielen und parallel ein Testszenario durchführen, in welchem sie per Spracheingabe erfolgreich einen Anruf aufbauen sollen. Des Weiteren werden die Versuchspersonen dieses Testszenario ohne Rennspiel durchgehen, um mögliche Unterschiede der Ergebnisse zwischen kognitiv belastender und nicht kognitiv belastender Situation zu analysieren. 
 \subsection{Wizard-of-Oz}
 \label{WOZ}
-In einem Wizard-of-Oz Experiment wird der Versuchsperson der Eindruck vermittelt, sie würde mit einem funktionierenden System interagieren. In Wirklichkeit wird die Existenz eines solchen Systems nur simuliert, in dem ein Versuchsleiter die Funktionen dieses mit einer entwickelten Software vortäuscht.  (\cite{InDe}, \cite{SaLP}). Wizard-of-Oz Experimente werden generell dazu genutzt um eine Software vor der Implementierung zu testen \cite{SaLP}.\\ \\
+In einem Wizard-of-Oz Experiment wird der Versuchsperson der Eindruck vermittelt, sie würde mit einem funktionierenden System interagieren. In Wirklichkeit wird die Existenz eines solchen Systems nur simuliert, in dem ein Versuchsleiter die Funktionen dieses mit einer entwickelten Software vortäuscht (Rogers et al., Jurafsky et al.). Wizard-of-Oz Experimente werden generell dazu genutzt um eine Software vor der Implementierung zu testen \cite{SaLP}.\\ \\
 In diesem Versuch wird ebenfalls ein Wizard-of-Oz Experiment durchgeführt, da man vor der Implementierung des Dialogsystems die effizienteste Disambiguierungsstrategie ermitteln möchte. Um ein fertig implementiertes System zu simulieren, wurde für diesen Versuch ein Control Panel entwickelt (siehe \ref{ControlPanel} Control Panel) mit dem Sprachausgaben eines fiktiven Dialogsystems vom Versuchsleiter simuliert werden können. 
 \subsection{Testszenario}
 \label{testszenario1}
@@ -532,7 +545,7 @@ Die Versuchspersonen werden am Anfang darauf hingewiesen, dass sie die Slots ein
 
 \begin{longtable}{p{6cm}p{8cm}}
 	\label{slots}\\
-	\caption[Slotabfragen]{Beispiel Slotabfragen}\\
+	\caption[Slotabfragen Versuch 1]{Slotabfragen Versuch 1}\\
 	\hline
 	\textbf{Slot} &	\textbf{erfragte Werte}\\
 	\hline
@@ -554,7 +567,7 @@ Welche Slots pro anzurufenden Kontakt abgefragt werden, zeigt Tabelle \ref{slots
 
 \begin{longtable}{p{3,2cm}p{3,2cm}p{3,2cm}p{3,2cm}}
 	\label{slotsPerson}\\
-	\caption[Slotabfrage pro Person]{Slotabfrage pro Person}\\
+	\caption[Slotabfrage pro Person in Versuch 1]{Slotabfrage pro Person in Versuch 1}\\
 	\hline
 	\textbf{Anke}&\textbf{Peter}&\textbf{Fritz} &\textbf{Kim}\\
 	\hline
@@ -592,7 +605,7 @@ Tabelle \ref{ablauf1} zeigt eine Übersicht des Versuchsaufbaus.
 
 \begin{longtable}{p{2,4cm}p{2,4cm}p{2,4cm}p{2,4cm}p{2,4cm} }
 	\label{ablauf1}\\
-	\caption[Übersicht Versuchsablauf]{Übersicht Versuchsablauf}\\
+	\caption[Übersicht Versuchsablauf in Versuch 1]{Übersicht Versuchsablauf in Versuch 1}\\
 	\hline
 	\textbf{Vorrunde}&\textbf{1. Runde}&\textbf{2. Runde} &\textbf{3. Runde} & \textbf{4. Runde}\\
 	\hline
@@ -613,7 +626,7 @@ In der letzten Runde wird nur das Testszenario ohne Rennspiel durchgeführt. Hie
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{verteilung1}\\
-	\caption[Strecken- und Strategieverteilung]{Strecken- und Strategieverteilung}\\
+	\caption[Strecken- und Strategieverteilung in Versuch 1]{Strecken- und Strategieverteilung in Versuch 1}\\
 	\hline
 	\textbf{Aufteilung}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -657,7 +670,7 @@ Um ein laufendes System zu simulieren, wurde ein Control Panel entwickelt, welch
 \begin{comment}
 Das Control Panel wurde mit JavaFx\footnote{\label{foot:javafx}\url{http://docs.oracle.com/javase/8/javase-clienttechnologies.htm}} entwickelt. Mit Hilfe des Programms JavaFX Scene Builder\footnote{\label{foot:fxsb}\url{http://www.oracle.com/technetwork/java/javase/downloads/javafxscenebuilder-info-2157684.html}} wurde zunächst das Design entwickelt. Anschließend wurden die Funktionen für die Sprachausgaben und des Stopp-Buttons implementiert. Die Sprachausgaben wurden online auf der Webseite \url{http://www.fromtexttospeech.com/} generiert. 
 \end{comment}
-Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt es ein Tab mit personenspezifischen Sprachausgaben. Allgemeine Sprachausgaben wie \texttt{Cancel} und der Stoppbutton sind in jedem Personen-Tab extra enthalten, damit eine schnelle Reaktion des Versuchsleiters möglich ist. Das Commons-Tab enthält die Begrüßungsausgabe. Zur Orientierung ist nach jedem spezifischen Button die ausgelöste Sprachausgabe zu sehen. 
+Abbildung \ref{cp1} zeigt das Control Panel. Für jede anzurufende Person gibt es ein Tab mit personenspezifischen Sprachausgaben. Allgemeine Sprachausgaben wie der Stoppbutton sind in jedem Personen-Tab extra enthalten, damit eine schnelle Reaktion des Versuchsleiters möglich ist. Das Commons-Tab enthält die Begrüßungsausgabe. Zur Orientierung ist nach jedem spezifischen Button die ausgelöste Sprachausgabe zu sehen. 
 \begin{figure}[htbp]
 \includegraphics[width=13cm]{controlpanel.png}
 \caption{Controlpanel Versuch 1}
@@ -697,7 +710,7 @@ Um zu analysieren, ob das Rennverhalten durch eine Disambiguierungsstrategie neg
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{RZ3SV1}\\
-	\caption[Durchschnittsrennzeiten jeder Strategie pro Strecke]{Durchschnittsrennzeiten jeder Strategie pro Strecke}\\
+	\caption[Durchschnittsrennzeiten jeder Strategie pro Strecke im 1. Versuch]{Durchschnittsrennzeiten jeder Strategie pro Strecke im 1. Versuch}\\
 	\hline
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -706,20 +719,20 @@ Um zu analysieren, ob das Rennverhalten durch eine Disambiguierungsstrategie neg
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 71,5 sek & 93 sek & 74,5 sek \\
-Strecke B & 68,75 sek & 75,75 sek & 91,5 sek \\
-Strecke C & 74,5 sek & 58,38 sek & 61,75 sek \\
+Strecke A & 71,5 sek & 93,0 sek & 74,5 sek \\
+Strecke B & 68,8 sek & 75,8 sek & 91,5 sek \\
+Strecke C & 74,5 sek & 58,4 sek & 61,8 sek \\
 \hline
 \end{longtable}
 
 
-Diesen Zeiten zufolge wurde jede Strecke mit einer bestimmten Strategie am besten gefahren. Strecke A  und Strecke B wurde am schnellsten mit 71,5 Sekunden bzw. 68,75 Sekunden mit einer parallelen Dialoginteraktion in Strategie 1 gefahren. Mit Strategie 2 erfolgte die schnellste Rennzeit mit 58,38 Sekunden auf Strecke C. Diese Zeiten liegen jedoch nah beieinander und sind nicht aussagekräftig. Es gibt zudem keine Strategie, die durchweg auf allen Rennstrecken die besten Zeiten erzielen konnte. Dies könnte jedoch daran liegen, dass einzelne Werte durch schlechtere bzw. bessere Spieler in den Gruppen verfälscht wurden.
+Diesen Zeiten zufolge wurde jede Strecke mit einer bestimmten Strategie am besten gefahren. Strecke A  und Strecke B wurde am schnellsten mit 71,5 Sekunden bzw. 68,8 Sekunden mit einer parallelen Dialoginteraktion in Strategie 1 gefahren. Mit Strategie 2 erfolgte die schnellste Rennzeit mit 58,4 Sekunden auf Strecke C. Diese Zeiten liegen jedoch nah beieinander und sind nicht aussagekräftig. Es gibt zudem keine Strategie, die durchweg auf allen Rennstrecken die besten Zeiten erzielen konnte. Dies könnte jedoch daran liegen, dass einzelne Werte durch schlechtere bzw. bessere Spieler in den Gruppen verfälscht wurden.
 Befindet sich zum Beispiel ein sehr schlechter Spieler in Gruppe 1 und ein sehr guter Spieler in Gruppe 2, so könnte die Durchschnittszeit für Strategie 1 auf Strecke A, durch die lange Zeit des schlechten Spielers, verschlechtert werden. Im Gegensatz dazu könnte die Durchschnittszeit für Strategie 3 auf Strecke A durch die guten Resultate des guten Spielers aus Gruppe 3 verbessert werden. Um dieses Problem zu lösen, wird pro Strategie der Durchschnitt aller mit dieser Strategie gefahrenen Rennzeiten berechnet. Zeiten von extrem guten bzw. schlechten Spielern sollten die Durchschnittszeiten ganzer Strategien dann nicht mehr beeinflussen. Die daraus resultierenden Werte geben dann eine Aussage darüber, mit welcher Strategie die Rennen am besten bzw. am schlechtesten gefahren wurden. 
 Die endgültige Rennzeitberechnung für die Analyse der effizientesten Disambiguierungsstrategie ist in Tabelle \ref{RennZeitenDis1} dargestellt.
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{RennZeitenDis1}\\
-	\caption[Durchschnittsrennzeiten pro Strategie]{Durchschnittsrennzeiten pro Strategie}\\
+	\caption[Durchschnittsrennzeiten pro Strategie im 1. Versuch]{Durchschnittsrennzeiten pro Strategie im 1. Versuch}\\
 	\hline
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -765,7 +778,7 @@ Neben den Zeiten für das Rennspiel werden auch die Dialogzeiten gemessen. Anhan
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Durchschnittsdialogzeiten1}\\
-	\caption[Durchschnittsdialogzeiten]{Durchschnittsdialogzeiten}\\
+	\caption[Durchschnittsdialogzeiten im 1. Versuch]{Durchschnittsdialogzeiten im 1. Versuch}\\
 	\hline
 	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -774,14 +787,11 @@ Neben den Zeiten für das Rennspiel werden auch die Dialogzeiten gemessen. Anhan
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 15,34 sek & 20,38 sek & 20,28 sek \\
-Strecke B & 14,31 sek & 20,05 sek & 22,07 sek \\
-Strecke C  & 15,97 sek & 21,01 sek & 20,35 sek \\
-\hline
-\hline
-Strecke A - C & 15,19 sek & 20,52 sek & 20,81 sek \\
-\hline
-ohne Strecke &  14,9 sek & 18,8 sek & 17,59 sek \\
+Strecke A & 15,3 sek & 20,4 sek & 20,3 sek \\
+Strecke B & 14,3 sek & 20,1 sek & 22,1 sek \\
+Strecke C  & 15,9 sek & 21,0 sek & 20,4 sek \\
+Strecke A - C & 15,2 sek & 20,5 sek & 20,8 sek \\
+ohne Strecke &  14,9 sek & 18,8 sek & 17,6 sek \\
 \hline
 \end{longtable}
 
@@ -820,39 +830,39 @@ Die nachfolgende Tabelle zeigt die Ergebnisse des Fragebogens. Dabei werden jewe
 		\multicolumn{5}{l}{\textbf{Geistige Anforderung}}\\
 		\hline
 \multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 &  1,88 & 2,08 & 1,25 \\
- & Strategie 2 & 2,06 & 2,42 & 1,0\\
- & Strategie 3 & 2,63 & 2,83 & 2,0 \\
+ & Strategie 2 & 2,06 & 2,42 & 1,00\\
+ & Strategie 3 & 2,63 & 2,83 & 2,00 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Körperliche Anforderung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,0 & 2,17 & 1,5 \\
- & Strategie 2 & 1,44 & 2,25 & 1,0 \\
- & Strategie 3 & 2,0 & 2,25 & 1,25 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,00 & 2,17 & 1,50 \\
+ & Strategie 2 & 1,44 & 2,25 & 1,00 \\
+ & Strategie 3 & 2,00 & 2,25 & 1,25 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Zeitliche Anforderung}}\\
 		\hline
 \multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,87 & 2,09 & 1,25 \\
- & Strategie 2 & 1,75 & 2,0 & 1,0 \\
+ & Strategie 2 & 1,75 & 2,00 & 1,00 \\
  & Strategie 3 & 2,31 & 2,67 & 1,25 \\
 \hline
 	%\newpage
 		\multicolumn{5}{l}{\textbf{Leistung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 4,25 & 4,5 & 3,5 \\
- & Strategie 2 & 4,75 & 4,33 & 6,0 \\
- & Strategie 3 & 4,25 & 4,0 & 5,0 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 4,25 & 4,50 & 3,50 \\
+ & Strategie 2 & 4,75 & 4,33 & 6,00 \\
+ & Strategie 3 & 4,25 & 4,00 & 5,00 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Anstrengung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,0 & 2,25 & 1,25 \\
- & Strategie 2 & 2,13 & 2,55 & 1,0 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,00 & 2,25 & 1,25 \\
+ & Strategie 2 & 2,13 & 2,55 & 1,00 \\
  & Strategie 3 & 2,63 & 2,92 & 1,75\\
 \hline
 		\multicolumn{5}{l}{\textbf{Frustration}}\\
 		\hline
 \multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,69 & 1,83 & 1,25 \\
- & Strategie 2 & 1,81 & 2,08 & 1,0 \\
- & Strategie 3 & 2,0 & 2,25 & 1,25 \\
+ & Strategie 2 & 1,81 & 2,08 & 1,00 \\
+ & Strategie 3 & 2,00 & 2,25 & 1,25 \\
 \hline
 \end{longtable}
 
@@ -863,7 +873,7 @@ Der zweite Teil des Fragebogens ist in Abbildung \ref{fbstrategien1} zu sehen.
 Mit diesem Fragebogen werden die einzelnen Strategien anhand verschiedener Kategorien bewertet.
 \begin{figure}[H]
 \begin{center}
-\includegraphics[width=12cm]{fbdialog.png}
+\includegraphics[width=14cm]{fbdialog.png}
 \caption{Fragebogen: Dialogstrategien}
 \label{fbstrategien1}
 \end{center}
@@ -893,30 +903,30 @@ Die Frage \texttt{"Welcher Anruf gefiel Ihnen insgesamt am besten?"} wird zum Sc
 		\multicolumn{5}{l}{\textbf{Die Nachfragen erleichterten es mir, den Anruf korrekt aufzubauen}}\\
 		\hline
 \multirow{3}{4cm}{1: erleichterte es\newline  6: erschwerte es} & Strategie 1 & 1,63 & 1,83 & 1,25 \\
- & Strategie 2 & 1,69 & 1,92 & 1 \\
+ & Strategie 2 & 1,69 & 1,92 & 1,00 \\
  & Strategie 3 & 2,13 & 2,25 & 1,75 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Wussten Sie, wann das System Spracheingaben erwartete?}}\\
 		\hline
 \multirow{3}{4cm}{1: immer \newline  6: nicht immer} & Strategie 1 & 1,19 & 1,17 & 1,25 \\
- & Strategie 2 & 1,38 & 1,33 & 1,5 \\
- & Strategie 3 & 1,5 & 1,67 & 1 \\
+ & Strategie 2 & 1,38 & 1,33 & 1,50 \\
+ & Strategie 3 & 1,50 & 1,67 & 1,00 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Wie gefiel Ihnen der Dialog insgesamt?}}\\
 		\hline
-\multirow{3}{4cm}{1: sehr gut \newline  6: weniger gut} & Strategie 1 & 1,94 & 2,08 & 1,5 \\
- & Strategie 2 & 2,50 & 2,67 & 2 \\
- & Strategie 3 & 2,57 & 2,75 & 2 \\
+\multirow{3}{4cm}{1: sehr gut \newline  6: weniger gut} & Strategie 1 & 1,94 & 2,08 & 1,50 \\
+ & Strategie 2 & 2,50 & 2,67 & 2,00 \\
+ & Strategie 3 & 2,57 & 2,75 & 2,00 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Fiel es Ihnen einfacher, den Dialog ohne Rennspiel zu führen?}}\\
 		\hline
-\multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 &  - & - & 2 \\
+\multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 &  - & - & 2,00 \\
  & Strategie 2 & - & - & 3,75 \\
  & Strategie 3 & - & - & 2,25\\
 \hline
 		\multicolumn{5}{l}{\textbf{Welcher Anruf gefiel Ihnen insgesamt am besten?}}\\
 		\hline
-\multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 75\% & - & - \\
+\multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 75,0\% & - & - \\
  & Strategie 2 & 16,6\% & - & - \\
  & Strategie 3 & 8,3\% & - & - \\
 \hline
@@ -948,7 +958,7 @@ Eine Zusammenfassung der restlichen Antworten steht in Abbildung \ref{fbpersonau
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{person1.png}
-\caption{Fragebogen: Person}
+\caption{Ergebnis des Personenfragebogens aus Versuch 1}
 \label{fbpersonaus}
 \end{center}
 \end{figure}
@@ -1009,7 +1019,7 @@ Zur Auswertung wird pro Strategie eine Durchschnittspunktzahl berechnet. Die Dur
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{TCV1}\\
-	\caption[Durchschnittliche Task Completion pro Strategie]{Durchschnittliche Task Completion pro Strategie}\\
+	\caption[Durchschnittliche Task Completion pro Strategie im 1. Versuch]{Durchschnittliche Task Completion pro Strategie im 1. Versuch}\\
 	\hline
 \textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
 	\hline
@@ -1018,9 +1028,9 @@ Zur Auswertung wird pro Strategie eine Durchschnittspunktzahl berechnet. Die Dur
 	\textbf{Strategien}&\textbf{\O TC insgesamt}&\textbf{\O TC Runde 1-3} &\textbf{\O TC Runde 4}\\
 	\hline
 	\endhead
-1. Strategie & 1,75 & 1,92 & 1,5  \\
-2. Strategie & 1,94 & 1,92 & 2  \\
-3. Strategie & 1,63 & 1,5 & 2  \\
+1. Strategie & 1,75 & 1,92 & 1,50  \\
+2. Strategie & 1,94 & 1,92 & 2,00  \\
+3. Strategie & 1,63 & 1,50 & 2,00  \\
 Insgesamt & & 1,78 & 1,83 \\ 
 \hline
 \end{longtable}
@@ -1032,7 +1042,7 @@ Es ist jedoch fraglich, ob die hier entstandenen Fehler auch in einem realen Dia
 
 \subsubsection{Dialogverhalten}
 \label{disverh1}
-Für jede Strategie werden die Antworten der Versuchspersonen gesammelt, um festzustellen, ob es Unterschiede im Dialogverhalten unter hoher und niedriger kognitiver Belastung gibt. Alle gegebenen Antwortmöglichkeiten werden kurz erläutert und sind in Tabelle \ref{Dialogverhalten11} mit einem Beispiel aufgelistet.
+Für jede Strategie werden die Antworten der Versuchspersonen gesammelt, um festzustellen, ob es Unterschiede im Dialogverhalten unter hoher und niedriger kognitiver Belastung gibt. Alle gegebenen Antwortmöglichkeiten werden kurz erläutert und sind in Tabelle 16 mit einem Beispiel aufgelistet.
 
 \begin{description}
 \item[Slots:] der zu füllende Slot wird als Antwort übergeben.
@@ -1042,7 +1052,8 @@ Für jede Strategie werden die Antworten der Versuchspersonen gesammelt, um fest
 
 \begin{table}[H]
 %\centering
-\caption[Antwortmöglichkeiten1]{Antwortmöglichkeiten}
+\label{Dialogverhalten11}
+\caption[Antwortmöglichkeiten]{Antwortmöglichkeiten}
 \begin{tabular}{|p{3cm}|p{6cm}|p{3cm}|}
 \hline
 \textbf{Antwort-möglichkeiten}&\textbf{Beispiel \newline Slotabfrage}&\textbf{Beispiel \newline Antwort}\\ \hline \hline
@@ -1058,7 +1069,7 @@ Die Häufigkeiten dieser Antworten pro Strategie aus Runde 1-3 sind in nachfolge
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Dialogverhalten12}\\
-	\caption[Antwortenverteilung pro Strategie]{Antwortenverteilung pro Strategie}\\
+	\caption[Antwortenverteilung pro Strategie im 1. Versuch]{Antwortenverteilung pro Strategie im 1. Versuch}\\
 	\hline
 \textbf{Antwort-möglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -1067,9 +1078,9 @@ Die Häufigkeiten dieser Antworten pro Strategie aus Runde 1-3 sind in nachfolge
 	\textbf{Antwortmöglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Slots & 100\% & 70,8\%\ & 16,7\%  \\
-Position & 0\% & 29,2\% & 0\%  \\
-ja/nein & 0\% & 0\%  & 83,3 \%  \\
+Slots & 100\% & 71\%\ & 17\%  \\
+Position & 0\% & 29\% & 0\%  \\
+ja/nein & 0\% & 0\%  & 83 \%  \\
 \hline
 \end{longtable}
 
@@ -1403,7 +1414,7 @@ Dieses Testszenario ist analog zu dem im ersten Versuch. Die Versuchspersonen ru
 
 \begin{longtable}{p{4cm}p{10cm}}
 	\label{slots2}\\
-	\caption[Slotabfragen]{Beispiel Slotabfragen}\\
+	\caption[Slotabfragen Versuch 2]{Slotabfragen Versuch 2}\\
 	\hline
 	\textbf{Slot} &\textbf{erfragte Werte}\\
 	\hline
@@ -1435,7 +1446,7 @@ Für jede Person werden zwei Slots abgefragt. Bei jedem der anzurufenden Kontakt
 
 \begin{longtable}{p{3,2cm}p{3,2cm}p{3,2cm}p{3,2cm}}
 	\label{slotsPerson2}\\
-	\caption[Slotabfrage pro Person]{Slotabfrage pro Person}\\
+	\caption[Slotabfrage pro Person in Versuch 2]{Slotabfrage pro Person in Versuch 2}\\
 	\hline
 	\textbf{Anke}&\textbf{Peter}&\textbf{Fritz} &\textbf{Kim}\\
 	\hline
@@ -1459,7 +1470,7 @@ Tabelle \ref{ablauf} zeigt einen Überblick.
 
 \begin{longtable}{p{2,4cm}p{2,4cm}p{2,4cm}p{2,4cm}p{2,4cm} }
 	\label{ablauf}\\
-	\caption[Übersicht Versuchsablauf]{Übersicht Versuchsablauf}\\
+	\caption[Übersicht Versuchsablauf in Versuch 2]{Übersicht Versuchsablauf in Versuch 2}\\
 	\hline
 	\textbf{Vorrunde}&\textbf{1. Runde}&\textbf{2. Runde} &\textbf{3. Runde} & \textbf{4. Runde}\\
 	\hline
@@ -1479,7 +1490,7 @@ Ein Überblick der Strecken- und Strategieverteilung pro Gruppe ist in Tabelle \
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{verteilung}\\
-	\caption[Strecken- und Strategieverteilung]{Strecken- und Strategieverteilung}\\
+	\caption[Strecken- und Strategieverteilung in Versuch 2]{Strecken- und Strategieverteilung in Versuch 2}\\
 	\hline
 	\textbf{Aufteilung}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -1499,7 +1510,7 @@ Ein Überblick der Strecken- und Strategieverteilung pro Gruppe ist in Tabelle \
 Das Control Panel aus Versuch 1 wurde mit anderen Sprachausgaben ausgestattet und es wurden weitere Schaltflächen für Strategie 3 hinzugefügt. (Abbildung \ref{cp2})
 \begin{figure}[H]
 \includegraphics[width=13cm]{controlpanel2.png}
-\caption{Controlpanel 2. Versuch}
+\caption{Controlpanel Versuch 2}
 \label{cp2}
 \end{figure}
 
@@ -1538,7 +1549,7 @@ In jeder Runde wurden die Rennzeiten bemessen. Mit diesen möchte man ermitteln,
 Die durchschnittlichen Rennzeiten für alle Strategien auf die einzelnen Strecken verteilt sind in Tabelle \ref{RZ3SV2} gelistet. 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{RZ3SV2}\\
-	\caption[Durchschnittszeiten Strategie pro Strecke]{Durchschnittszeiten Strategie pro Strecke}\\
+	\caption[Durchschnittsrennzeiten jeder Strategie pro Strecke im 2. Versuch]{Durchschnittsrennzeiten jeder Strategie pro Strecke im 2. Versuch}\\
 	\hline
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -1547,9 +1558,9 @@ Die durchschnittlichen Rennzeiten für alle Strategien auf die einzelnen Strecke
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 81 sek & 80,3 sek & 74,25 sek \\
-Strecke B & 74,5 sek & 84,25 sek & 88 sek \\
-Strecke C & 75 sek & 67,9 sek & 65 sek \\
+Strecke A & 81,0 sek & 80,3 sek & 74,3 sek \\
+Strecke B & 74,5 sek & 84,3 sek & 88,0 sek \\
+Strecke C & 75,0 sek & 67,9 sek & 65,0 sek \\
 \hline
 \end{longtable}
 
@@ -1558,7 +1569,7 @@ Dies könnte daran liegen, dass einzelne Werte durch schlechtere bzw. bessere Sp
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{RennZeitenDis2}\\
-	\caption[Durchschnittszeiten pro Strategie]{Durchschnittszeiten pro Strategie}\\
+	\caption[Durchschnittsrennzeiten pro Strategie im 2. Versuch]{Durchschnittsrennzeiten pro Strategie im 2. Versuch}\\
 	\hline
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -1581,7 +1592,7 @@ In Tabelle \ref{Durchschnittsdialogzeiten2} sind die Durchschnittszeiten der gem
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Durchschnittsdialogzeiten2}\\
-	\caption[Durchschnittsdialogzeiten 2. Versuch]{Durchschnittsdialogzeiten 2. Versuch}\\
+		\caption[Durchschnittsdialogzeiten im 2. Versuch]{Durchschnittsdialogzeiten im 2. Versuch}\\
 	\hline
 	\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -1590,14 +1601,11 @@ In Tabelle \ref{Durchschnittsdialogzeiten2} sind die Durchschnittszeiten der gem
 	\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
 	\endhead
-Strecke A & 25,76 sek & 38,32 sek & 33,98 sek \\
-Strecke B & 31,41 sek & 40,2 sek & 36,61 sek \\
-Strecke C  & 29,59 sek & 37,9 sek & 28,29 sek \\
-\hline
-\hline
-Strecke A - C & 29,55 sek & 38,54 sek & 34,34 sek\\
-\hline
-ohne Strecke & 24,12 & 34,35 & 30,44 \\
+Strecke A & 25,8 sek & 38,3 sek & 33,9 sek \\
+Strecke B & 31,4 sek & 40,2 sek & 36,6 sek \\
+Strecke C  & 29,6 sek & 37,9 sek & 28,3 sek \\
+Strecke A - C & 29,6 sek & 38,5 sek & 34,3 sek\\
+ohne Strecke & 24,1 sek & 34,4 sek & 30,4 sek \\
 \hline
 \end{longtable}
 
@@ -1625,38 +1633,38 @@ Die nachfolgende Tabelle zeigt die Ergebnisse jeder Frage pro Strategie.
 		\multicolumn{5}{l}{\textbf{Geistige Anforderung}}\\
 		\hline
 \multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 &  2,31 & 2,67 & 1,25 \\
- & Strategie 2 & 2,31 & 2,58 & 1,5\\
+ & Strategie 2 & 2,31 & 2,58 & 1,50\\
  & Strategie 3 & 2,56 & 2,83 & 1,75 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Körperliche Anforderung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,67 & 2,17 & 1 \\
- & Strategie 2 & 2,06 & 2,25 & 1,5 \\
- & Strategie 3 & 1,94 & 2,08 & 1,5 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,67 & 2,17 & 1,00 \\
+ & Strategie 2 & 2,06 & 2,25 & 1,50 \\
+ & Strategie 3 & 1,94 & 2,08 & 1,50 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Zeitliche Anforderung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2 & 2,25 & 1,25 \\
- & Strategie 2 & 2,25 & 2,5 & 1,5 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,00 & 2,25 & 1,25 \\
+ & Strategie 2 & 2,25 & 2,50 & 1,50 \\
  & Strategie 3 & 1,94 & 2,17 & 1,25 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Leistung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 5,13 & 4,83 & 6 \\
- & Strategie 2 & 4,88 & 4,67 & 5,5 \\
- & Strategie 3 & 4,56 & 4,08 & 6 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 5,13 & 4,83 & 6,00 \\
+ & Strategie 2 & 4,88 & 4,67 & 5,50 \\
+ & Strategie 3 & 4,56 & 4,08 & 6,00 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Anstrengung}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,38 & 2,83 & 1 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 2,38 & 2,83 & 1,00 \\
  & Strategie 2 & 2,44 & 2,67 & 1,75 \\
  & Strategie 3 & 2,31 & 2,67 & 1,25\\
 \hline
 		\multicolumn{5}{l}{\textbf{Frustration}}\\
 		\hline
-\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,94 & 2,25 & 1 \\
- & Strategie 2 & 1,94 & 2 & 1,75 \\
- & Strategie 3 & 2,31 & 2,58 & 1,5 \\
+\multirow{3}{4cm}{1: gering \newline 6: hoch} & Strategie 1 & 1,94 & 2,25 & 1,00 \\
+ & Strategie 2 & 1,94 & 2,00 & 1,75 \\
+ & Strategie 3 & 2,31 & 2,58 & 1,50 \\
 \hline
 \end{longtable}
 
@@ -1679,39 +1687,39 @@ In diesem Fragebogen bewerten die Versuchspersonen die zuletzt verwendete Strate
 	\endhead
 		\multicolumn{5}{l}{\textbf{Der Dialog lenkte mich vom Rennspiel ab}}\\
 		\hline
-\multirow{3}{4cm}{1: kaum \newline 6: stark} & Strategie 1 & - & 3,5  & - \\
- - & Strategie 2 & - & 2,92 & -\\
- - & Strategie 3 & - & 3,17 & -\\
+\multirow{3}{4cm}{1: kaum \newline 6: stark} & Strategie 1 & - & 3,50  & - \\
+  & Strategie 2 & - & 2,92 & -\\
+  & Strategie 3 & - & 3,17 & -\\
 \hline
 		\multicolumn{5}{l}{\textbf{Die Nachfragen erleichterten es mir, den Anruf korrekt aufzubauen}}\\
 		\hline
-\multirow{3}{4cm}{1: erleichterte es\newline  6: erschwerte es} & Strategie 1 & 2,44 & 2,58 & 2 \\
- & Strategie 2 & 2,25 & 2,33 & 2 \\
- & Strategie 3 & 2,38 & 2,5 & 2 \\
+\multirow{3}{4cm}{1: erleichterte es\newline  6: erschwerte es} & Strategie 1 & 2,44 & 2,58 & 2,00 \\
+ & Strategie 2 & 2,25 & 2,33 & 2,00 \\
+ & Strategie 3 & 2,38 & 2,50 & 2,00 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Wussten Sie, wann das System Spracheingaben erwartete?}}\\
 		\hline
-\multirow{3}{4cm}{1: immer \newline  6: nicht immer} & Strategie 1 & 1,63 & 1,67 & 1,5 \\
- & Strategie 2 & 1,5 & 1,5 & 1,5 \\
- & Strategie 3 & 1,57 & 1,5 & 1,75 \\
+\multirow{3}{4cm}{1: immer \newline  6: nicht immer} & Strategie 1 & 1,63 & 1,67 & 1,50 \\
+ & Strategie 2 & 1,50 & 1,50 & 1,50 \\
+ & Strategie 3 & 1,57 & 1,50 & 1,75 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Wie gefiel Ihnen der Dialog insgesamt?}}\\
 		\hline
 \multirow{3}{4cm}{1: sehr gut \newline  6: weniger gut} & Strategie 1 & 2,94 & 2,83 & 3,25 \\
- & Strategie 2 & 2,44 & 2,42 & 2,5 \\
- & Strategie 3 & 2,38 & 2,3 & 2,5 \\
+ & Strategie 2 & 2,44 & 2,42 & 2,50 \\
+ & Strategie 3 & 2,38 & 2,30 & 2,50 \\
 \hline
 		\multicolumn{5}{l}{\textbf{Fiel es Ihnen einfacher, den Dialog ohne Rennspiel zu führen?}}\\
 		\hline
 \multirow{3}{4cm}{1: viel einfacher \newline  6: nicht einfacher} & Strategie 1 & - & - & 2,75 \\
-- & Strategie 2 & - & - & 3 \\
-- & Strategie 3 & - & - & 2,5\\
+ & Strategie 2 & - & - & 3,00 \\
+ & Strategie 3 & - & - & 2,50\\
 \hline
 		\multicolumn{5}{l}{\textbf{Welcher Anruf gefiel Ihnen insgesamt am besten?}}\\
 		\hline
 \multirow{3}{4cm}{Anruf bzw. Strategie auswählbar} & Strategie 1 & 16,7\% &-  &-  \\
  & Strategie 2 & 33,3\% & - & - \\
- & Strategie 3 & 50\% & - &  -\\
+ & Strategie 3 & 50,0\% & - &  -\\
 \hline
 \end{longtable}
 
@@ -1733,7 +1741,7 @@ Eine Zusammenfassung der restlichen Antworten steht in Abbildung \ref{fbpersonau
 \begin{figure}[H]
 \begin{center}
 \includegraphics[width=10cm]{person2.png}
-\caption{Fragebogen: Person}
+\caption{Ergebnis des Personenfragebogens aus Versuch 2}
 \label{fbpersonaus2}
 \end{center}
 \end{figure}
@@ -1754,7 +1762,7 @@ Zur Auswertung wird pro Strategie eine Durchschnittspunktzahl berechnet, welche 
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{TCV2}\\
-	\caption[Task Completion Versuch 2]{Task Completion Versuch 2}\\
+		\caption[Durchschnittliche Task Completion pro Strategie im 2. Versuch]{Durchschnittliche Task Completion pro Strategie im 2. Versuch}\\
 	\hline
 \textbf{Strategien}&\textbf{insgesamt}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
 	\hline
@@ -1763,11 +1771,10 @@ Zur Auswertung wird pro Strategie eine Durchschnittspunktzahl berechnet, welche 
 	\textbf{Strategien}&\textbf{\O TC insgesamt}&\textbf{\O TC Runde 1-3} &\textbf{\O TC Runde 4}\\
 	\hline
 	\endhead
-1. Strategie & 1,88 & 1,83 & 2  \\
-2. Strategie & 1,81 & 1,75 & 2  \\
-3. Strategie & 1,56 & 1,42 & 2  \\
-\hline
-Insgesamt & & 1,67 & 2 \\ 
+1. Strategie & 1,88 & 1,83 & 2,00  \\
+2. Strategie & 1,81 & 1,75 & 2,00  \\
+3. Strategie & 1,56 & 1,42 & 2,00  \\
+Insgesamt & & 1,67 & 2,00 \\ 
 \hline
 \end{longtable}
 
@@ -1782,7 +1789,7 @@ Die Häufigkeiten dieser Antworten pro Strategie aus Runde 1-3 sind in nachfolge
 
 \begin{longtable}{p{3cm}p{3cm}p{3cm}p{3cm} }
 	\label{Dialogverhalten12}\\
-	\caption[Antwortenverteilung pro Strategie]{Antwortenverteilung pro Strategie}\\
+		\caption[Antwortenverteilung pro Strategie im 2. Versuch]{Antwortenverteilung pro Strategie im 2. Versuch}\\
 	\hline
 \textbf{Antwort-möglichkeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
 	\hline
@@ -2046,8 +2053,8 @@ Zusammenfassend zeigen die Ergebnisse der beiden Versuche insgesamt, dass die Di
 \label{discussion}
 In dieser Arbeit wurden zwei Versuche durchgeführt um drei Strategien auf Effizienz und Beliebtheit in einem Dialogsystem, das speziell im Rahmen einer automobilen Anwendung erstellt wird, zu testen. Um eine möglichst realistische Fahrsimulation zu erreichen, spielten die Versuchspersonen parallel zum Testszenario ein Rennspiel und füllten anschließend einen Fragebogen aus, der sich auf die subjektiv wahrgenommene kognitive Belastung und einer Bewertung der aktuellen Strategie bezog.
 Die Ergebnisse zeigen, dass sich bei einer Disambiguierung mit wenigen Slotfüllern die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1) besonders eignet. Besteht die Disambiguierung aus mehreren Slotfüllern zeigte sich die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1) als effizient und die \texttt{Sequentielle Auswahl} (Strategie 3) als beliebt unter den Benutzern. \newline \newline
-In einer vierten Runde wurde das Testszenario in einer zufällig gewählten Strategie ohne Rennspiel durchgeführt. Es zeigte sich, dass die Versuchspersonen in dieser Runde eine geringere kognitive Belastung empfunden haben als in den Runden zuvor, sodass gesagt werden kann, dass das Rennspiel kognitiv belastend wirkte. Da die Dialogzeiten in der vierten Runde am Kürzesten sind, kommt man hier zu dem Schluss, dass die Reaktionszeit bei geringer kognitiver Belastung besser ist als bei kognitiv belasteten Personen. Ein ähnliches Verhalten konnte in \cite{DbCL} festgestellt werden. In \cite{eCLDS} hat man herausgefunden, dass die Anzahl der Barge-Ins bei großer Belastung höher ist. Ein Unterschied im Dialogverhalten konnte in diesem Experiment nicht erkannt werden. Eine Erklärung hierfür ist, dass die Versuchspersonen die Möglichkeit zum Barge-In nicht erkannten. In \cite{eCLDS} wurde weiter erforscht, dass Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} bevorzugt werden. Das wurde durch das Ergebnis aus Versuch 2 bestätigt. Außerdem wird vermutet, dass die Versuchspersonen in Versuch 1 weniger belastet waren als die Versuchspersonen in Versuch 2. Die Ergebnisse des NASA-TLX Teils des Fragebogens zeigen, dass die eingeschätzte Belastung in Versuch 2 in vier von sechs Fragen im Durchschnitt ( \texttt{Geistige Anforderung}, \texttt{Zeitliche Anforderung}, \texttt{Anstrengung} und \texttt{Frustration}) höher gewertet wurde. Dadurch wurde diese Vermutung bestärkt. \newline \newline
-Die Task Completion beider Versuche zeigt, dass die Systeminteraktion ohne Rennspiel erfolgreicher ablief als die Systeminteraktion mit. Gleiche Ergebnisse wurden in \cite{eCLDS} festgestellt. Im ersten Versuch ist die Strategie \texttt{Aggregierte Auswahl mit Pause} (Strategie 2) am Erfolgreichsten und im zweiten Versuch die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1). An dieser Stelle stellt sich die Frage, ob die Task Completion in einer echten Systeminteraktion bei ähnlichem Testszenario genauso ausfällt. Die Task Completion kommt in dieser Studie dadurch zustande, in dem die Anzahl der richtig gefüllten Slots gewertet werden. Welche Slots gefüllt werden sollen, wird den Benutzern über ein Personenprofil angezeigt. In einer realen Situation entscheiden die Benutzer selbst, welche Slots gefüllt werden, was vermutlich zu einer geringeren Fehlerquote führt. Die Erkenntnis, dass im zweiten Versuch die Strategie \texttt{Sequentielle Auswahl} die meisten Fehler aufwies und parallel als beliebteste Strategie bewertet wurde, bestärkt diesen Verdacht. 
+In einer vierten Runde wurde das Testszenario in einer zufällig gewählten Strategie ohne Rennspiel durchgeführt. Es zeigte sich, dass die Versuchspersonen in dieser Runde eine geringere kognitive Belastung empfunden haben als in den Runden zuvor, sodass gesagt werden kann, dass das Rennspiel kognitiv belastend wirkte. Da die Dialogzeiten in der vierten Runde am kürzesten sind, kommt man hier zu dem Schluss, dass die Reaktionszeit bei geringer kognitiver Belastung besser ist als bei kognitiv belasteten Personen. Ein ähnliches Verhalten konnte von Villing im Jahr 2009  festgestellt werden. Tsiakoulis et al. fanden 2012 heraus, dass die Anzahl der Barge-Ins bei großer Belastung höher ist. Ein Unterschied im Dialogverhalten konnte in diesem Experiment nicht erkannt werden. Eine Erklärung hierfür ist, dass die Versuchspersonen die Möglichkeit zum Barge-In nicht erkannten. Tsiakoulis et al. erforschten in einer Studie von 2012 weiter, dass Dialogabläufe mit einfachen Spracheingaben wie \texttt{ja} oder \texttt{nein} bevorzugt werden. Das wurde durch das Ergebnis aus Versuch 2 bestätigt. Außerdem wird vermutet, dass die Versuchspersonen in Versuch 1 weniger belastet waren als die Versuchspersonen in Versuch 2. Die Ergebnisse des NASA-TLX Teils des Fragebogens zeigen, dass die eingeschätzte Belastung in Versuch 2 in vier von sechs Fragen im Durchschnitt ( \texttt{Geistige Anforderung}, \texttt{Zeitliche Anforderung}, \texttt{Anstrengung} und \texttt{Frustration}) höher gewertet wurde. Dadurch wurde diese Vermutung bestärkt. \newline \newline
+Die Task Completion beider Versuche zeigt, dass die Systeminteraktion ohne Rennspiel erfolgreicher ablief als die Systeminteraktion mit. Gleiche Ergebnisse wurden von Tsiakoulis et al. 2012 festgestellt. Im ersten Versuch ist die Strategie \texttt{Aggregierte Auswahl mit Pause} (Strategie 2) am erfolgreichsten und im zweiten Versuch die Strategie \texttt{Aggregierte Auswahl ohne Pause} (Strategie 1). An dieser Stelle stellt sich die Frage, ob die Task Completion in einer echten Systeminteraktion bei ähnlichem Testszenario genauso ausfällt. Die Task Completion kommt in dieser Studie dadurch zustande, in dem die Anzahl der richtig gefüllten Slots gewertet werden. Welche Slots gefüllt werden sollen, wird den Benutzern über ein Personenprofil angezeigt. In einer realen Situation entscheiden die Benutzer selbst, welche Slots gefüllt werden, was vermutlich zu einer geringeren Fehlerquote führt. Die Erkenntnis, dass im zweiten Versuch die Strategie \texttt{Sequentielle Auswahl} die meisten Fehler aufwies und parallel als beliebteste Strategie bewertet wurde, bestärkt diesen Verdacht. 
 \newline
 \newline
 Diese Studie fokussiert sich auf die geeignetste Disambiguierungsstrategie unter kognitiver Belastung. Dabei wurde die beliebteste Strategie bei keiner bzw. geringer kognitiver Belastung vernachlässigt. In einer zukünftigen Arbeit könnte man den Fokus umkehren und mehr Ergebnisse für das Testszenario ohne Rennspiel sammeln. 
@@ -2090,6 +2097,9 @@ Unterschiede VP versch. Alters\\
 \begin{thebibliography}{Maron \& Ames, 1982}
 
 	\bibitem[Ang et al., 2006]{CLmmorpg} Chee Siang Ang, Panayiotis Zaphiris, Shumalai Mahmood: \textit{Cognitive Load Issues in MMORPGs} 
+(2006).
+
+\bibitem[Abdi et al., 2010]{TukeyTest} Hervé Abdi und Lynne J. Williams: \textit{Newmann-Keuls Test and Tukey Test} 
 (2006).
 
 \bibitem[Jurafsky et al.]{SaLP} Daniel Jurafsky und James Martin: \textit{Speech and Language Processing} Prentice Hall 2. Auflage (2008). 
@@ -2142,7 +2152,7 @@ Seoul, South Korea, (July 2012).
 \section{Anhang}
 
 \begin{sidewaystable}
-\caption{Persondendaten aus Versuch 1} \label{Persondendaten aus Versuch 1}
+\caption{Personendaten aus Versuch 1} \label{Personendaten aus Versuch 1}
 
 \smallskip
 \begin{tabular}{|p{6cm}| p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6m} | }
@@ -2158,7 +2168,7 @@ Seoul, South Korea, (July 2012).
 \end{tabular}
 
 \bigskip\bigskip  % provide some separation between the two tables
-\caption{Persondendaten aus Versuch 2} \label{Persondendaten aus Versuch 2}
+\caption{Personendaten aus Versuch 2} \label{Personendaten aus Versuch 2}
 
 \smallskip
 \begin{tabular}{|p{6cm}| p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6cm} | p{0.6m} | }
@@ -2268,14 +2278,14 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 
 \smallskip
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
-\hline \hline
-ID & 4B & 4B & 4B & 4B & 5A & 5A & 5A & 5A & 6C & 6C & 6C & 6C \\ \hline
+\hline 
+ID & 4B & 4B & 4B & 4B & 5A & 5A & 5A & 5A & 6C & 6C & 6C & 6C \\ \hline \hline
 Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 	Strategie & 3 & 1 & 2 & 3 & 1 & 2 & 3 & 2 & 2 & 3 & 1 & 3 \\\hline \hline
 	Geistige Anforderung & 1 & 2 & 2 & 2 & 2 & 2 & 1 & 2 & 3 & 2 & 2 & 2 \\ \hline
 	Körperliche Anforderung & 1 & 2 & 2 & 2 & 2 & 2 & 1 & 2 & 2 & 2 & 2 & 2 \\ \hline
 	Zeitliche Anforderung & 1 & 2 & 2 & 2 & 2 & 3 & 1 & 2 & 1 & 1 & 1 & 1 \\ \hline
-	Leistung & 2 & 3 & 3 &  & 6 & 5 & 4 & 5 & 6 & 6 & 6 & 6 \\ \hline
+	Leistung & 2 & 3 & 3 & 2 & 6 & 5 & 4 & 5 & 6 & 6 & 6 & 6 \\ \hline
 	Anstrengung & 3 & 2 & 2 & 2 & 3 & 2 & 1 & 2 & 2 & 1 & 1 & 1 \\ \hline
 	Frustration & 4 & 3 & 3 & 2 & 2 & 2 & 1 & 1 & 1 & 1 & 1 & 1 \\ \hline
 \end{tabular}
@@ -2318,7 +2328,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 1-3 aus Versuch 1}
+\caption{Strategien-Fragebogen Versuchspersonen 1-3 aus Versuch 1}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 %\caption{Personendaten}
 \hline
@@ -2338,7 +2348,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 \end{sidewaystable}
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 4-6 aus Versuch 1}
+\caption{Strategien-Fragebogen Versuchspersonen 4-6 aus Versuch 1}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 \hline
 	Wie ist ihre ID? & 4B & 4B & 4B & 4B & 5A & 5A & 5A & 5A & 6C & 6C & 6C & 6C \\ \hline \hline
@@ -2356,7 +2366,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 \end{sidewaystable}
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 7-9 aus Versuch 1}
+\caption{Strategien-Fragebogen Versuchspersonen 7-9 aus Versuch 1}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 \hline
 	Wie ist ihre ID? & 7C & 7C & 7C & 7C & 8B & 8B & 8B & 8B & 9A & 9A & 9A & 9A \\ \hline \hline
@@ -2374,7 +2384,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 \end{sidewaystable}
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 10-12 aus Versuch 1}
+\caption{Strategien-Fragebogen Versuchspersonen 10-12 aus Versuch 1}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 \hline
 ID & 10A & 10A & 10A & 10A & 11B & 11B & 11B & 11B & 12C & 12C & 12C & 12C \\ \hline \hline
@@ -2393,7 +2403,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 1-3 aus Versuch 2}
+\caption{Strategien-Fragebogen Versuchspersonen 1-3 aus Versuch 2}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 %\caption{Personendaten}
 \hline
@@ -2413,7 +2423,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 \end{sidewaystable}
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 4-6 aus Versuch 2}
+\caption{Strategien-Fragebogen Versuchspersonen 4-6 aus Versuch 2}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 \hline
 	Wie ist ihre ID? & 4B & 4B & 4B & 4B & 5A & 5A & 5A & 5A & 6C & 6C & 6C & 6C \\ \hline \hline
@@ -2431,7 +2441,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 \end{sidewaystable}
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 7-9 aus Versuch 2}
+\caption{Strategien-Fragebogen Versuchspersonen 7-9 aus Versuch 2}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 \hline
 	Wie ist ihre ID? & 7C & 7C & 7C & 7C & 8B & 8B & 8B & 8B & 9A & 9A & 9A & 9A \\ \hline \hline
@@ -2449,7 +2459,7 @@ Runde & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 & 1 & 2 & 3 & 4 \\ \hline
 \end{sidewaystable}
 
 \begin{sidewaystable}
-\caption{Strategien-Fragebogen Ergebnisse Versuchspersonen 10-12 aus Versuch 2}
+\caption{Strategien-Fragebogen Versuchspersonen 10-12 aus Versuch 2}
 \begin{tabular}{|p{6cm}| p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} || p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8cm} | p{0.8m} | }
 \hline
 	Wie ist ihre ID? & 10A & 10A & 10A & 10A & 11B & 11B & 11B & 11B & 12C & 12C & 12C & 12C \\ \hline \hline
