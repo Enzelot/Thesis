@@ -27,6 +27,7 @@
 \usepackage{comment}
 \usepackage{framed}
 \usepackage{longtable}
+ \usepackage{arydshln}
 \beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
 \begin{document}
 \title{Bachelorarbeit}
@@ -328,7 +329,8 @@ Versuchsablauf für eine Versuchsperson: \newline
 }
 
 \frame{\frametitle{Versuchsperson - Fragebogen}
-\begin{block}{Wie alt sind Sie?} Altereingabe \end{block}
+\begin{block}{Fragebogen über eigene Person} Informationen über Person für spätere Auswertung benötigt \end{block}
+\begin{exampleblock}{Wie alt sind Sie?} Altereingabe \end{exampleblock}
 \begin{table}
 \begin{tabular}{l|l|l}
 \textbf{18-29}&\textbf{30-41}&\textbf{42-53} \\
@@ -337,51 +339,310 @@ Versuchsablauf für eine Versuchsperson: \newline
 \end{tabular}
 %\caption{Interaktionsbeispiel \texttt{Aggregierte Auswahl ohne Pause}}
 \end{table}
-\begin{block}{Haben Sie Erfahrung mit Dialogsystemen?} 1: gar keine Erfahrung 6: viel Erfahrung \end{block}
+\begin{exampleblock}{Haben Sie Erfahrung mit Dialogsystemen?} 1: gar keine Erfahrung 6: viel Erfahrung \end{exampleblock}
 \begin{table}
-\begin{tabular}{l|l|l|l|l|l}
+\begin{tabular}{l|l|l||l|l|l}
+\textbf{1}&\textbf{2}&\textbf{3} & \textbf{4}&\textbf{5}&\textbf{6}  \\
+\hline \hline
+58\% & 8\% & 8\% & 8\% & 8\% & 8\%  
+\end{tabular}
+\end{table}
+}
+
+\frame{\frametitle{Versuchsperson - Fragebogen}
+\begin{exampleblock}{Spielen Sie oft Rennspiele?} 1: sehr oft 6: nie  \end{exampleblock}
+\begin{table}
+\begin{tabular}{l|l|l||l|l|l}
 \textbf{1}&\textbf{2}&\textbf{3} & \textbf{4}&\textbf{5}&\textbf{6}  \\
 \hline \hline
 0\% & 8\% & 8\% & 0\% & 56\% & 25\%  
 \end{tabular}
 \end{table}
-\begin{block}{Spielen Sie oft Rennspiele?} 1: sehr oft 6: nie  \end{block}
-\begin{block}{Wie technikaffin sind Sie?} 1: sehr technikaffin 6: gar nicht technikaffin \end{block}
-\begin{block}{Wie schwer fiel Ihnen die Einführungsrunde?} 1: sehr schwer 6: sehr einfach \end{block}
+\begin{exampleblock}{Wie technikaffin sind Sie?} 1: sehr technikaffin 6: gar nicht technikaffin \end{exampleblock}
+\begin{table}
+\begin{tabular}{l|l|l||l|l|l}
+\textbf{1}&\textbf{2}&\textbf{3} & \textbf{4}&\textbf{5}&\textbf{6}  \\
+\hline \hline
+8\% & 17\% & 25\% & 33\% & 17\% & 0\%  
+\end{tabular}
+\end{table}
 }
 
 \frame{\frametitle{Versuchsperson - Fragebogen}
-\includegraphics[scale=0.38]{ErfDia1}
-\newline
-\includegraphics[scale=0.38]{oftRS1}
-\begin{block}{Wie technikaffin sind Sie?} 1: sehr technikaffin 6: gar nicht technikaffin \end{block}
-\begin{block}{Wie schwer fiel Ihnen die Einführungsrunde?} 1: sehr schwer 6: sehr einfach \end{block}
+\begin{exampleblock}{Wie schwer fiel Ihnen die Einführungsrunde?} 1: sehr schwer 6: sehr einfach \end{exampleblock}
+\begin{table}
+\begin{tabular}{l|l|l||l|l|l}
+\textbf{1}&\textbf{2}&\textbf{3} & \textbf{4}&\textbf{5}&\textbf{6}  \\
+
+\hline \hline
+8\% & 50\% & 0\% &8\% & 33\% & 0\%  
+\end{tabular}
+\end{table}
 }
 
 \subsection{Auswertung}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
+\frame{\frametitle{Auswertung}
+Folgende Punkte werden ausgewertet
 \newline
-
-Vorahnung ist lebenswichtig
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
+\item Zeiten werden gemessen
+	\begin{itemize}
+		\item Rennzeiten
+		\item Dialogzeiten
+	\end{itemize}
+\item Fragebögen ausgewertet
+	\begin{itemize}
+		\item Nasa-TLX
+		\item Strategien
+	\end{itemize}
+\item Task Completion
+\item Dialogverhalten
 \end{itemize} 
 }
-\subsection{Resultat}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
 
-Vorahnung ist lebenswichtig
-\begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\frame{\frametitle{Gemessene Zeiten - Rennzeiten}
+\begin{block}{Rennzeiten}Beeinflusst eine Disambiguierungsstrategie das Rennverhalten? \end{block} 
+\begin{table}
+\begin{tabular}{l|l|l|l}
+\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+
+\hline \hline
+Strecke A & \textcolor{blue}{71,5 sek} & \textcolor{red}{93,0 sek} & 74,5 sek \\
+Strecke B & \textcolor{blue}{68,8 sek} & 75,8 sek & \textcolor{red}{91,5 sek} \\
+Strecke C & \textcolor{red} {74,5 sek} & \textcolor{blue}{58,4 sek} & 61,8 sek \\
+\end{tabular}
+\end{table} 
+Werte könnten durch unbalancierte Gruppen entstehen.
+\pause
+\begin{table}
+\begin{tabular}{l|l|l|l}
+\textbf{Rennzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+\hline \hline
+Durchschnitt & \textcolor{blue}{71,58 sek} & 75,71 sek & \textcolor{red}{75,92 sek} \\
+\end{tabular}
+\end{table}
+Zeiten statistisch nicht relevant und daher nicht aussagekräftig. 
 }
+
+\frame{\frametitle{Gemessene Zeiten - Dialogzeiten}
+\begin{block}{Dialogzeiten}Welche Strategie ermöglicht den kürzesten Dialog? \end{block} 
+Nur die Zeiten von korrekt durchgeführten Dialogen bewertet.
+\begin{table}
+\begin{tabular}{l|l|l|l}
+\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+
+\hline \hline
+Strecke A & \textcolor{blue}{15,3 sek} & \textcolor{red}{20,4 sek} & 20,3 sek \\
+Strecke B & \textcolor{blue}{14,3 sek} & 20,1 sek & \textcolor{red}{22,1 sek} \\
+Strecke C  & \textcolor{blue}{15,9 sek} & \textcolor{red}{21,0 sek} & 20,4 sek \\
+\hdashline
+ohne Strecke &  \textcolor{blue}{14,9 sek} & \textcolor{red}{18,8 sek} & 17,6 sek \\
+\end{tabular}
+\end{table} 
+$\rightarrow$ Strategie 1 ermöglicht den kürzesten Dialog. 
+}
+\frame{\frametitle{Gemessene Zeiten - Dialogzeiten}
+\begin{block}{Rennzeiten}Gibt es Unterschiede in den Dialogzeiten zwischen kognitiv hoch belasteten und kognitiv wenig belasteten Versuchspersonen? \end{block} 
+\begin{table}
+\begin{tabular}{l|l|l|l}
+\textbf{Dialogzeiten}&\textbf{Strategie 1}&\textbf{Strategie 2} &\textbf{Strategie 3}\\
+
+\hline \hline
+Strecke A - C & \textcolor{red}{15,2 sek} & \textcolor{red}{20,5 sek} & \textcolor{red}{20,8 sek} \\
+ohne Strecke &   \textcolor{blue}{14,9 sek} &  \textcolor{blue}{18,8 sek} &  \textcolor{blue}{17,6 sek} \\
+\end{tabular}
+\end{table} 
+\begin{itemize}
+\item kürzere Dialogzeiten ohne Rennspiel erreicht
+\item Unterschiede nicht durch unterschiedliches Dialogverhalten erklärbar \newline
+\end{itemize}
+$\rightarrow$ bessere Reaktionszeit bei Dialoginteraktion ohne Rennspiel
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+\begin{block}{Nasa-TLX} Bei welcher Stratgie wurde eine höhere Belastung empfunden? \newline \newline
+Gibt es Unterschiede in der Belastung zwischen den Runden mit und ohne Rennspiel? \end{block}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+\begin{exampleblock}{Geistige Anfordung} 1: Gering 6: Hoch \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c|c|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-4}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline \hline
+Strategie 1 &  \textcolor{blue}{1,88} & \textcolor{blue}{2,08} & 1,25 \\
+Strategie 2 & 2,06 & 2,42 & \textcolor{blue}{1,00}\\
+Strategie 3 & \textcolor{red}{2,63} & \textcolor{red}{2,83} & \textcolor{red}{2,00} \\
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item Strategie 1 geringe geistige Anforderung
+\item Strategie 3 höchste geistige Anforderung
+\newline
+\item Runde 4 weniger anfordernd als Runden mit Rennspiel
+\end{itemize}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+\begin{exampleblock}{Anstrengung} 1: Gering 6: Hoch \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c|c|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-4}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline \hline
+Strategie 1 & \textcolor{blue}{2,00} & \textcolor{blue}{2,25} & 1,25 \\
+Strategie 2 & 2,13 & 2,55 & \textcolor{blue}{1,00} \\
+Strategie 3 & \textcolor{red}{2,63} & \textcolor{red}{2,92} & \textcolor{red}{1,75}\\
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item Strategie 1 geringeste Anstrengung
+\item Strategie 3 höchste Anstrengung
+\newline
+\item Runde 4 weniger anstrengend als Runden mit Rennspiel
+\end{itemize}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+Weitere Fragen
+\begin{exampleblock}{Körperliche Anforderung} 1: Gering 6: Hoch \end{exampleblock}
+\begin{exampleblock}{Zeitliche Anforderung} 1: Gering 6: Hoch \end{exampleblock}
+\begin{exampleblock}{Leistung} 1: Gering 6: Hoch \end{exampleblock}
+\begin{exampleblock}{Frustration} 1: Gering 6: Hoch \end{exampleblock}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+\begin{exampleblock}{Geistige Anfordung} 1: Gering 6: Hoch \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c|c|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-4}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline \hline
+Strategie 1 &  \textcolor{blue}{1,88} & \textcolor{blue}{2,08} & 1,25 \\
+Strategie 2 & 2,06 & 2,42 & \textcolor{blue}{1,00}\\
+Strategie 3 & \textcolor{red}{2,63} & \textcolor{red}{2,83} & \textcolor{red}{2,00} \\
+\end{tabular}
+\end{table}
+Strategie 1 geringe geistige Anforderung, Strategie 3 höchste
+\begin{exampleblock}{Haben Sie Erfahrung mit Dialogsystemen?} 1: gar keine Erfahrung 6: viel Erfahrung \end{exampleblock}
+\begin{table}
+\begin{tabular}{l|l|l||l|l|l}
+\textbf{1}&\textbf{2}&\textbf{3} & \textbf{4}&\textbf{5}&\textbf{6}  \\
+\hline \hline
+58\% & 8\% & 8\% & 8\% & 8\% & 8\%  
+\end{tabular}
+\end{table}
+}
+
+
+\frame{\frametitle{Fragebogen - Strategien}
+\begin{block}{Strategien} Wie werden die Strategien von den Versuchspersonen bewertet? \end{block}
+
+\begin{exampleblock}{Der Dialog lenkte mich stark vom Rennspiel ab} 1: kaum 6: stark \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-3}\\
+	\hline \hline
+Strategie 1 &  \textcolor{blue}{2,25} \\
+Strategie 2 & 2,58 \\
+Strategie 3 & 2,58\\
+\end{tabular}
+\end{table}
+$\rightarrow$ Strategie 1 lenkte am wenigsten vom Rennspiel ab
+}
+
+\frame{\frametitle{Fragebogen - Strategien}
+\begin{exampleblock}{Wie gefiel Ihnen der Dialog insgesamt} 1: Gering 6: Hoch \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c|c|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-4}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline \hline
+Strategie 1 & \textcolor{blue}{1,94} & \textcolor{blue}{2,08} & \textcolor{blue}{1,50} \\
+Strategie 2 & 2,50 & 2,67 & 2,00 \\
+Strategie 3 & \textcolor{red}{2,57} & \textcolor{red}{2,75} & 2,00 \\
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item Strategie 1 gefällt am besten
+\item Strategie 3 gefällt am wenigsten
+\end{itemize}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+\begin{exampleblock}{Anstrengung} 1: Gering 6: Hoch \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c|c|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-4}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline \hline
+Strategie 1 & \textcolor{blue}{2,00} & \textcolor{blue}{2,25} & 1,25 \\
+Strategie 2 & 2,13 & 2,55 & \textcolor{blue}{1,00} \\
+Strategie 3 & \textcolor{red}{2,63} & \textcolor{red}{2,92} & \textcolor{red}{1,75}\\
+\end{tabular}
+\end{table}
+\begin{itemize}
+\item Strategie 1 geringeste Anstrengung
+\item Strategie 3 höchste Anstrengung
+\newline
+\item Runde 4 weniger anstrengend als Runden mit Rennspiel
+\end{itemize}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+Weitere Fragen
+\begin{exampleblock}{Körperliche Anforderung} 1: Gering 6: Hoch \end{exampleblock}
+\begin{exampleblock}{Zeitliche Anforderung} 1: Gering 6: Hoch \end{exampleblock}
+\begin{exampleblock}{Leistung} 1: Gering 6: Hoch \end{exampleblock}
+\begin{exampleblock}{Frustration} 1: Gering 6: Hoch \end{exampleblock}
+}
+
+\frame{\frametitle{Fragebogen - Nasa-TLX}
+\begin{exampleblock}{Geistige Anfordung} 1: Gering 6: Hoch \end{exampleblock}
+
+\begin{table}
+\begin{tabular}{l|c|c|c}
+
+%\textbf{Strategien}&\multicolumn{3}{c|}{\textbf{Ergebnisse bestimmter Runden}}\\
+%&\textbf{1-4}&\textbf{1-3} &\textbf{4}\\
+\textbf{Strategien}&\textbf{Runde 1-4}&\textbf{Runde 1-3} &\textbf{Runde 4}\\
+	\hline \hline
+Strategie 1 &  \textcolor{blue}{1,88} & \textcolor{blue}{2,08} & 1,25 \\
+Strategie 2 & 2,06 & 2,42 & \textcolor{blue}{1,00}\\
+Strategie 3 & \textcolor{red}{2,63} & \textcolor{red}{2,83} & \textcolor{red}{2,00} \\
+\end{tabular}
+\end{table}
+Strategie 1 geringe geistige Anforderung, Strategie 3 höchste
+\begin{exampleblock}{Haben Sie Erfahrung mit Dialogsystemen?} 1: gar keine Erfahrung 6: viel Erfahrung \end{exampleblock}
+\begin{table}
+\begin{tabular}{l|l|l||l|l|l}
+\textbf{1}&\textbf{2}&\textbf{3} & \textbf{4}&\textbf{5}&\textbf{6}  \\
+\hline \hline
+58\% & 8\% & 8\% & 8\% & 8\% & 8\%  
+\end{tabular}
+\end{table}
+}
+
 \section{Versuch 2}
 \subsection{Versuchsbeschreibung}
 \frame{\frametitle{Vorahnung}
