@@ -15,11 +15,11 @@
 \beamer@subsectionintoc {3}{2}{Control Panel}{18}{0}{3}
 \beamer@subsectionintoc {3}{3}{Versuchspersonen}{19}{0}{3}
 \beamer@subsectionintoc {3}{4}{Auswertung}{23}{0}{3}
-\beamer@sectionintoc {4}{Versuch 2}{38}{0}{4}
-\beamer@subsectionintoc {4}{1}{Versuchsbeschreibung}{38}{0}{4}
-\beamer@subsectionintoc {4}{2}{Control Panel}{39}{0}{4}
-\beamer@subsectionintoc {4}{3}{Versuchspersonen}{40}{0}{4}
-\beamer@subsectionintoc {4}{4}{Auswertung}{41}{0}{4}
-\beamer@subsectionintoc {4}{5}{Resultat}{42}{0}{4}
-\beamer@sectionintoc {5}{Ergebnisse}{43}{0}{5}
-\beamer@sectionintoc {6}{Fazit}{44}{0}{6}
+\beamer@sectionintoc {4}{Versuch 2}{40}{0}{4}
+\beamer@subsectionintoc {4}{1}{Versuchsbeschreibung}{40}{0}{4}
+\beamer@subsectionintoc {4}{2}{Control Panel}{41}{0}{4}
+\beamer@subsectionintoc {4}{3}{Versuchspersonen}{42}{0}{4}
+\beamer@subsectionintoc {4}{4}{Auswertung}{43}{0}{4}
+\beamer@subsectionintoc {4}{5}{Resultat}{44}{0}{4}
+\beamer@sectionintoc {5}{Ergebnisse}{45}{0}{5}
+\beamer@sectionintoc {6}{Fazit}{46}{0}{6}
