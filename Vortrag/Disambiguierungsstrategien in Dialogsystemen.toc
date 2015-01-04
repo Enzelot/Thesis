@@ -14,13 +14,13 @@
 \beamer@subsectionintoc {3}{1}{Versuchsbeschreibung}{10}{0}{3}
 \beamer@subsectionintoc {3}{2}{Control Panel}{18}{0}{3}
 \beamer@subsectionintoc {3}{3}{Versuchspersonen}{19}{0}{3}
-\beamer@subsectionintoc {3}{4}{Auswertung}{20}{0}{3}
-\beamer@subsectionintoc {3}{5}{Resultat}{21}{0}{3}
-\beamer@sectionintoc {4}{Versuch 2}{22}{0}{4}
-\beamer@subsectionintoc {4}{1}{Versuchsbeschreibung}{22}{0}{4}
-\beamer@subsectionintoc {4}{2}{Control Panel}{23}{0}{4}
-\beamer@subsectionintoc {4}{3}{Versuchspersonen}{24}{0}{4}
-\beamer@subsectionintoc {4}{4}{Auswertung}{25}{0}{4}
-\beamer@subsectionintoc {4}{5}{Resultat}{26}{0}{4}
-\beamer@sectionintoc {5}{Ergebnisse}{27}{0}{5}
-\beamer@sectionintoc {6}{Fazit}{28}{0}{6}
+\beamer@subsectionintoc {3}{4}{Auswertung}{22}{0}{3}
+\beamer@subsectionintoc {3}{5}{Resultat}{23}{0}{3}
+\beamer@sectionintoc {4}{Versuch 2}{24}{0}{4}
+\beamer@subsectionintoc {4}{1}{Versuchsbeschreibung}{24}{0}{4}
+\beamer@subsectionintoc {4}{2}{Control Panel}{25}{0}{4}
+\beamer@subsectionintoc {4}{3}{Versuchspersonen}{26}{0}{4}
+\beamer@subsectionintoc {4}{4}{Auswertung}{27}{0}{4}
+\beamer@subsectionintoc {4}{5}{Resultat}{28}{0}{4}
+\beamer@sectionintoc {5}{Ergebnisse}{29}{0}{5}
+\beamer@sectionintoc {6}{Fazit}{30}{0}{6}
