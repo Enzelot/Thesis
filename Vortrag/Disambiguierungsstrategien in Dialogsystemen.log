@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  23 NOV 2014 22:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  4 JAN 2015 01:19
 entering extended mode
 **Disambiguierungsstrategien*in*Dialogsystemen.tex
 
@@ -1052,13 +1052,21 @@ Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
+(C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\enumitem\enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen197
+\enit@toks=\toks45
+\enit@inbox=\box79
+\enitdp@description=\count163
+)
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\paralist\paralist.sty
 Package: paralist 2013/06/09 v2.4 Extended list environments
-\pltopsep=\skip59
-\plpartopsep=\skip60
-\plitemsep=\skip61
-\plparsep=\skip62
-\pl@lab=\toks45
+\pltopsep=\skip60
+\plpartopsep=\skip61
+\plitemsep=\skip62
+\plparsep=\skip63
+\pl@lab=\toks46
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty"
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
@@ -1100,7 +1108,7 @@ Package: SIunits 2007/12/02 v1.36 Support for the International System of units
  (MH)
 
 
-\@qskwidth=\skip63
+\@qskwidth=\skip64
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu"
@@ -1192,16 +1200,16 @@ Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty"
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count163
-\calc@Bcount=\count164
-\calc@Adimen=\dimen197
-\calc@Bdimen=\dimen198
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
+\calc@Acount=\count164
+\calc@Bcount=\count165
+\calc@Adimen=\dimen198
+\calc@Bdimen=\dimen199
+\calc@Askip=\skip65
+\calc@Bskip=\skip66
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
-\calc@Ccount=\count165
-\calc@Cskip=\skip66
+\calc@Ccount=\count166
+\calc@Cskip=\skip67
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\twoopt.sty"
 Package: twoopt 2008/08/11 v1.5 Definitions with two optional arguments (HO)
@@ -1215,7 +1223,7 @@ L3 Module: l3bootstrap 2014/08/23 v5354 L3 Bootstrap code
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\misc\etex.sty"
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
-\et@xins=\count166
+\et@xins=\count167
 )
 L3 Module: l3names 2014/08/22 v5343 L3 Namespace for primitives
 L3 Module: l3basics 2014/08/24 v5364 L3 Basic definitions
@@ -1224,38 +1232,38 @@ L3 Module: l3tl 2014/08/24 v5359 L3 Token lists
 L3 Module: l3str 2014/08/24 v5368 L3 Strings
 L3 Module: l3seq 2014/08/23 v5354 L3 Sequences and stacks
 L3 Module: l3int 2014/09/14 v5421 L3 Integers
-\c_max_int=\count167
-\l_tmpa_int=\count168
-\l_tmpb_int=\count169
-\g_tmpa_int=\count170
-\g_tmpb_int=\count171
+\c_max_int=\count168
+\l_tmpa_int=\count169
+\l_tmpb_int=\count170
+\g_tmpa_int=\count171
+\g_tmpb_int=\count172
 L3 Module: l3quark 2014/08/23 v5354 L3 Quarks
 L3 Module: l3prg 2014/08/23 v5354 L3 Control structures
-\g__prg_map_int=\count172
+\g__prg_map_int=\count173
 L3 Module: l3clist 2014/08/23 v5354 L3 Comma separated lists
 L3 Module: l3token 2014/09/15 v5422 L3 Experimental token manipulation
 L3 Module: l3prop 2014/08/23 v5354 L3 Property lists
 L3 Module: l3msg 2014/08/24 v5358 L3 Messages
 L3 Module: l3file 2014/08/24 v5369 L3 File and I/O operations
-\l_iow_line_count_int=\count173
-\l__iow_target_count_int=\count174
-\l__iow_current_line_int=\count175
-\l__iow_current_word_int=\count176
-\l__iow_current_indentation_int=\count177
+\l_iow_line_count_int=\count174
+\l__iow_target_count_int=\count175
+\l__iow_current_line_int=\count176
+\l__iow_current_word_int=\count177
+\l__iow_current_indentation_int=\count178
 L3 Module: l3skip 2014/08/23 v5354 L3 Dimensions and skips
-\c_zero_dim=\dimen199
-\c_max_dim=\dimen200
-\l_tmpa_dim=\dimen201
+\c_zero_dim=\dimen200
+\c_max_dim=\dimen201
 Normal \dimen register pool exhausted, switching to extended pool.
-\l_tmpb_dim=\dimen256
-\g_tmpa_dim=\dimen257
-\g_tmpb_dim=\dimen258
-\c_zero_skip=\skip67
-\c_max_skip=\skip68
-\l_tmpa_skip=\skip69
-\l_tmpb_skip=\skip70
-\g_tmpa_skip=\skip71
-\g_tmpb_skip=\skip72
+\l_tmpa_dim=\dimen256
+\l_tmpb_dim=\dimen257
+\g_tmpa_dim=\dimen258
+\g_tmpb_dim=\dimen259
+\c_zero_skip=\skip68
+\c_max_skip=\skip69
+\l_tmpa_skip=\skip70
+\l_tmpb_skip=\skip71
+\g_tmpa_skip=\skip72
+\g_tmpb_skip=\skip73
 \c_zero_muskip=\muskip12
 \c_max_muskip=\muskip13
 \l_tmpa_muskip=\muskip14
@@ -1263,128 +1271,128 @@ Normal \dimen register pool exhausted, switching to extended pool.
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
 L3 Module: l3keys 2014/08/23 v5354 L3 Key-value interfaces
-\g__keyval_level_int=\count178
-\l_keys_choice_int=\count179
+\g__keyval_level_int=\count179
+\l_keys_choice_int=\count180
 L3 Module: l3fp 2014/08/22 v5336 L3 Floating points
-\c__fp_leading_shift_int=\count180
-\c__fp_middle_shift_int=\count181
-\c__fp_trailing_shift_int=\count182
-\c__fp_big_leading_shift_int=\count183
-\c__fp_big_middle_shift_int=\count184
-\c__fp_big_trailing_shift_int=\count185
-\c__fp_Bigg_leading_shift_int=\count186
-\c__fp_Bigg_middle_shift_int=\count187
-\c__fp_Bigg_trailing_shift_int=\count188
+\c__fp_leading_shift_int=\count181
+\c__fp_middle_shift_int=\count182
+\c__fp_trailing_shift_int=\count183
+\c__fp_big_leading_shift_int=\count184
+\c__fp_big_middle_shift_int=\count185
+\c__fp_big_trailing_shift_int=\count186
+\c__fp_Bigg_leading_shift_int=\count187
+\c__fp_Bigg_middle_shift_int=\count188
+\c__fp_Bigg_trailing_shift_int=\count189
 L3 Module: l3box 2014/08/23 v5354 L3 Experimental boxes
-\c_empty_box=\box79
-\l_tmpa_box=\box80
-\l_tmpb_box=\box81
-\g_tmpa_box=\box82
-\g_tmpb_box=\box83
+\c_empty_box=\box80
+\l_tmpa_box=\box81
+\l_tmpb_box=\box82
+\g_tmpa_box=\box83
+\g_tmpb_box=\box84
 L3 Module: l3coffins 2014/08/23 v5354 L3 Coffin code layer
-\l__coffin_internal_box=\box84
-\l__coffin_internal_dim=\dimen259
-\l__coffin_offset_x_dim=\dimen260
-\l__coffin_offset_y_dim=\dimen261
-\l__coffin_x_dim=\dimen262
-\l__coffin_y_dim=\dimen263
-\l__coffin_x_prime_dim=\dimen264
-\l__coffin_y_prime_dim=\dimen265
-\c_empty_coffin=\box85
-\l__coffin_aligned_coffin=\box86
-\l__coffin_aligned_internal_coffin=\box87
-\l_tmpa_coffin=\box88
-\l_tmpb_coffin=\box89
-\l__coffin_display_coffin=\box90
-\l__coffin_display_coord_coffin=\box91
-\l__coffin_display_pole_coffin=\box92
-\l__coffin_display_offset_dim=\dimen266
-\l__coffin_display_x_dim=\dimen267
-\l__coffin_display_y_dim=\dimen268
+\l__coffin_internal_box=\box85
+\l__coffin_internal_dim=\dimen260
+\l__coffin_offset_x_dim=\dimen261
+\l__coffin_offset_y_dim=\dimen262
+\l__coffin_x_dim=\dimen263
+\l__coffin_y_dim=\dimen264
+\l__coffin_x_prime_dim=\dimen265
+\l__coffin_y_prime_dim=\dimen266
+\c_empty_coffin=\box86
+\l__coffin_aligned_coffin=\box87
+\l__coffin_aligned_internal_coffin=\box88
+\l_tmpa_coffin=\box89
+\l_tmpb_coffin=\box90
+\l__coffin_display_coffin=\box91
+\l__coffin_display_coord_coffin=\box92
+\l__coffin_display_pole_coffin=\box93
+\l__coffin_display_offset_dim=\dimen267
+\l__coffin_display_x_dim=\dimen268
+\l__coffin_display_y_dim=\dimen269
 L3 Module: l3color 2014/08/23 v5354 L3 Experimental color support
 L3 Module: l3candidates 2014/08/24 v5366 L3 Experimental additions to l3kernel
-\l__box_top_dim=\dimen269
-\l__box_bottom_dim=\dimen270
-\l__box_left_dim=\dimen271
-\l__box_right_dim=\dimen272
-\l__box_top_new_dim=\dimen273
-\l__box_bottom_new_dim=\dimen274
-\l__box_left_new_dim=\dimen275
-\l__box_right_new_dim=\dimen276
-\l__box_internal_box=\box93
-\l__coffin_bounding_shift_dim=\dimen277
-\l__coffin_left_corner_dim=\dimen278
-\l__coffin_right_corner_dim=\dimen279
-\l__coffin_bottom_corner_dim=\dimen280
-\l__coffin_top_corner_dim=\dimen281
-\l__coffin_scaled_total_height_dim=\dimen282
-\l__coffin_scaled_width_dim=\dimen283
+\l__box_top_dim=\dimen270
+\l__box_bottom_dim=\dimen271
+\l__box_left_dim=\dimen272
+\l__box_right_dim=\dimen273
+\l__box_top_new_dim=\dimen274
+\l__box_bottom_new_dim=\dimen275
+\l__box_left_new_dim=\dimen276
+\l__box_right_new_dim=\dimen277
+\l__box_internal_box=\box94
+\l__coffin_bounding_shift_dim=\dimen278
+\l__coffin_left_corner_dim=\dimen279
+\l__coffin_right_corner_dim=\dimen280
+\l__coffin_bottom_corner_dim=\dimen281
+\l__coffin_top_corner_dim=\dimen282
+\l__coffin_scaled_total_height_dim=\dimen283
+\l__coffin_scaled_width_dim=\dimen284
 )
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3unicode-data.def
 File: l3unicode-data.def 2014/08/12 v5276 L3 Unicode data
 ) (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def
 File: l3pdfmode.def 2014/08/24 v5366 L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count189
+\l__driver_color_stack_int=\count190
 ))
-\mhchem@ce@result=\toks46
-\mhchem@ce@part=\toks47
-\mhchem@arrow@deployType=\toks48
-\mhchem@arrow@params=\toks49
-\mhchem@arrowlength@pgf=\skip73
-\mhchem@bondwidth=\skip74
-\mhchem@bondheight=\skip75
-\mhchem@smallbondwidth@tmpA=\skip76
-\mhchem@smallbondwidth@tmpB=\skip77
-\mhchem@smallbondwidth=\skip78
-\__mhchem_option_version_int=\count190
-\mhchem@prepostscript@tmp@i=\skip79
-\mhchem@prepostscript@tmp@ii=\skip80
-\mhchem@mathbox@tmp@i=\skip81
-\mhchem@mathbox@tmp@ii=\skip82
-\mhchem@minispace@tmp=\skip83
-\mhchem@option@minussidebearingleft=\skip84
-\mhchem@option@minussidebearingright=\skip85
+\mhchem@ce@result=\toks47
+\mhchem@ce@part=\toks48
+\mhchem@arrow@deployType=\toks49
+\mhchem@arrow@params=\toks50
+\mhchem@arrowlength@pgf=\skip74
+\mhchem@bondwidth=\skip75
+\mhchem@bondheight=\skip76
+\mhchem@smallbondwidth@tmpA=\skip77
+\mhchem@smallbondwidth@tmpB=\skip78
+\mhchem@smallbondwidth=\skip79
+\__mhchem_option_version_int=\count191
+\mhchem@prepostscript@tmp@i=\skip80
+\mhchem@prepostscript@tmp@ii=\skip81
+\mhchem@mathbox@tmp@i=\skip82
+\mhchem@mathbox@tmp@ii=\skip83
+\mhchem@minispace@tmp=\skip84
+\mhchem@option@minussidebearingleft=\skip85
+\mhchem@option@minussidebearingright=\skip86
 ) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen284
-\extrarowheight=\dimen285
-\NC@list=\toks50
-\extratabsurround=\skip86
-\backup@length=\skip87
+\col@sep=\dimen285
+\extrarowheight=\dimen286
+\NC@list=\toks51
+\extratabsurround=\skip87
+\backup@length=\skip88
 )
-\TX@col@width=\dimen286
-\TX@old@table=\dimen287
-\TX@old@col=\dimen288
-\TX@target=\dimen289
-\TX@delta=\dimen290
-\TX@cols=\count191
-\TX@ftn=\toks51
+\TX@col@width=\dimen287
+\TX@old@table=\dimen288
+\TX@old@col=\dimen289
+\TX@target=\dimen290
+\TX@delta=\dimen291
+\TX@cols=\count192
+\TX@ftn=\toks52
 )
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
-\bigstrutjot=\dimen291
+\bigstrutjot=\dimen292
 )
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
-\heavyrulewidth=\dimen292
-\lightrulewidth=\dimen293
-\cmidrulewidth=\dimen294
-\belowrulesep=\dimen295
-\belowbottomsep=\dimen296
-\aboverulesep=\dimen297
-\abovetopsep=\dimen298
-\cmidrulesep=\dimen299
-\cmidrulekern=\dimen300
-\defaultaddspace=\dimen301
-\@cmidla=\count192
-\@cmidlb=\count193
-\@aboverulesep=\dimen302
-\@belowrulesep=\dimen303
-\@thisruleclass=\count194
-\@lastruleclass=\count195
-\@thisrulewidth=\dimen304
+\heavyrulewidth=\dimen293
+\lightrulewidth=\dimen294
+\cmidrulewidth=\dimen295
+\belowrulesep=\dimen296
+\belowbottomsep=\dimen297
+\aboverulesep=\dimen298
+\abovetopsep=\dimen299
+\cmidrulesep=\dimen300
+\cmidrulekern=\dimen301
+\defaultaddspace=\dimen302
+\@cmidla=\count193
+\@cmidlb=\count194
+\@aboverulesep=\dimen303
+\@belowrulesep=\dimen304
+\@thisruleclass=\count195
+\@lastruleclass=\count196
+\@thisrulewidth=\dimen305
 )
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
@@ -1392,15 +1400,15 @@ Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen305
-\captionmargin@=\dimen306
-\captionwidth=\dimen307
-\caption@tempdima=\dimen308
-\caption@indent=\dimen309
-\caption@parindent=\dimen310
-\caption@hangindent=\dimen311
+\captionmargin=\dimen306
+\captionmargin@=\dimen307
+\captionwidth=\dimen308
+\caption@tempdima=\dimen309
+\caption@indent=\dimen310
+\caption@parindent=\dimen311
+\caption@hangindent=\dimen312
 )
-\c@ContinuedFloat=\count196
+\c@ContinuedFloat=\count197
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
@@ -1412,7 +1420,7 @@ Package: pgf 2013/12/18 v3.0.0 (rcs-revision 1.14)
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleshap
 es.code.tex
 File: pgfmoduleshapes.code.tex 2013/10/31  (rcs-revision 1.34)
-\pgfnodeparttextbox=\box94
+\pgfnodeparttextbox=\box95
 )
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmoduleplot
 .code.tex
@@ -1421,8 +1429,8 @@ File: pgfmoduleplot.code.tex 2013/07/31  (rcs-revision 1.12)
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-v
 ersion-0-65.sty
 Package: pgfcomp-version-0-65 2007/07/03 v3.0.0 (rcs-revision 1.7)
-\pgf@nodesepstart=\dimen312
-\pgf@nodesepend=\dimen313
+\pgf@nodesepstart=\dimen313
+\pgf@nodesepend=\dimen314
 )
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp-v
 ersion-1-18.sty
@@ -1463,29 +1471,60 @@ Package: beamerfontthemestructurebold 2010/06/17  (rcs-revision d02a7cf4d8ae)
 \CommentStream=\write5
 
 Excluding comment 'comment')
+(C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\framed\framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip89
+\fb@frw=\dimen315
+\fb@frh=\dimen316
+\FrameRule=\dimen317
+\FrameSep=\dimen318
+)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip90
+\LTright=\skip91
+\LTpre=\skip92
+\LTpost=\skip93
+\LTchunksize=\count198
+\LTcapwidth=\dimen319
+\LT@head=\box96
+\LT@firsthead=\box97
+\LT@foot=\box98
+\LT@lastfoot=\box99
+\LT@cols=\count199
+\LT@rows=\count200
+\c@LT@tables=\count201
+Normal \count register pool exhausted, switching to extended pool.
+\c@LT@chunks=\count277
+\LT@p@ftn=\toks53
+)
 ("C:\Users\Lenz\Desktop\GIT\Thesis\Vortrag\Disambiguierungsstrategien in Dialog
-systemen.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 29.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 29.
+systemen.aux"
+
+LaTeX Warning: Label `Adressbuch' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 34.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 29.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1526,21 +1565,20 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen314
-\scratchbox=\box95
-\nofMPsegments=\count198
-\nofMParguments=\count199
-\everyMPshowfont=\toks52
-\MPscratchCnt=\count200
-\MPscratchDim=\dimen315
-\MPnumerator=\count201
-Normal \count register pool exhausted, switching to extended pool.
-\makeMPintoPDFobject=\count277
-\everyMPtoPDFconversion=\toks53
+\scratchcounter=\count278
+\scratchdimen=\dimen320
+\scratchbox=\box100
+\nofMPsegments=\count279
+\nofMParguments=\count280
+\everyMPshowfont=\toks54
+\MPscratchCnt=\count281
+\MPscratchDim=\dimen321
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
+\everyMPtoPDFconversion=\toks55
 ) ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box96
-Package hyperref Info: Link coloring OFF on input line 29.
+\AtBeginShipoutBox=\box101
+Package hyperref Info: Link coloring OFF on input line 34.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1548,11 +1586,11 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count278
+\c@section@level=\count284
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 34.
+LaTeX Info: Redefining \pageref on input line 34.
+LaTeX Info: Redefining \nameref on input line 34.
 
 ("C:\Users\Lenz\Desktop\GIT\Thesis\Vortrag\Disambiguierungsstrategien in Dialog
 systemen.out")
@@ -1560,51 +1598,51 @@ systemen.out")
 systemen.out")
 \@outlinefile=\write6
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 29.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 29.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 34.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 29.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 29.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 29.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 29.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 29.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 29.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 29.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 29.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 29.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 29.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 29.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 29.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 29.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 29.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 34.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 29.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 34.
 
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dict
 s\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -1632,7 +1670,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 s\translator-theorem-dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 29.
+LaTeX Info: Redefining \includegraphics on input line 34.
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
@@ -1649,146 +1687,267 @@ Package caption Warning: \caption will not be redefined since it's already
 (caption)                unknown to the caption package.
 See the caption package documentation for explanation.
 
+Package caption Info: longtable package is loaded.
+(C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty
+Package: ltcaption 2013/02/03 v1.3-62 longtable captions (AR)
+)
 Package caption Info: End \AtBeginDocument code.
 
 ("C:\Users\Lenz\Desktop\GIT\Thesis\Vortrag\Disambiguierungsstrategien in Dialog
 systemen.nav")
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 34.
+(hyperref)                setting the option has no effect on input line 39.
 
 [1{C:/Users/Lenz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-] [2
-
 ]
-[3
+<odps3.png, id=145, 574.39594pt x 350.05782pt>
+File: odps3.png Graphic file (type png)
+ <use odps3.png>
+Package pdftex.def Info: odps3.png used on input line 62.
+(pdftex.def)             Requested size: 172.3201pt x 105.01814pt.
 
-] [4
+Overfull \vbox (7.38853pt too high) detected at line 62
+ []
 
-] <disnomen.png, id=191, 439.6425pt x 279.29344pt>
-File: disnomen.png Graphic file (type png)
- <use disnomen.png>
-Package pdftex.def Info: disnomen.png used on input line 90.
-(pdftex.def)             Requested size: 153.87717pt x 97.75417pt.
+[2
 
-[5
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/odps3.png>]
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 75.
 
- <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/disnomen.png>] [6
-
-]
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 126
-.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 126.
-
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 75.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 126
-.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 75.
+
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 126
-.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 75.
+
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 126.
+(Font)              <10.95> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 126.
+(Font)              <8> on input line 75.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 126.
-LaTeX Font Info:    Try loading font information for U+msa on input line 126.
+(Font)              <6> on input line 75.
+LaTeX Font Info:    Try loading font information for U+msa on input line 75.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 126.
+LaTeX Font Info:    Try loading font information for U+msb on input line 75.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 126.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 126.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 126.
- [7
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 75.
+ [3
+
+] [4
+
+]
+<disnomen.png, id=194, 439.6425pt x 279.29344pt>
+File: disnomen.png Graphic file (type png)
+ <use disnomen.png>
+Package pdftex.def Info: disnomen.png used on input line 98.
+(pdftex.def)             Requested size: 153.87717pt x 97.75417pt.
+ [5
+
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/disnomen.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+
+ []
+
+
+Underfull \hbox (badness 5504) in paragraph at lines 125--125
+[]\T1/lmss/m/n/10.95 System muss über Pe-ter
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+\T1/lmss/m/n/10.95 Mei-er und Pe-ter Mül-ler
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+[]\T1/lmss/m/n/10.95 unterschiedliche Di-sam-bi-
+ []
+
+
+Underfull \hbox (badness 7522) in paragraph at lines 125--125
+\T1/lmss/m/n/10.95 guierunss-tra-te-gi-en an-wend-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 125--125
+
+ []
+
+<peter.png, id=215, 260.47313pt x 466.74374pt>
+File: peter.png Graphic file (type png)
+ <use peter.png>
+Package pdftex.def Info: peter.png used on input line 125.
+(pdftex.def)             Requested size: 85.95639pt x 154.02591pt.
+ [6
+
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/peter.png>] [7
 
 ] [8
 
-]
-[9
+] [9
 
 ] [10
 
-] Excluding 'comment' comment. [11
+]
+<woz.png, id=298, 179.92218pt x 124.21407pt>
+File: woz.png Graphic file (type png)
+ <use woz.png>
+Package pdftex.def Info: woz.png used on input line 217.
+(pdftex.def)             Requested size: 107.95413pt x 74.52899pt.
+ [11
 
-] [12
-
-] [13
-
-] [14
-
-] [15
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/woz.png>] [12
 
 ]
-Excluding 'comment' comment. [16
+Underfull \hbox (badness 8151) in paragraph at lines 248--248
+[]\T1/lmss/m/n/10.95 relevante Per-so-nen-an-ga-ben
+ []
+
+<Anke.pdf, id=332, 597.55246pt x 845.07718pt>
+File: Anke.pdf Graphic file (type pdf)
+ <use Anke.pdf>
+Package pdftex.def Info: Anke.pdf used on input line 248.
+(pdftex.def)             Requested size: 125.48972pt x 177.47144pt.
+pdfTeX warning (ext4): destination with the same identifier (name{Adressbuch}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.248 }
+       
+Overfull \hbox (9.37564pt too wide) in paragraph at lines 248--248
+[][]
+ []
+
+
+Overfull \vbox (18.46825pt too high) detected at line 248
+ []
+
+[13
+
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/Anke.pdf>] [14
+
+]
+<nfs.png, id=402, 1445.4pt x 813.0375pt>
+File: nfs.png Graphic file (type png)
+ <use nfs.png>
+Package pdftex.def Info: nfs.png used on input line 266.
+(pdftex.def)             Requested size: 289.07487pt x 162.60461pt.
+
+Overfull \vbox (16.14586pt too high) detected at line 266
+ []
+
+[15
+
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/nfs.png>]
+Overfull \hbox (4.19904pt too wide) in paragraph at lines 283--283
+ [] 
+ []
+
+[16
 
 ] [17
 
-] [18
+] <controlpanel.png, id=451, 466.74374pt x 324.46219pt>
+File: controlpanel.png Graphic file (type png)
 
-] [19
+<use controlpanel.png>
+Package pdftex.def Info: controlpanel.png used on input line 315.
+(pdftex.def)             Requested size: 186.69418pt x 129.78256pt.
+ [18
+
+ <C:/Users/Lenz/Desktop/GIT/Thesis/Vortrag/controlpanel.png>] [19
 
 ] [20
 
 ] [21
 
+] [22
+
+] Excluding 'comment' comment. [23
+
+] [24
+
+] [25
+
+]
+[26
+
+] [27
+
+] [28
+
 ]
 \tf@nav=\write7
 \tf@toc=\write8
 \tf@snm=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 370.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 370.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 457.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 457.
 
 ("C:\Users\Lenz\Desktop\GIT\Thesis\Vortrag\Disambiguierungsstrategien in Dialog
 systemen.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 370.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 370.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 457.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 457.
 Package rerunfilecheck Info: File `Disambiguierungsstrategien*in*Dialogsystemen
 .out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 370.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 457.
  ) 
 Here is how much of TeX's memory you used:
- 25774 strings out of 493921
- 496711 string characters out of 3144878
- 544791 words of memory out of 3000000
- 28455 multiletter control sequences out of 15000+200000
- 48047 words of font info for 47 fonts, out of 3000000 for 9000
+ 26290 strings out of 493921
+ 504733 string characters out of 3144878
+ 556059 words of memory out of 3000000
+ 28937 multiletter control sequences out of 15000+200000
+ 50817 words of font info for 48 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 56i,19n,57p,10398b,556s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/lm/lmssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm
-/lmsso10.pfb>
-Output written on "Disambiguierungsstrategien in Dialogsystemen.pdf" (21 pages,
- 343358 bytes).
+ 56i,19n,57p,10398b,557s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
+iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
+/public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
+mssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pf
+b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
+Output written on "Disambiguierungsstrategien in Dialogsystemen.pdf" (28 pages,
+ 3046341 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 657 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

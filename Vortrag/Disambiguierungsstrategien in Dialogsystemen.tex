@@ -9,6 +9,7 @@
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
+\usepackage{enumitem}
 \usepackage{paralist}
 \usepackage{color}
 \usepackage{xcolor}
@@ -24,7 +25,11 @@
 \usepackage{pgf}
 \usepackage{dcolumn}
 \usepackage{beamerthemeshadow}
+\usepackage{paralist}
+\usepackage{enumerate}
 \usepackage{comment}
+\usepackage{framed}
+\usepackage{longtable}
 \beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
 \begin{document}
 \title{Bachelorarbeit}
@@ -43,40 +48,43 @@
 
 \section{Einleitung}
 \subsection{Dialogsysteme}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
-
-Vorahnung ist lebenswichtig
+\frame{\frametitle{Dialogsysteme}
+\begin{figure}[h]
+\caption{Funktionweise der odp-s3 Platform der Semvox GmbH}
+	%\centering
+        \fbox{\includegraphics[scale=0.30]{odps3}}
+\end{figure}
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
+\item Spracheingabe als semantisches Objekt interpretiert
+\item Objekt von Sprachdialog- und Kontextmodell verarbeitet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+\item Systemreaktion als Sprachausgabe realisiert
 \end{itemize} 
 }
 \subsection{Dialogsysteme im automobilen Bereich}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
+\frame{\frametitle{Dialogsysteme im automobilen Bereich}
+Dialogsysteme im Auto sollten folgende Punkte erfüllen:
 \newline
-
-Vorahnung ist lebenswichtig
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
+\item Ablenkung während der Fahrt vermeiden
+\item alle Informationen verständlich übermitteln
+\item einfache und intuitive Bedienung garantieren 
+\newline
 \end{itemize} 
+
+$\rightarrow$ Sprachäußerungen müssen raffiniert gestaltet werden
 }
 \subsection{Fokus der Studie}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
-
-Vorahnung ist lebenswichtig
+\frame{\frametitle{Fokus der Studie}
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\item ambige Eingaben des Benutzers möglich
+\item System muss Mehrdeutigkeit der Eingaben auflösen
+\newline
+\end{itemize}
+$\rightarrow$ Disambiguierung durch geschicktes Nachfragen beim Benutzer
+\newline
+\newline
+%Fokus der Studie:
+\begin{block}{Fokus der Studie} Welche Disambiguierungsstrategie eignet sich für Dialogsysteme in einer automobilen Anwendung?  \end{block} 
 }
 \section{Disambiguierungsstrategien}
 \subsection{Disambiguierung}
@@ -90,16 +98,30 @@ Abgrenzung verschiedener Bedeutungen
 }
 
 \subsection{Disambiguierung in Dialogsystemen}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
-
-Vorahnung ist lebenswichtig
-\begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\frame{\frametitle{Disambiguierung in Dialogsystemen}
+\begin{figure}[htbp]
+	% minipage mit (Blind-)Text
+	\begin{minipage}{0.5\textwidth} 
+	\begin{itemize}
+	\item "Rufe Peter an!"
+	\newline
+	\item System muss über Peter Meier und Peter Müller disambiguieren
+	\newline
+	\item unterschiedliche Disambiguierunsstrategien anwendbar
+	\newline
+	\end{itemize}
+	\end{minipage}
+	% Auffüllen des Zwischenraums
+	\hfill
+	% minipage mit Grafik
+	\begin{minipage}{0.4\textwidth}
+	% \textwidth bezieht sich nun auf die Minipage
+	\includegraphics[scale=0.33]{peter}
+	\label{Adressbuch} 
+	\end{minipage}
+% \caption{noch eine Caption}
+\end{figure}
+$\rightarrow$ 3 Disambiguierungstrategien untersucht
 }
 \subsection{1. Disambiguierungsstrategie}
 \frame{\frametitle{1. Disambiguierungsstrategie: \\Aggregierte Auswahl ohne Pause}
@@ -166,68 +188,133 @@ System & Ok, ich werde Peter Müller jetzt anrufen.\\
 %\caption{Interaktionsbeispiel \texttt{Aggregierte Auswahl ohne Pause}}
 \end{table} 
 }
-\section{Versuch1}
+\section{Versuch 1}
 \subsection{Versuchsbeschreibung}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
-
-Vorahnung ist lebenswichtig
+\frame{\frametitle{Kurzbeschreibung}
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
+\item Probanden fahren ein Rennspiel (hohe kognitive Belastung)
+\item parellele Interaktion mit Dialogsystem                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+\item alle Disambiguierungsstrategien pro Versuchsperson untersucht
+\newline
+\item Probanden interagieren ohne Rennspiel (geringe kognitive Belastung) 
+\item eine Disambiguierungsstrategie zufällig getestet
+\newline
+\end{itemize}
+$\rightarrow$ Disambiguierungsstrategien auf Effizienz und Beliebtheit untersucht \newline
+$\rightarrow$ Ergebnisse mit und ohne Rennspiel werden miteinander verglichen 
+}
+
+\frame{\frametitle{Wizard-of-Oz}
+\begin{itemize}
+\item Die Existenz eines funktionierenden Systems wird vorgetäuscht
+\newline
+\includegraphics[scale=0.6]{woz}
+\newline
+\item Versuchspersonen wird der Eindruck verliehen, sie würde mit einem echten Dialogsystem interagieren
+\item echtes Dialogsystem durch Versuchsleiter simuliert
+\item Control Panel entwickelt, mit welchem Sprachausgaben ausgeben werden können
+\end{itemize}
+}
+
+\frame{\frametitle{Testszenario}
+\begin{itemize}
+\item Versuchspersonen sollen erfolgreich per Sprachsteuerung einen Anruf aufbauen
+\item insgesamt sollen vier Personen angerufen werden
+\item nach Anrufinitialisierung wird simuliert, dass die Spracheingabe zu unspezifisch ist \newline $\rightarrow$ System stellt Rückfrage um zum Beispiel über mehrere mögliche Kontakte oder Telefonnummern zu disambiguieren
+\item Nachfrage erfolgt in unterschiedlichen Strategien
+\end{itemize}
+\begin{block}{Beispiel} Benutzer: "Rufe Anke an" \newline System:\quad "Meinst du Anke Meier oder Schuhmacher?" \end{block} 
+
+}
+
+\frame{\frametitle{Testszenario}
+\begin{figure}[htbp]
+	% minipage mit (Blind-)Text
+	\begin{minipage}{0.5\textwidth} 
+		\begin{itemize}
+			\item relevante Personenangaben (Slots) werden über ein Personenprofil angezeigt.
+			\item pro Anruf werden jeweils 2 Slots abgefragt.
+			\item die zufüllenden Slots unterscheiden sich pro anzurufenden Kontakt
+			\item Rückfragen sind so generiert, dass der Slot an zweiter Stelle der zu füllende ist 
+		\end{itemize}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.4\textwidth}
+	\fbox{\includegraphics[scale=0.21]{Anke}}
+	\label{Adressbuch} 
+	\end{minipage}
+% \caption{noch eine Caption}
+\end{figure}
+}
+
+\frame{\frametitle{Versuchsaufbau}
+\begin{itemize}
+\item Versuchspersonen fahren ein Rennspiel. \newline $\rightarrow$ Fahrsimulation
+\item Rennspiel: Need for Speed: Shift
+\item Rennspiel wird mit Lenkrad inklusive Gas- und Bremspedal gespielt \newline $\rightarrow$ realitätsgetreues Gefühl
+\item Es wird im Einzelrennen mit jeweils 5 Gegnern gespielt
+\item Versuchspersonen sollen möglichst hohe Platzierung erreichen \newline $\rightarrow$ Anstrengung und Konzentration soll hohe kognitive Belastung verursachen
 \end{itemize} 
 }
-\begin{comment}
-\subsection{Versuchsaufbau}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
 
-Vorahnung ist lebenswichtig
-\begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\frame{\frametitle{Versuchsaufbau - Rennspiel}
+\begin{figure}[h]
+\caption{Need for Speed - Shift}
+	%\centering
+        \includegraphics[scale=0.2]{nfs}
+\end{figure}
 }
-\subsection{Versuchsdesign}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
 
-Vorahnung ist lebenswichtig
+\frame{\frametitle{Versuchsaufbau - Überblick}
+\begin{table}
+\begin{tabular}{l|l|l|l|l}
+\textbf{Vorrunde}&\textbf{1. Runde}&\textbf{2. Runde} &\textbf{3. Runde} &\textbf{4. Runde}\\
+\hline \hline
+Rennspiel & Rennspiel & Rennspiel & Rennspiel &\\
+ & Anruf Anke & Anruf Peter & Anruf Fritz & Anruf Kim \\
+\end{tabular}
+%\caption{Interaktionsbeispiel \texttt{Aggregierte Auswahl ohne Pause}}
+\end{table}
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\item Vorrunde zum Einspielen
+\item Runde 1-3: Rennspiel mit paralleler Systeminteraktion \newline $\rightarrow $ hohe kognitive Belastung
+\item Runde 4: nur Systeminteraktion \newline $\rightarrow $ geringe kognitive Belastung
+\end{itemize}
 }
-\end{comment}
+
+\frame{\frametitle{Versuchsdesign}
+\begin{table}
+\begin{tabular}{l|l|l|l}
+\textbf{Aufteilung}&\textbf{Strecke 1}&\textbf{Strecke 2} &\textbf{Strecke 3}\\
+\hline \hline
+1. Gruppe & Strategie A & Strategie B & Strategie C \\
+2. Gruppe & Strategie B & Strategie C & Strategie A\\
+3. Gruppe  & Strategie C & Strategie A & Strategie B\\
+4. Gruppe   & keine Strecke & keine Strecke & keine Strecke\\ 
+\end{tabular}
+%\caption{Interaktionsbeispiel \texttt{Aggregierte Auswahl ohne Pause}}
+\end{table}
+\begin{itemize}
+\item 3 verschiedene Strecken, um Lerneffekt auszuschließen
+\item jede Strecke mit unterschiedlicher Disambiguierungsstrategie
+\item um Zeiten besser zu vergleichen: \newline $\rightarrow$ Disambiguierungsstrategien werden auf Strecken verteilt  \newline $\rightarrow$ Versuchspersonen werden in Gruppen (1-3) aufgeteilt
+\item Die Strecken werden in gleicher Reihenfolge gefahren
+\item Gruppe 4 führt das Testszenario mit zufälliger Strategie aus. 
+\end{itemize}
+}
+
 \subsection{Control Panel}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
-
-Vorahnung ist lebenswichtig
+\frame{\frametitle{Control Panel}
 \begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\item entwickelt um ein laufendes Dialogsystem zu simulieren
+\item verschiedene Sprachausgaben können per Mausklick abgespielt werden
+\begin{figure}
+\includegraphics[scale=0.4]{controlpanel}
+\end{figure}
+\end{itemize}
 }
 \subsection{Versuchspersonen}
-\frame{\frametitle{Vorahnung}
-\textsl{"The wise man avoids evil by anticipating it" (Publilius Syrus)}
-\newline
-
-Vorahnung ist lebenswichtig
-\begin{itemize}
-\item kein Halten von gef\"ahrlichen Tieren als Haustiere
-\item keine Spazierg\"ange bei Gewitter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
-\item Reflexe aus\"uben
-\end{itemize} 
+\frame{\frametitle{Versuchspersonen}
 }
 \subsection{Auswertung}
 \frame{\frametitle{Vorahnung}
