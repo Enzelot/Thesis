@@ -1,0 +1,28 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Einleitung}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Einleitung}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Einleitung}{3}{0}{1}
+\beamer@subsectionintoc {1}{3}{Einleitung}{4}{0}{1}
+\beamer@subsectionintoc {1}{4}{Einleitung}{8}{0}{1}
+\beamer@subsectionintoc {1}{5}{Einleitung}{9}{0}{1}
+\beamer@subsectionintoc {1}{6}{Fokus der Studie}{10}{0}{1}
+\beamer@sectionintoc {2}{Disambiguierungsstrategien}{11}{0}{2}
+\beamer@subsectionintoc {2}{1}{Disambiguierung}{11}{0}{2}
+\beamer@subsectionintoc {2}{2}{Disambiguierung in Dialogsystemen}{12}{0}{2}
+\beamer@subsectionintoc {2}{3}{1. Disambiguierungsstrategie}{13}{0}{2}
+\beamer@subsectionintoc {2}{4}{2. Disambiguierungsstrategie}{14}{0}{2}
+\beamer@subsectionintoc {2}{5}{3. Disambiguierungsstrategie}{15}{0}{2}
+\beamer@sectionintoc {3}{Versuch 1}{16}{0}{3}
+\beamer@subsectionintoc {3}{1}{Versuchsbeschreibung}{16}{0}{3}
+\beamer@subsectionintoc {3}{2}{Control Panel}{24}{0}{3}
+\beamer@subsectionintoc {3}{3}{Versuchspersonen}{25}{0}{3}
+\beamer@subsectionintoc {3}{4}{Auswertung}{29}{0}{3}
+\beamer@sectionintoc {4}{Versuch 2}{46}{0}{4}
+\beamer@subsectionintoc {4}{1}{Versuchsbeschreibung}{46}{0}{4}
+\beamer@subsectionintoc {4}{2}{Control Panel}{47}{0}{4}
+\beamer@subsectionintoc {4}{3}{Versuchspersonen}{48}{0}{4}
+\beamer@subsectionintoc {4}{4}{Auswertung}{49}{0}{4}
+\beamer@subsectionintoc {4}{5}{Resultat}{50}{0}{4}
+\beamer@sectionintoc {5}{Ergebnisse}{51}{0}{5}
+\beamer@sectionintoc {6}{Fazit}{52}{0}{6}
