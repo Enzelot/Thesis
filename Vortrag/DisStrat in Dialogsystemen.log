@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  11 JAN 2015 18:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.8.28)  14 JAN 2015 01:13
 entering extended mode
 **DisStrat*in*Dialogsystemen.tex
 ("C:\Users\L\Desktop\GIT\Thesis\Vortrag\DisStrat in Dialogsystemen.tex"
@@ -1502,6 +1502,9 @@ Normal \count register pool exhausted, switching to extended pool.
 
 LaTeX Warning: Label `Adressbuch' multiply defined.
 
+
+LaTeX Warning: Label `Adressbuch' multiply defined.
+
 )
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
 LaTeX Font Info:    ... okay on input line 32.
@@ -1697,7 +1700,7 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 [1{C:/Users/L/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-<danger.jpg, id=129, 1927.2pt x 1083.04625pt>
+<danger.jpg, id=114, 1927.2pt x 1083.04625pt>
 File: danger.jpg Graphic file (type jpg)
  <use danger.jpg>
 Package pdftex.def Info: danger.jpg used on input line 63.
@@ -1705,7 +1708,7 @@ Package pdftex.def Info: danger.jpg used on input line 63.
  [2
 
  <C:/Users/L/Desktop/GIT/Thesis/Vortrag/danger.jpg>]
-<incarassi.jpeg, id=149, 521.95pt x 348.30125pt>
+<incarassi.jpeg, id=133, 521.95pt x 348.30125pt>
 File: incarassi.jpeg Graphic file (type jpg)
  <use incarassi.jpeg>
 Package pdftex.def Info: incarassi.jpeg used on input line 80.
@@ -1758,36 +1761,25 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
  [3
 
  <C:/Users/L/Desktop/GIT/Thesis/Vortrag/incarassi.jpeg>]
-<peter.png, id=166, 260.47313pt x 466.74374pt>
+<peter.png, id=149, 260.47313pt x 466.74374pt>
 File: peter.png Graphic file (type png)
  <use peter.png>
 Package pdftex.def Info: peter.png used on input line 109.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
-
-Overfull \vbox (0.86865pt too high) detected at line 109
- []
-
-[4
+ [4
 
  <C:/Users/L/Desktop/GIT/Thesis/Vortrag/peter.png>]
 File: peter.png Graphic file (type png)
  <use peter.png>
 Package pdftex.def Info: peter.png used on input line 109.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
-
-Overfull \vbox (0.86865pt too high) detected at line 109
- []
-
-[5
+ [5
 
 ]
 File: peter.png Graphic file (type png)
  <use peter.png>
 Package pdftex.def Info: peter.png used on input line 109.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
-
-Overfull \vbox (0.86865pt too high) detected at line 109
- []
 
 [6
 
@@ -1796,11 +1788,7 @@ File: peter.png Graphic file (type png)
  <use peter.png>
 Package pdftex.def Info: peter.png used on input line 109.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
-
-Overfull \vbox (0.86865pt too high) detected at line 109
- []
-
-[7
+ [7
 
 ] [8
 
@@ -1808,18 +1796,19 @@ Overfull \vbox (0.86865pt too high) detected at line 109
 
 ] [10
 
-] <woz.png, id=277, 179.92218pt x 124.21407pt>
+]
+<woz.png, id=253, 179.92218pt x 124.21407pt>
 File: woz.png Graphic file (type png)
  <use woz.png>
 Package pdftex.def Info: woz.png used on input line 191.
 (pdftex.def)             Requested size: 107.95413pt x 74.52899pt.
+ [11
 
-[11
-
- <C:/Users/L/Desktop/GIT/Thesis/Vortrag/woz.png>]
-<Anke.pdf, id=295, 597.55246pt x 845.07718pt>
+ <C:/Users/L/Desktop/GIT/Thesis/Vortrag/woz.png>] <Anke.pdf, id=270, 597.55246p
+t x 845.07718pt>
 File: Anke.pdf Graphic file (type pdf)
- <use Anke.pdf>
+
+<use Anke.pdf>
 Package pdftex.def Info: Anke.pdf used on input line 216.
 (pdftex.def)             Requested size: 77.68454pt x 109.86389pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Adressbuch}) 
@@ -1832,13 +1821,13 @@ l.216 }
  <C:/Users/L/Desktop/GIT/Thesis/Vortrag/Anke.pdf>] [13
 
 ]
-<nfs.png, id=360, 1445.4pt x 813.0375pt>
+<nfs.png, id=333, 1445.4pt x 813.0375pt>
 File: nfs.png Graphic file (type png)
  <use nfs.png>
 Package pdftex.def Info: nfs.png used on input line 234.
 (pdftex.def)             Requested size: 289.07487pt x 162.60461pt.
 
-Overfull \vbox (16.14586pt too high) detected at line 234
+Overfull \vbox (9.44278pt too high) detected at line 234
  []
 
 [14
@@ -1860,7 +1849,11 @@ Overfull \hbox (4.19904pt too wide) in paragraph at lines 251--251
 
 ] [20
 
-] [21
+]
+Overfull \vbox (3.98717pt too high) detected at line 354
+ []
+
+[21
 
 ] [22
 
@@ -1872,29 +1865,65 @@ Overfull \hbox (4.19904pt too wide) in paragraph at lines 251--251
 
 ] [26
 
-]
-Excluding 'comment' comment. [27
+] <Anke2.pdf, id=508, 597.55246pt x 845.07718pt>
+File: Anke2.pdf Graphic file (type pdf)
 
-] [28
+<use Anke2.pdf>
+Package pdftex.def Info: Anke2.pdf used on input line 471.
+(pdftex.def)             Requested size: 77.68454pt x 109.86389pt.
+pdfTeX warning (ext4): destination with the same identifier (name{Adressbuch}) 
+has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.471 }
+        [27
+
+ <C:/Users/L/Desktop/GIT/Thesis/Vortrag/Anke2.pdf>] [28
 
 ] [29
 
-] [30
+]
+[30
 
 ] [31
 
 ] [32
 
+] [33
+
+] [34
+
+] [35
+
+] [36
+
+] [37
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 683.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 683.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 683.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 683.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <7> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 683.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 683.
+ [38
+
 ]
 \tf@nav=\write7
 \tf@toc=\write8
 \tf@snm=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 553.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 553.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 689.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 689.
 
 ("C:\Users\L\Desktop\GIT\Thesis\Vortrag\DisStrat in Dialogsystemen.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 553.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 553.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 689.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 689.
 Package rerunfilecheck Info: File `DisStrat*in*Dialogsystemen.out' has not chan
 ged.
 (rerunfilecheck)             Checksum: <no file>.
@@ -1902,26 +1931,26 @@ ged.
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 553.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 689.
  ) 
 Here is how much of TeX's memory you used:
- 26175 strings out of 493921
- 502217 string characters out of 3144888
- 554615 words of memory out of 3000000
- 28820 multiletter control sequences out of 15000+200000
- 50817 words of font info for 48 fonts, out of 3000000 for 9000
+ 26225 strings out of 493921
+ 502746 string characters out of 3144888
+ 554614 words of memory out of 3000000
+ 28852 multiletter control sequences out of 15000+200000
+ 77003 words of font info for 71 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,19n,59p,10380b,877s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program F
-iles (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}<C:/Program Files (x86)/
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/
 MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmss12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmss8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/l
-mssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pf
-b><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb>
-Output written on "DisStrat in Dialogsystemen.pdf" (32 pages, 4173788 bytes).
+mssbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb
+>
+Output written on "DisStrat in Dialogsystemen.pdf" (38 pages, 4401164 bytes).
 PDF statistics:
- 677 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 317 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 730 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 298 words of extra memory for PDF output out of 10000 (max. 10000000)
 
