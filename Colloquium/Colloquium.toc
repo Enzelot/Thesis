@@ -1,0 +1,24 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {ngerman}
+\beamer@sectionintoc {1}{Einleitung}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Dialogsystem in automobilen Anwendungen}{2}{0}{1}
+\beamer@subsectionintoc {1}{2}{Fokus der Studie}{3}{0}{1}
+\beamer@sectionintoc {2}{Disambiguierungsstrategien}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{1. Disambiguierungsstrategie}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{2. Disambiguierungsstrategie}{8}{0}{2}
+\beamer@subsectionintoc {2}{3}{3. Disambiguierungsstrategie}{9}{0}{2}
+\beamer@sectionintoc {3}{Versuchsbeschreibung}{10}{0}{3}
+\beamer@subsectionintoc {3}{1}{Wizard-of-Oz}{10}{0}{3}
+\beamer@subsectionintoc {3}{2}{Control Panel}{11}{0}{3}
+\beamer@subsectionintoc {3}{3}{Testszenario}{12}{0}{3}
+\beamer@subsectionintoc {3}{4}{Versuchsaufbau}{13}{0}{3}
+\beamer@sectionintoc {4}{Versuch 1}{17}{0}{4}
+\beamer@subsectionintoc {4}{1}{Testszenario}{17}{0}{4}
+\beamer@subsectionintoc {4}{2}{Versuchspersonen}{18}{0}{4}
+\beamer@subsectionintoc {4}{3}{Auswertung}{19}{0}{4}
+\beamer@sectionintoc {5}{Versuch 2}{28}{0}{5}
+\beamer@subsectionintoc {5}{1}{Versuchsbeschreibung}{28}{0}{5}
+\beamer@subsectionintoc {5}{2}{Testszenario}{29}{0}{5}
+\beamer@subsectionintoc {5}{3}{Versuchspersonen}{30}{0}{5}
+\beamer@subsectionintoc {5}{4}{Auswertung}{31}{0}{5}
+\beamer@sectionintoc {6}{Ergebnis}{40}{0}{6}
