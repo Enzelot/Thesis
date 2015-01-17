@@ -16,9 +16,15 @@
 \beamer@subsectionintoc {4}{1}{Testszenario}{17}{0}{4}
 \beamer@subsectionintoc {4}{2}{Versuchspersonen}{18}{0}{4}
 \beamer@subsectionintoc {4}{3}{Auswertung}{19}{0}{4}
-\beamer@sectionintoc {5}{Versuch 2}{28}{0}{5}
-\beamer@subsectionintoc {5}{1}{Versuchsbeschreibung}{28}{0}{5}
-\beamer@subsectionintoc {5}{2}{Testszenario}{29}{0}{5}
-\beamer@subsectionintoc {5}{3}{Versuchspersonen}{30}{0}{5}
-\beamer@subsectionintoc {5}{4}{Auswertung}{31}{0}{5}
-\beamer@sectionintoc {6}{Ergebnis}{40}{0}{6}
+\beamer@sectionintoc {5}{Versuch 2}{29}{0}{5}
+\beamer@subsectionintoc {5}{1}{Versuchsbeschreibung}{29}{0}{5}
+\beamer@subsectionintoc {5}{2}{Testszenario}{30}{0}{5}
+\beamer@subsectionintoc {5}{3}{Versuchspersonen}{31}{0}{5}
+\beamer@subsectionintoc {5}{4}{Auswertung}{32}{0}{5}
+\beamer@sectionintoc {6}{Ergebnis}{42}{0}{6}
+\beamer@subsectionintoc {6}{1}{Rennzeiten}{42}{0}{6}
+\beamer@subsectionintoc {6}{2}{Dialogzeiten}{43}{0}{6}
+\beamer@subsectionintoc {6}{3}{Nasa-TLX}{45}{0}{6}
+\beamer@subsectionintoc {6}{4}{Strategien}{46}{0}{6}
+\beamer@subsectionintoc {6}{5}{Task Completion}{47}{0}{6}
+\beamer@subsectionintoc {6}{6}{Dialogverhalten}{48}{0}{6}
