@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  19 JAN 2015 09:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.26)  20 JAN 2015 16:08
 entering extended mode
 **Colloquium.tex
 (C:\Users\Lenz\Desktop\GIT\Thesis\Colloquium\Colloquium.tex
@@ -1514,27 +1514,27 @@ LaTeX Warning: Label `Adressbuch' multiply defined.
 LaTeX Warning: Label `Adressbuch' multiply defined.
 
 )
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 32.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 33.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1588,7 +1588,7 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \everyMPtoPDFconversion=\toks54
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box101
-Package hyperref Info: Link coloring OFF on input line 32.
+Package hyperref Info: Link coloring OFF on input line 33.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1598,59 +1598,59 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+LaTeX Info: Redefining \nameref on input line 33.
 
 (C:\Users\Lenz\Desktop\GIT\Thesis\Colloquium\Colloquium.out)
 (C:\Users\Lenz\Desktop\GIT\Thesis\Colloquium\Colloquium.out)
 \@outlinefile=\write6
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 32.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 32.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 32.
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 33.
 \symnumbers=\mathgroup7
 \sympureletters=\mathgroup8
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 32.
+(Font)                  OT1/lmss/m/n --> T1/lmr/m/n on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 32.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 32.
+(Font)                  OT1/lmr/bx/n --> T1/lmss/bx/n on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 32.
+(Font)                  OT1/lmss/m/n --> T1/lmss/m/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 32.
+(Font)                  OT1/lmss/bx/n --> T1/lmss/m/n on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 32.
+(Font)                  OT1/lmr/m/it --> T1/lmss/m/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 32.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 32.
+(Font)                  OT1/lmr/bx/it --> T1/lmss/m/it on input line 33.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 32.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 32.
+(Font)                  OT1/lmtt/m/n --> T1/lmtt/m/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 32.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 32.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 32.
+(Font)                  OT1/lmss/bx/n --> T1/lmr/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 32.
+(Font)                  T1/lmss/bx/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 32.
+(Font)                  T1/lmss/m/n --> T1/lmss/bx/n on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 32.
+(Font)                  T1/lmss/m/it --> T1/lmss/bx/it on input line 33.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 32.
+(Font)                  T1/lmtt/m/n --> T1/lmtt/bx/n on input line 33.
 
 (C:\Users\Lenz\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\dict
 s\translator-basic-dictionary\translator-basic-dictionary-English.dict
@@ -1678,7 +1678,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 s\translator-theorem-dictionary\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 32.
+LaTeX Info: Redefining \includegraphics on input line 33.
 
 Option `squaren' provided! 
  Command \squaren defined by SIunits package!
@@ -1704,71 +1704,71 @@ Package caption Info: End \AtBeginDocument code.
 (C:\Users\Lenz\Desktop\GIT\Thesis\Colloquium\Colloquium.nav)
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 37.
+(hyperref)                setting the option has no effect on input line 38.
 
 [1{C:/Users/Lenz/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 ]
-<incarassi.jpeg, id=164, 521.95pt x 348.30125pt>
+<incarassi.jpeg, id=161, 521.95pt x 348.30125pt>
 File: incarassi.jpeg Graphic file (type jpg)
  <use incarassi.jpeg>
-Package pdftex.def Info: incarassi.jpeg used on input line 64.
+Package pdftex.def Info: incarassi.jpeg used on input line 65.
 (pdftex.def)             Requested size: 135.7038pt x 90.55618pt.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 64.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 65.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 64.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 64.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 65.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 64.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 65.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 64.
+(Font)              <10.95> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 64.
+(Font)              <8> on input line 65.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 64.
-LaTeX Font Info:    Try loading font information for U+msa on input line 64.
+(Font)              <6> on input line 65.
+LaTeX Font Info:    Try loading font information for U+msa on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 64.
+LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <8> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <6> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 64.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 65.
  [2
 
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/incarassi.jpeg>]
-<peter.png, id=186, 260.47313pt x 466.74374pt>
+<peter.png, id=182, 260.47313pt x 466.74374pt>
 File: peter.png Graphic file (type png)
  <use peter.png>
-Package pdftex.def Info: peter.png used on input line 93.
+Package pdftex.def Info: peter.png used on input line 94.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
 
-Overfull \vbox (7.57173pt too high) detected at line 93
+Overfull \vbox (0.86865pt too high) detected at line 94
  []
 
 [3
@@ -1776,10 +1776,10 @@ Overfull \vbox (7.57173pt too high) detected at line 93
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/peter.png>]
 File: peter.png Graphic file (type png)
  <use peter.png>
-Package pdftex.def Info: peter.png used on input line 93.
+Package pdftex.def Info: peter.png used on input line 94.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
 
-Overfull \vbox (7.57173pt too high) detected at line 93
+Overfull \vbox (0.86865pt too high) detected at line 94
  []
 
 [4
@@ -1787,10 +1787,10 @@ Overfull \vbox (7.57173pt too high) detected at line 93
 ]
 File: peter.png Graphic file (type png)
  <use peter.png>
-Package pdftex.def Info: peter.png used on input line 93.
+Package pdftex.def Info: peter.png used on input line 94.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
 
-Overfull \vbox (7.57173pt too high) detected at line 93
+Overfull \vbox (0.86865pt too high) detected at line 94
  []
 
 [5
@@ -1798,10 +1798,10 @@ Overfull \vbox (7.57173pt too high) detected at line 93
 ]
 File: peter.png Graphic file (type png)
  <use peter.png>
-Package pdftex.def Info: peter.png used on input line 93.
+Package pdftex.def Info: peter.png used on input line 94.
 (pdftex.def)             Requested size: 72.93198pt x 130.68735pt.
 
-Overfull \vbox (7.57173pt too high) detected at line 93
+Overfull \vbox (0.86865pt too high) detected at line 94
  []
 
 [6
@@ -1812,39 +1812,36 @@ Overfull \vbox (7.57173pt too high) detected at line 93
 
 ] [9
 
-] <woz.png, id=300, 179.92218pt x 124.21407pt>
+] <woz.png, id=289, 179.92218pt x 124.21407pt>
 File: woz.png Graphic file (type png)
  <use woz.png>
-Package pdftex.def Info: woz.png used on input line 175.
+Package pdftex.def Info: woz.png used on input line 176.
 (pdftex.def)             Requested size: 107.95413pt x 74.52899pt.
 
 [10
 
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/woz.png>]
-<controlpanel.png, id=320, 466.74374pt x 324.46219pt>
+<controlpanel.png, id=308, 466.74374pt x 324.46219pt>
 File: controlpanel.png Graphic file (type png)
  <use controlpanel.png>
-Package pdftex.def Info: controlpanel.png used on input line 184.
+Package pdftex.def Info: controlpanel.png used on input line 185.
 (pdftex.def)             Requested size: 210.03275pt x 146.00662pt.
-
-Overfull \vbox (6.25095pt too high) detected at line 184
- []
 
 [11
 
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/controlpanel.png>]
-<Anke.pdf, id=337, 597.55246pt x 845.07718pt>
+<Anke.pdf, id=324, 597.55246pt x 845.07718pt>
 File: Anke.pdf Graphic file (type pdf)
  <use Anke.pdf>
-Package pdftex.def Info: Anke.pdf used on input line 205.
+Package pdftex.def Info: Anke.pdf used on input line 206.
 (pdftex.def)             Requested size: 95.61034pt x 135.2151pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Adressbuch}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.205 }
+l.206 }
        
-Overfull \hbox (1.0041pt too wide) in paragraph at lines 205--205
+Overfull \hbox (1.0041pt too wide) in paragraph at lines 206--206
 [][]
  []
 
@@ -1853,19 +1850,15 @@ Overfull \hbox (1.0041pt too wide) in paragraph at lines 205--205
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/Anke.pdf>] [13
 
 ]
-<nfs.png, id=405, 1445.4pt x 813.0375pt>
+<nfs.png, id=390, 1445.4pt x 813.0375pt>
 File: nfs.png Graphic file (type png)
  <use nfs.png>
-Package pdftex.def Info: nfs.png used on input line 224.
+Package pdftex.def Info: nfs.png used on input line 225.
 (pdftex.def)             Requested size: 260.16077pt x 146.34044pt.
-
-Overfull \vbox (6.58476pt too high) detected at line 224
- []
-
-[14
+ [14
 
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/nfs.png>]
-Overfull \hbox (4.19904pt too wide) in paragraph at lines 241--241
+Overfull \hbox (4.19904pt too wide) in paragraph at lines 242--242
  [] 
  []
 
@@ -1876,15 +1869,15 @@ Overfull \hbox (4.19904pt too wide) in paragraph at lines 241--241
 ]
 File: Anke.pdf Graphic file (type pdf)
  <use Anke.pdf>
-Package pdftex.def Info: Anke.pdf used on input line 287.
+Package pdftex.def Info: Anke.pdf used on input line 288.
 (pdftex.def)             Requested size: 77.68454pt x 109.86389pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Adressbuch}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.287 }
+l.288 }
        
-Overfull \vbox (13.93135pt too high) detected at line 287
+Overfull \vbox (7.22827pt too high) detected at line 288
  []
 
 [17
@@ -1900,7 +1893,7 @@ Overfull \vbox (13.93135pt too high) detected at line 287
 ] [22
 
 ]
-Overfull \vbox (17.39333pt too high) detected at line 392
+Overfull \vbox (10.69025pt too high) detected at line 393
  []
 
 [23
@@ -1918,16 +1911,16 @@ Overfull \vbox (17.39333pt too high) detected at line 392
 ] [29
 
 ]
-<Anke2.pdf, id=657, 597.55246pt x 845.07718pt>
+<Anke2.pdf, id=626, 597.55246pt x 845.07718pt>
 File: Anke2.pdf Graphic file (type pdf)
  <use Anke2.pdf>
-Package pdftex.def Info: Anke2.pdf used on input line 519.
+Package pdftex.def Info: Anke2.pdf used on input line 520.
 (pdftex.def)             Requested size: 65.73097pt x 92.95877pt.
 pdfTeX warning (ext4): destination with the same identifier (name{Adressbuch}) 
 has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.519 }
+l.520 }
         [30
 
  <C:/Users/Lenz/Desktop/GIT/Thesis/Colloquium/Anke2.pdf>] [31
@@ -1942,16 +1935,12 @@ l.519 }
 ] [35
 
 ]
-Overfull \vbox (7.52246pt too high) detected at line 627
+Overfull \vbox (0.81938pt too high) detected at line 628
  []
 
 [36
 
-]
-Overfull \vbox (0.19666pt too high) detected at line 641
- []
-
-[37
+] [37
 
 ] [38
 
@@ -1960,7 +1949,7 @@ Overfull \vbox (0.19666pt too high) detected at line 641
 ] [40
 
 ]
-Overfull \vbox (12.82906pt too high) detected at line 719
+Overfull \vbox (6.12598pt too high) detected at line 719
  []
 
 [41
@@ -1998,8 +1987,9 @@ LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <5> not available
 
 ] [51
 
-]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 874.
+ <C:/Users/Lenz/AppData/Roaming/MiKTeX/2.9/tex/latex/beamer/base/art/beamericon
+article.pdf>]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 888.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
@@ -2010,25 +2000,25 @@ File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 \tf@nav=\write7
 \tf@toc=\write8
 \tf@snm=\write9
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 881.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 881.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 895.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 895.
 
 (C:\Users\Lenz\Desktop\GIT\Thesis\Colloquium\Colloquium.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 881.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 881.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 895.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 895.
 Package rerunfilecheck Info: File `Colloquium.out' has not changed.
 (rerunfilecheck)             Checksum: 322256DAC989B50DFF5BD5605A07C4FC;1790.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 881.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 895.
  ) 
 Here is how much of TeX's memory you used:
- 26419 strings out of 493921
- 506485 string characters out of 3144878
- 555590 words of memory out of 3000000
- 29002 multiletter control sequences out of 15000+200000
+ 26445 strings out of 493921
+ 507304 string characters out of 3144878
+ 555703 words of memory out of 3000000
+ 29025 multiletter control sequences out of 15000+200000
  77322 words of font info for 72 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  56i,19n,59p,10364b,877s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2044,9 +2034,9 @@ iKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Program Files (x86)/MiKTeX 2.9/
 fonts/type1/public/lm/lmsso8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1
 /public/lm/lmsy10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/
 lmtt10.pfb>
-Output written on Colloquium.pdf (52 pages, 3265581 bytes).
+Output written on Colloquium.pdf (52 pages, 3268303 bytes).
 PDF statistics:
- 1127 PDF objects out of 1200 (max. 8388607)
- 135 named destinations out of 1000 (max. 500000)
+ 1084 PDF objects out of 1200 (max. 8388607)
+ 138 named destinations out of 1000 (max. 500000)
  386 words of extra memory for PDF output out of 10000 (max. 10000000)
 
